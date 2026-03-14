@@ -1,0 +1,30 @@
+# 大型模型文件
+*.bin
+*.pth
+*.pt
+*.safetensors
+*.onnx
+*.jit
+*.pb
+*.mvn
+models/
+*.glut/
+conda-meta/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
