@@ -1,0 +1,13 @@
+prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+exec_prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gd
+Description: GD graphics library
+Version: ..
+Requires:
+Requires.private: freetype2, zlib, libpng, libjpeg, libtiff-4, fontconfig
+Cflags: -I${includedir}
+Libs.private: C:/Users/yuhua/.conda/envs/.glut/Library/lib/libwebp.lib
+Libs: -L${libdir} -lgd

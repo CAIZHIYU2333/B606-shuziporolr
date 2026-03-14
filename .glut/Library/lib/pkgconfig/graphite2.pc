@@ -1,0 +1,11 @@
+prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+exec_prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+libdir=C:/Users/yuhua/.conda/envs/.glut/Library/lib
+includedir=C:/Users/yuhua/.conda/envs/.glut/Library/include
+
+Name: Graphite2
+Description: Font rendering engine for Complex Scripts
+Version: 3.0.1
+Libs: -LC:/Users/yuhua/.conda/envs/.glut/Library/lib -lgraphite2
+Cflags: -IC:/Users/yuhua/.conda/envs/.glut/Library/include
+

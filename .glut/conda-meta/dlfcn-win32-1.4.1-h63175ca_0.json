@@ -1,0 +1,83 @@
+{
+  "build": "h63175ca_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\yuhua\\.conda\\pkgs\\dlfcn-win32-1.4.1-h63175ca_0",
+  "files": [
+    "Library/bin/dl.dll",
+    "Library/include/dlfcn.h",
+    "Library/lib/dl.lib",
+    "Library/share/dlfcn-win32/dlfcn-win32-config.cmake",
+    "Library/share/dlfcn-win32/dlfcn-win32-targets-release.cmake",
+    "Library/share/dlfcn-win32/dlfcn-win32-targets.cmake"
+  ],
+  "fn": "dlfcn-win32-1.4.1-h63175ca_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\yuhua\\.conda\\pkgs\\dlfcn-win32-1.4.1-h63175ca_0",
+    "type": 1
+  },
+  "md5": "1382c91f97bb8a8638d154a374f24cdb",
+  "name": "dlfcn-win32",
+  "package_tarball_full_path": "C:\\Users\\yuhua\\.conda\\pkgs\\dlfcn-win32-1.4.1-h63175ca_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/dl.dll",
+        "path_type": "hardlink",
+        "sha256": "96eb46ecac802200483f2cf2eeb55a54e7b72c8e8e8b7b470bc2f4bd78cf9d19",
+        "sha256_in_prefix": "96eb46ecac802200483f2cf2eeb55a54e7b72c8e8e8b7b470bc2f4bd78cf9d19",
+        "size_in_bytes": 15872
+      },
+      {
+        "_path": "Library/include/dlfcn.h",
+        "path_type": "hardlink",
+        "sha256": "11ae64ee5746af8eb1872c292222f865d0ca25fff33868aacd6b5629c2c2b766",
+        "sha256_in_prefix": "11ae64ee5746af8eb1872c292222f865d0ca25fff33868aacd6b5629c2c2b766",
+        "size_in_bytes": 3322
+      },
+      {
+        "_path": "Library/lib/dl.lib",
+        "path_type": "hardlink",
+        "sha256": "012c067cc2109906ffbd0b986e59128d93ce1e6006e23cfe66ca79ac75897cda",
+        "sha256_in_prefix": "012c067cc2109906ffbd0b986e59128d93ce1e6006e23cfe66ca79ac75897cda",
+        "size_in_bytes": 2240
+      },
+      {
+        "_path": "Library/share/dlfcn-win32/dlfcn-win32-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "6a5042bcd56e506de17f97f22ff844d397ad54ea7d95b0a68cb10d2a4530cf23",
+        "sha256_in_prefix": "6a5042bcd56e506de17f97f22ff844d397ad54ea7d95b0a68cb10d2a4530cf23",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "Library/share/dlfcn-win32/dlfcn-win32-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "d523af810a1d52f0440c17a11295392a509241c1e07990e026bd8b516cf6786d",
+        "sha256_in_prefix": "d523af810a1d52f0440c17a11295392a509241c1e07990e026bd8b516cf6786d",
+        "size_in_bytes": 895
+      },
+      {
+        "_path": "Library/share/dlfcn-win32/dlfcn-win32-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "733908629774d4dda8e73a328b3be5fa0512f87e5c06be805ca02a47cffe3608",
+        "sha256_in_prefix": "733908629774d4dda8e73a328b3be5fa0512f87e5c06be805ca02a47cffe3608",
+        "size_in_bytes": 3999
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4c0625f7c88abf727dfb994bd0a1691c733d9ddcc150f1fc8e31b4478fe4b2b0",
+  "size": 18422,
+  "subdir": "win-64",
+  "timestamp": 1706264724000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/dlfcn-win32-1.4.1-h63175ca_0.conda",
+  "version": "1.4.1"
+}

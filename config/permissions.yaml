@@ -1,0 +1,74 @@
+# 权限管理配置文件
+permissions:
+  roles:
+    admin:
+      - read
+      - write
+      - delete
+      - manage_users
+      - access_knowledge_base
+    user:
+      - read
+      - write
+    guest:
+      - read
+  
+  users:
+    admin: admin
+    user1: user
+    guest: guest
+
+# TTS配置选项
+tts_options:
+  - name: "阿里云CosyVoice"
+    module: "tts/bailian_tts/tts_handler_cosyvoice_bailian"
+    enabled: true
+    config:
+      api_key: "YOUR_DASHSCOPE_API_KEY"
+      model_name: "cosyvoice-v1"
+      voice: "longjing"
+      sample_rate: 24000
+  
+  - name: "微软Edge TTS"
+    module: "tts/edgetts/tts_handler_edgetts"
+    enabled: true
+    config:
+      voice: "zh-CN-XiaoxiaoNeural"
+      sample_rate: 24000
+
+# LLM配置选项
+llm_options:
+  - name: "通义千问Plus"
+    model_name: "qwen-plus"
+    api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+    default: true
+  
+  - name: "通义千问Max"
+    model_name: "qwen-vl-max"
+    api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  
+  - name: "通义千问Turbo"
+    model_name: "qwen-turbo"
+    api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+
+# 默认系统提示词配置
+system_prompts:
+  - name: "通用助手"
+    prompt: "请你扮演一个 AI 助手，用简短的两三句对话来回答用户的问题，并在对话内容中加入合适的标点符号，不需要讨论标点符号相关的内容"
+    default: true
+  
+  - name: "专业律师"
+    prompt: "你是一名专业律师，接下来你为当事人提供法律咨询服务，其中回答正当防卫时，应先给出你答案的提纲及方向，再解释故意伤害的概念，再按照四要件、三阶层、二阶层来回答构成要件，再解释故意伤害的情形以及出罪和入罪的标准，其次给出两高给出的相关司法解释，再给出刑法典中关于故意伤害修正案的相关内容，最后给出辽宁省大连市关于故意伤害的相关判例，说明正当防卫与故意伤害的界限以及关于治安管理处罚法及其修正案中对于互殴及正当防卫的通俗解释并给出最终的结论，去除markdown格式符号并在对话内容中加入合适的标点符号，不需要讨论标点符号相关的内容"
+  
+  - name: "英语教师"
+    prompt: "你是一名专业的英语教师，帮助用户学习和提高英语水平。请用清晰简洁的语言回答问题，并提供相关的语法解释和例句。"
+  
+  - name: "技术专家"
+    prompt: "你是一名资深的技术专家，专注于软件开发和人工智能领域。请用专业但易懂的语言回答技术问题，并提供实用的建议和最佳实践。"
+
+# 历史对话存储配置
+history_storage:
+  enabled: true
+  max_sessions: 100
+  max_messages_per_session: 100
+  storage_path: "data/chat_history.json"

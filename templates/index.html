@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI数字人智能助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/premium_enterprise.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- 顶部导航栏 -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>AI数字人助手</h1>
+                        <span class="subtitle">Intelligent Digital Human Assistant</span>
+                    </div>
+                </div>
+                <div class="header-controls">
+                    <div class="status-indicator">
+                        <div class="status-dot" id="connectionDot"></div>
+                        <span id="connectionStatus">连接中...</span>
+                    </div>
+                    <button id="knowledgeBaseBtn" class="btn btn-ghost">
+                        <i class="fas fa-book"></i>
+                        <span>知识库</span>
+                    </button>
+                    <button id="permissionsBtn" class="btn btn-ghost">
+                        <i class="fas fa-user-shield"></i>
+                        <span>权限</span>
+                    </button>
+                    <button id="settingsBtn" class="btn btn-ghost">
+                        <i class="fas fa-cog"></i>
+                        <span>设置</span>
+                    </button>
+                    <button id="helpBtn" class="btn btn-ghost">
+                        <i class="fas fa-question-circle"></i>
+                        <span>帮助</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- 主要内容区域 -->
+        <main class="main-content">
+            <div class="chat-layout">
+                <!-- 左侧：数字人区域 -->
+                <div class="avatar-section">
+                    <div class="avatar-container">
+                        <div class="avatar-header">
+                            <h3>数字人助手</h3>
+                            <div class="avatar-info" id="avatarInfo">
+                                <span class="avatar-name">LiteAvatar</span>
+                                <span class="avatar-status" id="avatarStatus">准备就绪</span>
+                            </div>
+                        </div>
+                        
+                        <div class="avatar-display-container">
+                            <div class="avatar-video-wrapper">
+                                <img id="avatarVideo" src="/avatar/video_feed" alt="数字人视频流" />
+                                <div class="avatar-overlay">
+                                    <div class="avatar-loading" id="avatarLoading">
+                                        <div class="loading-spinner"></div>
+                                        <span>数字人加载中...</span>
+                                    </div>
+                                </div>
+                                <div class="video-label">数字人画面</div>
+                            </div>
+                            
+                            <div class="local-video-wrapper" id="localVideoWrapper">
+                                <video id="localVideo" autoplay muted></video>
+                                <div class="video-label">本地摄像头</div>
+                            </div>
+                        </div>
+                        
+                        <div class="avatar-controls">
+                            <button id="avatarToggle" class="btn btn-primary btn-large">
+                                <i class="fas fa-play"></i>
+                                <span>开始对话</span>
+                            </button>
+                            <div class="avatar-control-buttons">
+                                <button id="toggleVideoView" class="btn btn-secondary btn-small">
+                                    <i class="fas fa-expand"></i>
+                                    <span>全屏数字人</span>
+                                </button>
+                                <button id="toggleChatView" class="btn btn-secondary btn-small">
+                                    <i class="fas fa-comments"></i>
+                                    <span>收起聊天</span>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="media-controls">
+                            <div class="control-group">
+                                <button id="micToggle" class="control-btn active" title="麦克风">
+                                    <i class="fas fa-microphone"></i>
+                                </button>
+                                <button id="cameraToggle" class="control-btn active" title="摄像头">
+                                    <i class="fas fa-video"></i>
+                                </button>
+                                <button id="screenShareToggle" class="control-btn" title="屏幕共享">
+                                    <i class="fas fa-desktop"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右侧：聊天区域 -->
+                <div class="chat-section">
+                    <div class="chat-header">
+                        <div class="chat-title">
+                            <h3>智能对话</h3>
+                            <span class="chat-subtitle">与AI助手进行自然对话</span>
+                        </div>
+                        <div class="chat-actions">
+                            <button id="clearChat" class="btn btn-ghost btn-small">
+                                <i class="fas fa-trash"></i>
+                                <span>清空</span>
+                            </button>
+                            <button id="saveHistoryBtn" class="btn btn-ghost btn-small">
+                                <i class="fas fa-save"></i>
+                                <span>保存</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="welcome-message">
+                            <div class="welcome-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="welcome-content">
+                                <h4>欢迎使用AI数字人助手</h4>
+                                <p>我是您的智能助手，可以回答各种问题、提供帮助和建议。</p>
+                                <p>点击"开始对话"按钮，让我们开始交流吧！</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-area">
+                        <div class="input-container">
+                            <div class="input-wrapper">
+                                <textarea 
+                                    id="messageInput" 
+                                    placeholder="输入您的问题，或按住语音按钮说话..."
+                                    rows="3"
+                                ></textarea>
+                                <div class="input-actions">
+                                    <button id="voiceBtn" class="voice-btn" title="按住说话">
+                                        <i class="fas fa-microphone"></i>
+                                    </button>
+                                    <button id="sendBtn" class="send-btn" title="发送消息">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 底部状态栏 -->
+        <footer class="footer">
+            <div class="status-bar">
+                <div class="status-item">
+                    <i class="fas fa-microphone"></i>
+                    <span>麦克风: 已启用</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-video"></i>
+                    <span>摄像头: 已启用</span>
+                </div>
+                <div class="status-item">
+                    <i class="fas fa-server"></i>
+                    <span>服务状态: <span id="serviceStatus">运行中</span></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- 设置模态框 -->
+    <div class="modal" id="settingsModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>系统设置</h3>
+                <button class="close-btn" id="closeSettings">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <label for="audioDevice">音频输入设备</label>
+                    <select class="form-select" id="audioDevice">
+                        <option value="">默认设备</option>
+                    </select>
+                </div>
+                
+                <div class="setting-group">
+                    <label for="videoDevice">视频输入设备</label>
+                    <select class="form-select" id="videoDevice">
+                        <option value="">默认设备</option>
+                    </select>
+                </div>
+                
+                <div class="tabs">
+                    <div class="tab-header">
+                        <button class="tab-btn active" data-tab="general">通用</button>
+                        <button class="tab-btn" data-tab="avatar">数字人</button>
+                        <button class="tab-btn" data-tab="audio">音频</button>
+                    </div>
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="general-tab">
+                            <div class="setting-group">
+                                <label for="language">语言</label>
+                                <select class="form-select" id="language">
+                                    <option value="zh-CN">简体中文</option>
+                                    <option value="en-US">English</option>
+                                </select>
+                            </div>
+                            
+                            <div class="setting-group">
+                                <label for="theme">主题</label>
+                                <select class="form-select" id="theme">
+                                    <option value="light">浅色</option>
+                                    <option value="dark">深色</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="avatar-tab">
+                            <div class="setting-group">
+                                <label for="avatarType">数字人类型</label>
+                                <select class="form-select" id="avatarType">
+                                    <option value="liteavatar">LiteAvatar</option>
+                                    <option value="lam">LAM</option>
+                                    <option value="musetalk">MuseTalk</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane" id="audio-tab">
+                            <div class="setting-group">
+                                <label for="ttsService">TTS服务</label>
+                                <select class="form-select" id="ttsService">
+                                    <option value="edge">Edge TTS</option>
+                                    <option value="cosyvoice">CosyVoice</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancelSettings">取消</button>
+                <button class="btn btn-primary" id="saveSettings">保存</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 加载动画 -->
+    <div class="loading-overlay">
+        <div class="loading-spinner-large"></div>
+        <div class="loading-content">
+            <h3>正在加载</h3>
+            <p>请稍候...</p>
+        </div>
+    </div>
+
+    <!-- 通知容器 -->
+    <div class="notification-container"></div>
+
+    <!-- 引入企业级JavaScript文件 -->
+    <script src="{{ url_for('static', filename='js/enterprise_app.js') }}"></script>
+    <style>
+        .typing-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #6366f1;
+            margin-left: 5px;
+            opacity: 0.8;
+            animation: typing 1s infinite;
+        }
+        
+        @keyframes typing {
+            0% { opacity: 0.2; }
+            50% { opacity: 1; }
+            100% { opacity: 0.2; }
+        }
+        
+        .typing-indicator::after {
+            display: none;
+        }
+    </style>
+</body>
+</html>

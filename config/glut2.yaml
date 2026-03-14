@@ -1,0 +1,47 @@
+default:
+  chat_engine:
+    handler_configs:
+      CosyVoice:
+        api_key: sk-88dd7955b608436b852996e446023a69
+        enabled: true
+        model_name: cosyvoice-v1
+        module: tts/bailian_tts/tts_handler_cosyvoice_bailian
+        voice: longjing
+      LLM_Bailian:
+        api_key: sk-88dd7955b608436b852996e446023a69
+        api_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+        enable_video_input: true
+        enabled: true
+        model_name: qwen-vl-max
+        module: llm/openai_compatible/llm_handler_openai_compatible
+        system_prompt: 你是一名专业律师，接下来你为当事人提供法律咨询服务，其中回答正当防卫时，应先给出你答案的提纲及方向，再解释故意伤害的概念，再按照四要件、三阶层、二阶层来回答构成要件，再解释故意伤害的情形以及出罪和入罪的标准，其次给出两高给出的相关司法解释，再给出刑法典中关于故意伤害修正案的相关内容，最后给出辽宁省大连市关于故意伤害的相关判例，说明正当防卫与故意伤害的界限以及关于治安管理处罚法及其修正案中对于互殴及正当防卫的通俗解释并给出最终的结论，去除markdown格式符号并在对话内容中加入合适的标点符号，不需要讨论标点符号相关的内容
+      LiteAvatar:
+        avatar_name: "20250408/sample_data"
+        debug: false
+        enable_fast_mode: false
+        fps: 20
+        module: avatar/liteavatar/avatar_handler_liteavatar
+        use_gpu: true
+      RtcClient:
+        module: client/rtc_client/client_handler_rtc
+      SenseVoice:
+        enabled: true
+        model_name: iic/SenseVoiceSmall
+        module: asr/sensevoice/asr_handler_sensevoice
+      SileroVad:
+        buffer_look_back: 5000
+        end_delay: 10000
+        module: vad/silerovad/vad_handler_silero
+        speaking_threshold: 0.5
+        speech_padding: 512
+        start_delay: 2048
+    handler_search_path:
+    - src/handlers
+    model_root: models
+  logger:
+    log_level: INFO
+  service:
+    cert_file: ssl_certs/localhost.crt
+    cert_key: ssl_certs/localhost.key
+    host: 127.0.0.1
+    port: 8282

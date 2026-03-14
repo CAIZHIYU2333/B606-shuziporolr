@@ -1,0 +1,59 @@
+{
+  "build": "hcfcfb64_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\yuhua\\.conda\\pkgs\\getopt-win32-0.1-hcfcfb64_1",
+  "files": [
+    "Library/bin/getopt.dll",
+    "Library/include/getopt.h",
+    "Library/lib/getopt.lib"
+  ],
+  "fn": "getopt-win32-0.1-hcfcfb64_1.conda",
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "C:\\Users\\yuhua\\.conda\\pkgs\\getopt-win32-0.1-hcfcfb64_1",
+    "type": 1
+  },
+  "md5": "714d0882dc5e692ca4683d8e520f73c6",
+  "name": "getopt-win32",
+  "package_tarball_full_path": "C:\\Users\\yuhua\\.conda\\pkgs\\getopt-win32-0.1-hcfcfb64_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/getopt.dll",
+        "path_type": "hardlink",
+        "sha256": "13ddf7cfbac1ec64f6007d84fe29bc8bc7186d9567b0afcf04ce3d2a1564e012",
+        "sha256_in_prefix": "13ddf7cfbac1ec64f6007d84fe29bc8bc7186d9567b0afcf04ce3d2a1564e012",
+        "size_in_bytes": 19968
+      },
+      {
+        "_path": "Library/include/getopt.h",
+        "path_type": "hardlink",
+        "sha256": "0b7d1a4da352d343a2fdb6319f0cc72fdfc76f805326883335d67471e3fce168",
+        "sha256_in_prefix": "0b7d1a4da352d343a2fdb6319f0cc72fdfc76f805326883335d67471e3fce168",
+        "size_in_bytes": 4939
+      },
+      {
+        "_path": "Library/lib/getopt.lib",
+        "path_type": "hardlink",
+        "sha256": "9ebc3e471e353b1e9477b9b5becf0e20acd91eccc035a7c8a593af161f96eae3",
+        "sha256_in_prefix": "9ebc3e471e353b1e9477b9b5becf0e20acd91eccc035a7c8a593af161f96eae3",
+        "size_in_bytes": 3346
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f3b6e689724a62f36591f6f0e4657db5507feca78e7ef08690a6b2a384216a5c",
+  "size": 21903,
+  "subdir": "win-64",
+  "timestamp": 1694400856000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/getopt-win32-0.1-hcfcfb64_1.conda",
+  "version": "0.1"
+}

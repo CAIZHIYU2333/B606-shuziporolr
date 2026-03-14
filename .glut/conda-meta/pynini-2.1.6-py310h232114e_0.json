@@ -1,0 +1,705 @@
+{
+  "build": "py310h232114e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "dlfcn-win32 >=1.4.1,<2.0a0",
+    "graphviz",
+    "openfst 1.8.3",
+    "openfst >=1.8.3,<1.8.4.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\yuhua\\.conda\\pkgs\\pynini-2.1.6-py310h232114e_0",
+  "files": [
+    "Lib/site-packages/_pynini.cp310-win_amd64.pyd",
+    "Lib/site-packages/_pywrapfst.cp310-win_amd64.pyd",
+    "Lib/site-packages/pynini-2.1.6.dist-info/AUTHORS",
+    "Lib/site-packages/pynini-2.1.6.dist-info/INSTALLER",
+    "Lib/site-packages/pynini-2.1.6.dist-info/LICENSE",
+    "Lib/site-packages/pynini-2.1.6.dist-info/METADATA",
+    "Lib/site-packages/pynini-2.1.6.dist-info/RECORD",
+    "Lib/site-packages/pynini-2.1.6.dist-info/REQUESTED",
+    "Lib/site-packages/pynini-2.1.6.dist-info/WHEEL",
+    "Lib/site-packages/pynini-2.1.6.dist-info/direct_url.json",
+    "Lib/site-packages/pynini-2.1.6.dist-info/top_level.txt",
+    "Lib/site-packages/pynini/BUILD.bazel",
+    "Lib/site-packages/pynini/__init__.py",
+    "Lib/site-packages/pynini/__init__.pyi",
+    "Lib/site-packages/pynini/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/BUILD.bazel",
+    "Lib/site-packages/pynini/examples/__init__.py",
+    "Lib/site-packages/pynini/examples/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/case.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/chatspeak.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/chatspeak_model.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/dates.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/g2p.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/numbers.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/plurals.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/t9.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/__pycache__/weather.cpython-310.pyc",
+    "Lib/site-packages/pynini/examples/case.py",
+    "Lib/site-packages/pynini/examples/chatspeak.py",
+    "Lib/site-packages/pynini/examples/chatspeak_model.py",
+    "Lib/site-packages/pynini/examples/dates.py",
+    "Lib/site-packages/pynini/examples/g2p.py",
+    "Lib/site-packages/pynini/examples/numbers.py",
+    "Lib/site-packages/pynini/examples/plurals.py",
+    "Lib/site-packages/pynini/examples/py.typed",
+    "Lib/site-packages/pynini/examples/t9.py",
+    "Lib/site-packages/pynini/examples/weather.py",
+    "Lib/site-packages/pynini/export/BUILD.bazel",
+    "Lib/site-packages/pynini/export/__init__.py",
+    "Lib/site-packages/pynini/export/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/pynini/export/__pycache__/export.cpython-310.pyc",
+    "Lib/site-packages/pynini/export/__pycache__/grm.cpython-310.pyc",
+    "Lib/site-packages/pynini/export/__pycache__/grm_example.cpython-310.pyc",
+    "Lib/site-packages/pynini/export/__pycache__/multi_grm.cpython-310.pyc",
+    "Lib/site-packages/pynini/export/__pycache__/multi_grm_example.cpython-310.pyc",
+    "Lib/site-packages/pynini/export/export.py",
+    "Lib/site-packages/pynini/export/grm.py",
+    "Lib/site-packages/pynini/export/grm_example.py",
+    "Lib/site-packages/pynini/export/grm_py_build_defs.bzl",
+    "Lib/site-packages/pynini/export/multi_grm.py",
+    "Lib/site-packages/pynini/export/multi_grm_example.py",
+    "Lib/site-packages/pynini/export/py.typed",
+    "Lib/site-packages/pynini/lib/BUILD.bazel",
+    "Lib/site-packages/pynini/lib/__init__.py",
+    "Lib/site-packages/pynini/lib/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/byte.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/edit_transducer.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/features.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/paradigms.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/pynutil.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/rewrite.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/rule_cascade.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/stringfile.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/tagger.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/__pycache__/utf8.cpython-310.pyc",
+    "Lib/site-packages/pynini/lib/byte.py",
+    "Lib/site-packages/pynini/lib/edit_transducer.py",
+    "Lib/site-packages/pynini/lib/features.py",
+    "Lib/site-packages/pynini/lib/paradigms.py",
+    "Lib/site-packages/pynini/lib/py.typed",
+    "Lib/site-packages/pynini/lib/pynutil.py",
+    "Lib/site-packages/pynini/lib/rewrite.py",
+    "Lib/site-packages/pynini/lib/rule_cascade.py",
+    "Lib/site-packages/pynini/lib/stringfile.py",
+    "Lib/site-packages/pynini/lib/tagger.py",
+    "Lib/site-packages/pynini/lib/utf8.py",
+    "Lib/site-packages/pynini/py.typed",
+    "Lib/site-packages/pywrapfst/BUILD.bazel",
+    "Lib/site-packages/pywrapfst/__init__.py",
+    "Lib/site-packages/pywrapfst/__init__.pyi",
+    "Lib/site-packages/pywrapfst/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/pywrapfst/py.typed",
+    "Library/include/_pywrapfst.h"
+  ],
+  "fn": "pynini-2.1.6-py310h232114e_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\yuhua\\.conda\\pkgs\\pynini-2.1.6-py310h232114e_0",
+    "type": 1
+  },
+  "md5": "82ca042bbf1f2a04ae13f03a6e3242f4",
+  "name": "pynini",
+  "package_tarball_full_path": "C:\\Users\\yuhua\\.conda\\pkgs\\pynini-2.1.6-py310h232114e_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/_pynini.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "f4208724a1a9f972d49e07ba176abeb0387835f6022a13686a772f33169f86d6",
+        "sha256_in_prefix": "f4208724a1a9f972d49e07ba176abeb0387835f6022a13686a772f33169f86d6",
+        "size_in_bytes": 2718208
+      },
+      {
+        "_path": "Lib/site-packages/_pywrapfst.cp310-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "3df7986ea253050926e6de40441d18c3fb202dc644edeab657d18c043b9a9796",
+        "sha256_in_prefix": "3df7986ea253050926e6de40441d18c3fb202dc644edeab657d18c043b9a9796",
+        "size_in_bytes": 748032
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "627c695f80fdac6412d66e6ad4160a4acb41923ca7ee3fd7e112e105f0ff46b9",
+        "sha256_in_prefix": "627c695f80fdac6412d66e6ad4160a4acb41923ca7ee3fd7e112e105f0ff46b9",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a756a078618246e1844eb7e1757fba1a1f459137796f2efadfe731ee19ec72c2",
+        "sha256_in_prefix": "a756a078618246e1844eb7e1757fba1a1f459137796f2efadfe731ee19ec72c2",
+        "size_in_bytes": 5002
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f00113570e1abce578c99c53f04fe390d08c547dd5dcd9096bc5fa1fa39bca48",
+        "sha256_in_prefix": "f00113570e1abce578c99c53f04fe390d08c547dd5dcd9096bc5fa1fa39bca48",
+        "size_in_bytes": 5848
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e493d879897965dbdd4a4ac64b8bb6d669a93f3a45c78daaad739222059fe298",
+        "sha256_in_prefix": "e493d879897965dbdd4a4ac64b8bb6d669a93f3a45c78daaad739222059fe298",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "94f9f2722857d0919e992e33f6fa0b46c6a33c451716f5e25c60dec83f53e5e9",
+        "sha256_in_prefix": "94f9f2722857d0919e992e33f6fa0b46c6a33c451716f5e25c60dec83f53e5e9",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "Lib/site-packages/pynini-2.1.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5f4da728fd3603821bc65e4b634137314d2387851b5713c3e9978a9c6404fbdf",
+        "sha256_in_prefix": "5f4da728fd3603821bc65e4b634137314d2387851b5713c3e9978a9c6404fbdf",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "Lib/site-packages/pynini/BUILD.bazel",
+        "path_type": "hardlink",
+        "sha256": "c120b0fa2575a452dc505770beb2ce86cbfbd1a7e90c5e9c79aaa915d66ad822",
+        "sha256_in_prefix": "c120b0fa2575a452dc505770beb2ce86cbfbd1a7e90c5e9c79aaa915d66ad822",
+        "size_in_bytes": 975
+      },
+      {
+        "_path": "Lib/site-packages/pynini/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1eb676b79e0cc8982cba4efb9b523b058e940d80b9359ce421f7cce4083a1c20",
+        "sha256_in_prefix": "1eb676b79e0cc8982cba4efb9b523b058e940d80b9359ce421f7cce4083a1c20",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "Lib/site-packages/pynini/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "b21d80cc5e5821ca24dc332380146c2af90f6a518cabe364a130b93973dfc150",
+        "sha256_in_prefix": "b21d80cc5e5821ca24dc332380146c2af90f6a518cabe364a130b93973dfc150",
+        "size_in_bytes": 19069
+      },
+      {
+        "_path": "Lib/site-packages/pynini/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f20aa8e5ba669302dba7d1a1fb98cb7de98347a1c3e3eb455d1475c9f5e245ec",
+        "sha256_in_prefix": "f20aa8e5ba669302dba7d1a1fb98cb7de98347a1c3e3eb455d1475c9f5e245ec",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/BUILD.bazel",
+        "path_type": "hardlink",
+        "sha256": "b2ac34149b9183f493fcab368747495069a8f5ac2ba737724b649f1a79e9b660",
+        "sha256_in_prefix": "b2ac34149b9183f493fcab368747495069a8f5ac2ba737724b649f1a79e9b660",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "17fa8411cf47b71970ab4b2b69c0d80ec36e47fa926cd9b04d17f54ff07b284d",
+        "sha256_in_prefix": "17fa8411cf47b71970ab4b2b69c0d80ec36e47fa926cd9b04d17f54ff07b284d",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/case.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "960b3c8b8b9f4a0e7b97713cb6b5844d31e66a79a6f802a997eafec09bfa8c90",
+        "sha256_in_prefix": "960b3c8b8b9f4a0e7b97713cb6b5844d31e66a79a6f802a997eafec09bfa8c90",
+        "size_in_bytes": 2328
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/chatspeak.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "46e12d04997006e503726f806b4cd83ad56b8ab2a8a76b9abcb5ab7706c7abf7",
+        "sha256_in_prefix": "46e12d04997006e503726f806b4cd83ad56b8ab2a8a76b9abcb5ab7706c7abf7",
+        "size_in_bytes": 7941
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/chatspeak_model.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4398ba51a5b18fe772aa35a3995709967870f29991782f7911f6413ab247ed3",
+        "sha256_in_prefix": "e4398ba51a5b18fe772aa35a3995709967870f29991782f7911f6413ab247ed3",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/dates.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3204d53ca86a9c411d86ffc38a70ff46025fc0a3c3c8976a324146289cb8fab",
+        "sha256_in_prefix": "a3204d53ca86a9c411d86ffc38a70ff46025fc0a3c3c8976a324146289cb8fab",
+        "size_in_bytes": 4271
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/g2p.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fbb8a93a4d89579fc1ae0d36121364b0091250caed74ead6088d85773a20fef",
+        "sha256_in_prefix": "2fbb8a93a4d89579fc1ae0d36121364b0091250caed74ead6088d85773a20fef",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/numbers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b90081d75a673ba62cf4871884657f31c7877f0939bb1be0c451a03323d6d71b",
+        "sha256_in_prefix": "b90081d75a673ba62cf4871884657f31c7877f0939bb1be0c451a03323d6d71b",
+        "size_in_bytes": 1935
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/plurals.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1a5816a51d5bc50fb8094d0651471562fffede0e8fa8a228f5740b5a666499c",
+        "sha256_in_prefix": "c1a5816a51d5bc50fb8094d0651471562fffede0e8fa8a228f5740b5a666499c",
+        "size_in_bytes": 1373
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/t9.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b59ca2f976456dc4575f9eab4d17f42a0171572aa72408c72145e6598c7bf64",
+        "sha256_in_prefix": "9b59ca2f976456dc4575f9eab4d17f42a0171572aa72408c72145e6598c7bf64",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/__pycache__/weather.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f7f781e2dd94a97d201eeaa078b79d0aaa8a91b865f2095f1bc1662906ee626",
+        "sha256_in_prefix": "8f7f781e2dd94a97d201eeaa078b79d0aaa8a91b865f2095f1bc1662906ee626",
+        "size_in_bytes": 3004
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/case.py",
+        "path_type": "hardlink",
+        "sha256": "9e9adeeeddd111676cacc5a4fa6a059a35cdcdd60a26607cb45a57a69d4bdad6",
+        "sha256_in_prefix": "9e9adeeeddd111676cacc5a4fa6a059a35cdcdd60a26607cb45a57a69d4bdad6",
+        "size_in_bytes": 2726
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/chatspeak.py",
+        "path_type": "hardlink",
+        "sha256": "260557631d83a281adb6f6e13989b80b1d214a3c0344bb75c5cc1cb08848edf0",
+        "sha256_in_prefix": "260557631d83a281adb6f6e13989b80b1d214a3c0344bb75c5cc1cb08848edf0",
+        "size_in_bytes": 9290
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/chatspeak_model.py",
+        "path_type": "hardlink",
+        "sha256": "ae6b8fa308d4afa4e8f51915eab6fcd5b688d13a2fe51beb030a3189258c22ee",
+        "sha256_in_prefix": "ae6b8fa308d4afa4e8f51915eab6fcd5b688d13a2fe51beb030a3189258c22ee",
+        "size_in_bytes": 3063
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/dates.py",
+        "path_type": "hardlink",
+        "sha256": "f725a25980106f8651d8424d589cde528c13009a6c07b160fc2fba4a11a66059",
+        "sha256_in_prefix": "f725a25980106f8651d8424d589cde528c13009a6c07b160fc2fba4a11a66059",
+        "size_in_bytes": 5230
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/g2p.py",
+        "path_type": "hardlink",
+        "sha256": "cf226ba930ffe3b7e5d3ee5c81142bda438245eada7fb7ea2a3a01ce541885fa",
+        "sha256_in_prefix": "cf226ba930ffe3b7e5d3ee5c81142bda438245eada7fb7ea2a3a01ce541885fa",
+        "size_in_bytes": 2452
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/numbers.py",
+        "path_type": "hardlink",
+        "sha256": "4092ac12ddfdd5d8eeb2e9b12576b0e9f167875312a162847bb8c31ab07abc6f",
+        "sha256_in_prefix": "4092ac12ddfdd5d8eeb2e9b12576b0e9f167875312a162847bb8c31ab07abc6f",
+        "size_in_bytes": 4170
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/plurals.py",
+        "path_type": "hardlink",
+        "sha256": "c500f935d0083451f45021607355c166bd811256e756104e9bc5cbf5ecf86fe9",
+        "sha256_in_prefix": "c500f935d0083451f45021607355c166bd811256e756104e9bc5cbf5ecf86fe9",
+        "size_in_bytes": 2432
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/t9.py",
+        "path_type": "hardlink",
+        "sha256": "ffc7ea307d2007ff6a606ee2bd92e1d18d36414be7c0f702cedec0e7e70c7527",
+        "sha256_in_prefix": "ffc7ea307d2007ff6a606ee2bd92e1d18d36414be7c0f702cedec0e7e70c7527",
+        "size_in_bytes": 2142
+      },
+      {
+        "_path": "Lib/site-packages/pynini/examples/weather.py",
+        "path_type": "hardlink",
+        "sha256": "efa56b0f98af8243daa6f737a34e431d6f98b441e656771db53e8319e3147340",
+        "sha256_in_prefix": "efa56b0f98af8243daa6f737a34e431d6f98b441e656771db53e8319e3147340",
+        "size_in_bytes": 3311
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/BUILD.bazel",
+        "path_type": "hardlink",
+        "sha256": "581cb66b934cf35612e69d6104f495b2ee115f83145a5cdc255801654eddc5bd",
+        "sha256_in_prefix": "581cb66b934cf35612e69d6104f495b2ee115f83145a5cdc255801654eddc5bd",
+        "size_in_bytes": 1862
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0690d4e93c6c193736732fd1193a434eb5bf51e86a2609769082281afb1cbaf9",
+        "sha256_in_prefix": "0690d4e93c6c193736732fd1193a434eb5bf51e86a2609769082281afb1cbaf9",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__pycache__/export.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "212789779de8e18f61fdb798a088e06164a9a81f11d128807bbf87aee9852eda",
+        "sha256_in_prefix": "212789779de8e18f61fdb798a088e06164a9a81f11d128807bbf87aee9852eda",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__pycache__/grm.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e69cbe703f1cbc69c7c61dd8f931abf068fdb378617cf83844ad558bc4a41780",
+        "sha256_in_prefix": "e69cbe703f1cbc69c7c61dd8f931abf068fdb378617cf83844ad558bc4a41780",
+        "size_in_bytes": 1998
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__pycache__/grm_example.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ff71259f8ad64155a83a6ebc5f69a8c923c1cd437f254c2b90425b6b33e7e8f",
+        "sha256_in_prefix": "1ff71259f8ad64155a83a6ebc5f69a8c923c1cd437f254c2b90425b6b33e7e8f",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__pycache__/multi_grm.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa74e962922fdc0f917fb51b0f3afd439c1857360b736a8deee10b38220472f1",
+        "sha256_in_prefix": "aa74e962922fdc0f917fb51b0f3afd439c1857360b736a8deee10b38220472f1",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/__pycache__/multi_grm_example.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1adb8b0aa2ce29abac7fd30e146e3b463719ac3b8563252b3ac2bd56d6dc047b",
+        "sha256_in_prefix": "1adb8b0aa2ce29abac7fd30e146e3b463719ac3b8563252b3ac2bd56d6dc047b",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/export.py",
+        "path_type": "hardlink",
+        "sha256": "65dbf3273ff780110665187e4a498d3a84914298a05be40c42e33b3b9b615140",
+        "sha256_in_prefix": "65dbf3273ff780110665187e4a498d3a84914298a05be40c42e33b3b9b615140",
+        "size_in_bytes": 3270
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/grm.py",
+        "path_type": "hardlink",
+        "sha256": "bfce313ea189be1ffe99ea1fd21103cacaf0f6e2317e27b37a5548ee9cdb643f",
+        "sha256_in_prefix": "bfce313ea189be1ffe99ea1fd21103cacaf0f6e2317e27b37a5548ee9cdb643f",
+        "size_in_bytes": 2376
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/grm_example.py",
+        "path_type": "hardlink",
+        "sha256": "99ee05eea95134183a131fc619951d339c7e2b8cd3b14f36ed4a2d735e4e39d4",
+        "sha256_in_prefix": "99ee05eea95134183a131fc619951d339c7e2b8cd3b14f36ed4a2d735e4e39d4",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/grm_py_build_defs.bzl",
+        "path_type": "hardlink",
+        "sha256": "3037884e6f96cc95d9fac1e5e975ece83a030e1b946821f5666486c087d6db5a",
+        "sha256_in_prefix": "3037884e6f96cc95d9fac1e5e975ece83a030e1b946821f5666486c087d6db5a",
+        "size_in_bytes": 8027
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/multi_grm.py",
+        "path_type": "hardlink",
+        "sha256": "4663363526dfdc72e7ea905a915e25c7f366309fc6630e06875e7975be478d7d",
+        "sha256_in_prefix": "4663363526dfdc72e7ea905a915e25c7f366309fc6630e06875e7975be478d7d",
+        "size_in_bytes": 3817
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/multi_grm_example.py",
+        "path_type": "hardlink",
+        "sha256": "9e1e35a3623768c4785daf59abf92fbc1cf4fd3ef053c05f2d2adeb6141983ce",
+        "sha256_in_prefix": "9e1e35a3623768c4785daf59abf92fbc1cf4fd3ef053c05f2d2adeb6141983ce",
+        "size_in_bytes": 952
+      },
+      {
+        "_path": "Lib/site-packages/pynini/export/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/BUILD.bazel",
+        "path_type": "hardlink",
+        "sha256": "9377f81bcb81e552e33a2bb47ace2a5e0f175b10b51a91a988a3c33998c1ed26",
+        "sha256_in_prefix": "9377f81bcb81e552e33a2bb47ace2a5e0f175b10b51a91a988a3c33998c1ed26",
+        "size_in_bytes": 1993
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e2e9647ca13737d042f79bad5d8b8bd90a7142e3a93d6fb31d99a7033fb07c3c",
+        "sha256_in_prefix": "e2e9647ca13737d042f79bad5d8b8bd90a7142e3a93d6fb31d99a7033fb07c3c",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/byte.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2c23a10333264490f4ccb17c40abc3c33b93803c6bbfa3dd62ddcba48f668f6",
+        "sha256_in_prefix": "b2c23a10333264490f4ccb17c40abc3c33b93803c6bbfa3dd62ddcba48f668f6",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/edit_transducer.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "baf658c85a50cdf5b7009ada7772dd6e6915e1a2beb5aa9777e35585c183604f",
+        "sha256_in_prefix": "baf658c85a50cdf5b7009ada7772dd6e6915e1a2beb5aa9777e35585c183604f",
+        "size_in_bytes": 8205
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/features.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b789a50b6b6f93bbfbff084fc69a5a3589e193f8be8e8dc3b61949938854f82",
+        "sha256_in_prefix": "9b789a50b6b6f93bbfbff084fc69a5a3589e193f8be8e8dc3b61949938854f82",
+        "size_in_bytes": 11150
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/paradigms.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "819bbe56b95c449285fcad37e15a801794409f581ae8c319d84941ad1b30b0bc",
+        "sha256_in_prefix": "819bbe56b95c449285fcad37e15a801794409f581ae8c319d84941ad1b30b0bc",
+        "size_in_bytes": 16493
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/pynutil.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7accaf97232966fe081e14de1b0e09ad573f9db1a723b126e9c991f59924a406",
+        "sha256_in_prefix": "7accaf97232966fe081e14de1b0e09ad573f9db1a723b126e9c991f59924a406",
+        "size_in_bytes": 2625
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/rewrite.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "01ba7f9f2912aa8dbfee5bed04aaddd34e734e315b2239f809bd997f4fd66494",
+        "sha256_in_prefix": "01ba7f9f2912aa8dbfee5bed04aaddd34e734e315b2239f809bd997f4fd66494",
+        "size_in_bytes": 10499
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/rule_cascade.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d4ea47682f54aa0d708688d071a4f6f59fbdf329586230fccf7ec2d78376a81b",
+        "sha256_in_prefix": "d4ea47682f54aa0d708688d071a4f6f59fbdf329586230fccf7ec2d78376a81b",
+        "size_in_bytes": 6534
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/stringfile.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d0b8df62df6e0de1ef84aa46bf8f1fab47330292e02874d13cbafb4dde76a80",
+        "sha256_in_prefix": "2d0b8df62df6e0de1ef84aa46bf8f1fab47330292e02874d13cbafb4dde76a80",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/tagger.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fcd268852d741808f81e9fe640c52d1f8b20ce417c251dc84509de7e52fba3c6",
+        "sha256_in_prefix": "fcd268852d741808f81e9fe640c52d1f8b20ce417c251dc84509de7e52fba3c6",
+        "size_in_bytes": 2314
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/__pycache__/utf8.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0793d68f1f4242c4dab0bb0c2aa943f246459b471995d681814303cb50cfe07c",
+        "sha256_in_prefix": "0793d68f1f4242c4dab0bb0c2aa943f246459b471995d681814303cb50cfe07c",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/byte.py",
+        "path_type": "hardlink",
+        "sha256": "d25048fbaaedef208c0b47f2e8c367e731187ca777fa3f7b9af9c396fbcf22a2",
+        "sha256_in_prefix": "d25048fbaaedef208c0b47f2e8c367e731187ca777fa3f7b9af9c396fbcf22a2",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/edit_transducer.py",
+        "path_type": "hardlink",
+        "sha256": "8f982d2c11b9f4ffb6780ef82c09a92deefae126d3e65cb3681c9fb5e263236e",
+        "sha256_in_prefix": "8f982d2c11b9f4ffb6780ef82c09a92deefae126d3e65cb3681c9fb5e263236e",
+        "size_in_bytes": 8820
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/features.py",
+        "path_type": "hardlink",
+        "sha256": "b62b824987a3f12d724de851ca92b3eed5402b6c2e3f553261a5a3417cb98e66",
+        "sha256_in_prefix": "b62b824987a3f12d724de851ca92b3eed5402b6c2e3f553261a5a3417cb98e66",
+        "size_in_bytes": 9906
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/paradigms.py",
+        "path_type": "hardlink",
+        "sha256": "30489c5cf6c51a44e0e10dd71c2e6f27cefd7dc47835e222696e7b737ea1c24e",
+        "sha256_in_prefix": "30489c5cf6c51a44e0e10dd71c2e6f27cefd7dc47835e222696e7b737ea1c24e",
+        "size_in_bytes": 18896
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/pynutil.py",
+        "path_type": "hardlink",
+        "sha256": "46e6564d283aeb6bb6f851082930fd3df83f7de3e20112c9f5338bed8ca0df23",
+        "sha256_in_prefix": "46e6564d283aeb6bb6f851082930fd3df83f7de3e20112c9f5338bed8ca0df23",
+        "size_in_bytes": 3270
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/rewrite.py",
+        "path_type": "hardlink",
+        "sha256": "acc0f544bf8e0961fe743680bc555306485a509c83f3a48d4584f315dc7833dd",
+        "sha256_in_prefix": "acc0f544bf8e0961fe743680bc555306485a509c83f3a48d4584f315dc7833dd",
+        "size_in_bytes": 12430
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/rule_cascade.py",
+        "path_type": "hardlink",
+        "sha256": "783e528a4a11cc2222034343f6aa51b904d701033fbe29228fa545d9e16a559c",
+        "sha256_in_prefix": "783e528a4a11cc2222034343f6aa51b904d701033fbe29228fa545d9e16a559c",
+        "size_in_bytes": 7740
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/stringfile.py",
+        "path_type": "hardlink",
+        "sha256": "1aae1265027fdd2378cf1dcd92438943b050bdbb0d79de2cb2917282604106ff",
+        "sha256_in_prefix": "1aae1265027fdd2378cf1dcd92438943b050bdbb0d79de2cb2917282604106ff",
+        "size_in_bytes": 2202
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/tagger.py",
+        "path_type": "hardlink",
+        "sha256": "b6bae4bfc481983729824fa98950483ab43adecfed7335627eb15e6b447e0341",
+        "sha256_in_prefix": "b6bae4bfc481983729824fa98950483ab43adecfed7335627eb15e6b447e0341",
+        "size_in_bytes": 2554
+      },
+      {
+        "_path": "Lib/site-packages/pynini/lib/utf8.py",
+        "path_type": "hardlink",
+        "sha256": "adecea73e5ff0c3740b73c43cf73f2120b2f660190ffe0693dafab3d41dac282",
+        "sha256_in_prefix": "adecea73e5ff0c3740b73c43cf73f2120b2f660190ffe0693dafab3d41dac282",
+        "size_in_bytes": 3953
+      },
+      {
+        "_path": "Lib/site-packages/pynini/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pywrapfst/BUILD.bazel",
+        "path_type": "hardlink",
+        "sha256": "738921bb6ac6f9bcbd7d6e7df487281111114285787ce54ca73080deae1b1d5f",
+        "sha256_in_prefix": "738921bb6ac6f9bcbd7d6e7df487281111114285787ce54ca73080deae1b1d5f",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "Lib/site-packages/pywrapfst/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "004b691d8c8360b5c5accfdeb5835e02c0a5efb7cd6dfe4604888033c7b25fcd",
+        "sha256_in_prefix": "004b691d8c8360b5c5accfdeb5835e02c0a5efb7cd6dfe4604888033c7b25fcd",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "Lib/site-packages/pywrapfst/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "4cc3289f2ca0455305bf09a378ec9f727d142740b56bfbf3db4fd73158c08e33",
+        "sha256_in_prefix": "4cc3289f2ca0455305bf09a378ec9f727d142740b56bfbf3db4fd73158c08e33",
+        "size_in_bytes": 23813
+      },
+      {
+        "_path": "Lib/site-packages/pywrapfst/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dcf61bc5ef88690519340e478841424f3f814a83bf637889cf74b8ebe7b7bdaf",
+        "sha256_in_prefix": "dcf61bc5ef88690519340e478841424f3f814a83bf637889cf74b8ebe7b7bdaf",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "Lib/site-packages/pywrapfst/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Library/include/_pywrapfst.h",
+        "path_type": "hardlink",
+        "sha256": "2d8e0ee1f073e0021317093ff5ca5de7d03dd6ae10e271ab665c2a9bcd6a9cfa",
+        "sha256_in_prefix": "2d8e0ee1f073e0021317093ff5ca5de7d03dd6ae10e271ab665c2a9bcd6a9cfa",
+        "size_in_bytes": 10938
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pynini==2.1.6",
+  "sha256": "53508302b706665e5a99a3dbb3c801d4068a7a02e5f62787daae93039f0826ae",
+  "size": 889503,
+  "subdir": "win-64",
+  "timestamp": 1706392613000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pynini-2.1.6-py310h232114e_0.conda",
+  "version": "2.1.6"
+}

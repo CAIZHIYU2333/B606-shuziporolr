@@ -1,0 +1,2748 @@
+{
+  "build": "hc790b64_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "dlfcn-win32 >=1.4.1,<2.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30139"
+  ],
+  "extracted_package_dir": "C:\\Users\\yuhua\\.conda\\pkgs\\openfst-1.8.3-hc790b64_3",
+  "files": [
+    "Library/bin/arc_lookahead-fst.dll",
+    "Library/bin/compact16_acceptor-fst.dll",
+    "Library/bin/compact16_string-fst.dll",
+    "Library/bin/compact16_unweighted-fst.dll",
+    "Library/bin/compact16_unweighted_acceptor-fst.dll",
+    "Library/bin/compact16_weighted_string-fst.dll",
+    "Library/bin/compact64_acceptor-fst.dll",
+    "Library/bin/compact64_string-fst.dll",
+    "Library/bin/compact64_unweighted-fst.dll",
+    "Library/bin/compact64_unweighted_acceptor-fst.dll",
+    "Library/bin/compact64_weighted_string-fst.dll",
+    "Library/bin/compact8_acceptor-fst.dll",
+    "Library/bin/compact8_string-fst.dll",
+    "Library/bin/compact8_unweighted-fst.dll",
+    "Library/bin/compact8_unweighted_acceptor-fst.dll",
+    "Library/bin/compact8_weighted_string-fst.dll",
+    "Library/bin/const16-fst.dll",
+    "Library/bin/const64-fst.dll",
+    "Library/bin/const8-fst.dll",
+    "Library/bin/farcompilestrings.exe",
+    "Library/bin/farconvert.exe",
+    "Library/bin/farcreate.exe",
+    "Library/bin/farencode.exe",
+    "Library/bin/farequal.exe",
+    "Library/bin/farextract.exe",
+    "Library/bin/farinfo.exe",
+    "Library/bin/farisomorphic.exe",
+    "Library/bin/farprintstrings.exe",
+    "Library/bin/fst.dll",
+    "Library/bin/fstarcsort.exe",
+    "Library/bin/fstclosure.exe",
+    "Library/bin/fstcompact.dll",
+    "Library/bin/fstcompile.exe",
+    "Library/bin/fstcompose.exe",
+    "Library/bin/fstcompress.exe",
+    "Library/bin/fstcompressscript.dll",
+    "Library/bin/fstconcat.exe",
+    "Library/bin/fstconnect.exe",
+    "Library/bin/fstconst.dll",
+    "Library/bin/fstconvert.exe",
+    "Library/bin/fstdeterminize.exe",
+    "Library/bin/fstdifference.exe",
+    "Library/bin/fstdisambiguate.exe",
+    "Library/bin/fstdraw.exe",
+    "Library/bin/fstencode.exe",
+    "Library/bin/fstepsnormalize.exe",
+    "Library/bin/fstequal.exe",
+    "Library/bin/fstequivalent.exe",
+    "Library/bin/fstfar.dll",
+    "Library/bin/fstfarscript.dll",
+    "Library/bin/fstinfo.exe",
+    "Library/bin/fstintersect.exe",
+    "Library/bin/fstinvert.exe",
+    "Library/bin/fstisomorphic.exe",
+    "Library/bin/fstlinear.exe",
+    "Library/bin/fstlinearscript.dll",
+    "Library/bin/fstloglinearapply.exe",
+    "Library/bin/fstlookahead.dll",
+    "Library/bin/fstmap.exe",
+    "Library/bin/fstminimize.exe",
+    "Library/bin/fstmpdtscript.dll",
+    "Library/bin/fstngram.dll",
+    "Library/bin/fstpdtscript.dll",
+    "Library/bin/fstprint.exe",
+    "Library/bin/fstproject.exe",
+    "Library/bin/fstprune.exe",
+    "Library/bin/fstpush.exe",
+    "Library/bin/fstrandgen.exe",
+    "Library/bin/fstrelabel.exe",
+    "Library/bin/fstreplace.exe",
+    "Library/bin/fstreverse.exe",
+    "Library/bin/fstreweight.exe",
+    "Library/bin/fstrmepsilon.exe",
+    "Library/bin/fstscript.dll",
+    "Library/bin/fstshortestdistance.exe",
+    "Library/bin/fstshortestpath.exe",
+    "Library/bin/fstspecial.dll",
+    "Library/bin/fstspecialconvert.exe",
+    "Library/bin/fstsymbols.exe",
+    "Library/bin/fstsynchronize.exe",
+    "Library/bin/fsttopsort.exe",
+    "Library/bin/fstunion.exe",
+    "Library/bin/ilabel_lookahead-fst.dll",
+    "Library/bin/linear-classifier-fst.dll",
+    "Library/bin/linear-tagger-fst.dll",
+    "Library/bin/mpdtcompose.exe",
+    "Library/bin/mpdtexpand.exe",
+    "Library/bin/mpdtinfo.exe",
+    "Library/bin/mpdtreverse.exe",
+    "Library/bin/olabel_lookahead-fst.dll",
+    "Library/bin/pdtcompose.exe",
+    "Library/bin/pdtexpand.exe",
+    "Library/bin/pdtinfo.exe",
+    "Library/bin/pdtreplace.exe",
+    "Library/bin/pdtreverse.exe",
+    "Library/bin/pdtshortestpath.exe",
+    "Library/include/fst/accumulator.h",
+    "Library/include/fst/add-on.h",
+    "Library/include/fst/arc-arena.h",
+    "Library/include/fst/arc-map.h",
+    "Library/include/fst/arc.h",
+    "Library/include/fst/arcfilter.h",
+    "Library/include/fst/arcsort.h",
+    "Library/include/fst/bi-table.h",
+    "Library/include/fst/cache.h",
+    "Library/include/fst/cc-visitors.h",
+    "Library/include/fst/closure.h",
+    "Library/include/fst/compact-fst.h",
+    "Library/include/fst/compat.h",
+    "Library/include/fst/complement.h",
+    "Library/include/fst/compose-filter.h",
+    "Library/include/fst/compose.h",
+    "Library/include/fst/concat.h",
+    "Library/include/fst/connect.h",
+    "Library/include/fst/const-fst.h",
+    "Library/include/fst/determinize.h",
+    "Library/include/fst/dfs-visit.h",
+    "Library/include/fst/difference.h",
+    "Library/include/fst/disambiguate.h",
+    "Library/include/fst/edit-fst.h",
+    "Library/include/fst/encode.h",
+    "Library/include/fst/epsnormalize.h",
+    "Library/include/fst/equal.h",
+    "Library/include/fst/equivalent.h",
+    "Library/include/fst/error-weight.h",
+    "Library/include/fst/expanded-fst.h",
+    "Library/include/fst/expander-cache.h",
+    "Library/include/fst/expectation-weight.h",
+    "Library/include/fst/exports/exports.h",
+    "Library/include/fst/exports/fst_Export.h",
+    "Library/include/fst/exports/fstcompact_Export.h",
+    "Library/include/fst/exports/fstcompressscript_Export.h",
+    "Library/include/fst/exports/fstconst_Export.h",
+    "Library/include/fst/exports/fstfar_Export.h",
+    "Library/include/fst/exports/fstfarscript_Export.h",
+    "Library/include/fst/exports/fstlinearscript_Export.h",
+    "Library/include/fst/exports/fstmpdtscript_Export.h",
+    "Library/include/fst/exports/fstngram_Export.h",
+    "Library/include/fst/exports/fstpdtscript_Export.h",
+    "Library/include/fst/exports/fstscript_Export.h",
+    "Library/include/fst/exports/fstspecial_Export.h",
+    "Library/include/fst/extensions/compress/compress.h",
+    "Library/include/fst/extensions/compress/compressscript.h",
+    "Library/include/fst/extensions/compress/elias.h",
+    "Library/include/fst/extensions/far/compile-strings.h",
+    "Library/include/fst/extensions/far/convert.h",
+    "Library/include/fst/extensions/far/create.h",
+    "Library/include/fst/extensions/far/encode.h",
+    "Library/include/fst/extensions/far/equal.h",
+    "Library/include/fst/extensions/far/extract.h",
+    "Library/include/fst/extensions/far/far-class.h",
+    "Library/include/fst/extensions/far/far.h",
+    "Library/include/fst/extensions/far/farlib.h",
+    "Library/include/fst/extensions/far/farscript.h",
+    "Library/include/fst/extensions/far/getters.h",
+    "Library/include/fst/extensions/far/info.h",
+    "Library/include/fst/extensions/far/isomorphic.h",
+    "Library/include/fst/extensions/far/map-reduce.h",
+    "Library/include/fst/extensions/far/print-strings.h",
+    "Library/include/fst/extensions/far/script-impl.h",
+    "Library/include/fst/extensions/far/stlist.h",
+    "Library/include/fst/extensions/far/sttable.h",
+    "Library/include/fst/extensions/linear/linear-fst-data-builder.h",
+    "Library/include/fst/extensions/linear/linear-fst-data.h",
+    "Library/include/fst/extensions/linear/linear-fst.h",
+    "Library/include/fst/extensions/linear/linearscript.h",
+    "Library/include/fst/extensions/linear/loglinear-apply.h",
+    "Library/include/fst/extensions/linear/trie.h",
+    "Library/include/fst/extensions/mpdt/compose.h",
+    "Library/include/fst/extensions/mpdt/expand.h",
+    "Library/include/fst/extensions/mpdt/info.h",
+    "Library/include/fst/extensions/mpdt/mpdt.h",
+    "Library/include/fst/extensions/mpdt/mpdtlib.h",
+    "Library/include/fst/extensions/mpdt/mpdtscript.h",
+    "Library/include/fst/extensions/mpdt/read_write_utils.h",
+    "Library/include/fst/extensions/mpdt/reverse.h",
+    "Library/include/fst/extensions/ngram/bitmap-index.h",
+    "Library/include/fst/extensions/ngram/ngram-fst.h",
+    "Library/include/fst/extensions/ngram/nthbit.h",
+    "Library/include/fst/extensions/pdt/collection.h",
+    "Library/include/fst/extensions/pdt/compose.h",
+    "Library/include/fst/extensions/pdt/expand.h",
+    "Library/include/fst/extensions/pdt/getters.h",
+    "Library/include/fst/extensions/pdt/info.h",
+    "Library/include/fst/extensions/pdt/paren.h",
+    "Library/include/fst/extensions/pdt/pdt.h",
+    "Library/include/fst/extensions/pdt/pdtlib.h",
+    "Library/include/fst/extensions/pdt/pdtscript.h",
+    "Library/include/fst/extensions/pdt/replace.h",
+    "Library/include/fst/extensions/pdt/reverse.h",
+    "Library/include/fst/extensions/pdt/shortest-path.h",
+    "Library/include/fst/extensions/special/phi-fst.h",
+    "Library/include/fst/extensions/special/rho-fst.h",
+    "Library/include/fst/extensions/special/sigma-fst.h",
+    "Library/include/fst/factor-weight.h",
+    "Library/include/fst/filter-state.h",
+    "Library/include/fst/flags.h",
+    "Library/include/fst/float-weight.h",
+    "Library/include/fst/fst-decl.h",
+    "Library/include/fst/fst.h",
+    "Library/include/fst/fstlib.h",
+    "Library/include/fst/generic-register.h",
+    "Library/include/fst/heap.h",
+    "Library/include/fst/icu.h",
+    "Library/include/fst/impl-to-fst.h",
+    "Library/include/fst/intersect.h",
+    "Library/include/fst/interval-set.h",
+    "Library/include/fst/invert.h",
+    "Library/include/fst/isomorphic.h",
+    "Library/include/fst/label-reachable.h",
+    "Library/include/fst/lexicographic-weight.h",
+    "Library/include/fst/lock.h",
+    "Library/include/fst/log.h",
+    "Library/include/fst/lookahead-filter.h",
+    "Library/include/fst/lookahead-matcher.h",
+    "Library/include/fst/mapped-file.h",
+    "Library/include/fst/matcher-fst.h",
+    "Library/include/fst/matcher.h",
+    "Library/include/fst/memory.h",
+    "Library/include/fst/minimize.h",
+    "Library/include/fst/mutable-fst.h",
+    "Library/include/fst/pair-weight.h",
+    "Library/include/fst/partition.h",
+    "Library/include/fst/power-weight-mappers.h",
+    "Library/include/fst/power-weight.h",
+    "Library/include/fst/product-weight.h",
+    "Library/include/fst/project.h",
+    "Library/include/fst/properties.h",
+    "Library/include/fst/prune.h",
+    "Library/include/fst/push.h",
+    "Library/include/fst/queue.h",
+    "Library/include/fst/randequivalent.h",
+    "Library/include/fst/randgen.h",
+    "Library/include/fst/rational.h",
+    "Library/include/fst/register.h",
+    "Library/include/fst/relabel.h",
+    "Library/include/fst/replace-util.h",
+    "Library/include/fst/replace.h",
+    "Library/include/fst/reverse.h",
+    "Library/include/fst/reweight.h",
+    "Library/include/fst/rmepsilon.h",
+    "Library/include/fst/rmfinalepsilon.h",
+    "Library/include/fst/script/arc-class.h",
+    "Library/include/fst/script/arcfilter-impl.h",
+    "Library/include/fst/script/arciterator-class.h",
+    "Library/include/fst/script/arcsort.h",
+    "Library/include/fst/script/arg-packs.h",
+    "Library/include/fst/script/closure.h",
+    "Library/include/fst/script/compile-impl.h",
+    "Library/include/fst/script/compile.h",
+    "Library/include/fst/script/compose.h",
+    "Library/include/fst/script/concat.h",
+    "Library/include/fst/script/connect.h",
+    "Library/include/fst/script/convert.h",
+    "Library/include/fst/script/decode.h",
+    "Library/include/fst/script/determinize.h",
+    "Library/include/fst/script/difference.h",
+    "Library/include/fst/script/disambiguate.h",
+    "Library/include/fst/script/draw-impl.h",
+    "Library/include/fst/script/draw.h",
+    "Library/include/fst/script/encode.h",
+    "Library/include/fst/script/encodemapper-class.h",
+    "Library/include/fst/script/epsnormalize.h",
+    "Library/include/fst/script/equal.h",
+    "Library/include/fst/script/equivalent.h",
+    "Library/include/fst/script/fst-class.h",
+    "Library/include/fst/script/fstscript.h",
+    "Library/include/fst/script/getters.h",
+    "Library/include/fst/script/info-impl.h",
+    "Library/include/fst/script/info.h",
+    "Library/include/fst/script/intersect.h",
+    "Library/include/fst/script/invert.h",
+    "Library/include/fst/script/isomorphic.h",
+    "Library/include/fst/script/map.h",
+    "Library/include/fst/script/minimize.h",
+    "Library/include/fst/script/print-impl.h",
+    "Library/include/fst/script/print.h",
+    "Library/include/fst/script/project.h",
+    "Library/include/fst/script/prune.h",
+    "Library/include/fst/script/push.h",
+    "Library/include/fst/script/randequivalent.h",
+    "Library/include/fst/script/randgen.h",
+    "Library/include/fst/script/relabel.h",
+    "Library/include/fst/script/replace.h",
+    "Library/include/fst/script/reverse.h",
+    "Library/include/fst/script/reweight.h",
+    "Library/include/fst/script/rmepsilon.h",
+    "Library/include/fst/script/script-impl.h",
+    "Library/include/fst/script/shortest-distance.h",
+    "Library/include/fst/script/shortest-path.h",
+    "Library/include/fst/script/stateiterator-class.h",
+    "Library/include/fst/script/synchronize.h",
+    "Library/include/fst/script/text-io.h",
+    "Library/include/fst/script/topsort.h",
+    "Library/include/fst/script/union.h",
+    "Library/include/fst/script/verify.h",
+    "Library/include/fst/script/weight-class.h",
+    "Library/include/fst/set-weight.h",
+    "Library/include/fst/shortest-distance.h",
+    "Library/include/fst/shortest-path.h",
+    "Library/include/fst/signed-log-weight.h",
+    "Library/include/fst/sparse-power-weight.h",
+    "Library/include/fst/sparse-tuple-weight.h",
+    "Library/include/fst/state-map.h",
+    "Library/include/fst/state-reachable.h",
+    "Library/include/fst/state-table.h",
+    "Library/include/fst/statesort.h",
+    "Library/include/fst/string-weight.h",
+    "Library/include/fst/string.h",
+    "Library/include/fst/symbol-table-ops.h",
+    "Library/include/fst/symbol-table.h",
+    "Library/include/fst/synchronize.h",
+    "Library/include/fst/test-properties.h",
+    "Library/include/fst/test/algo_test.h",
+    "Library/include/fst/test/compactors.h",
+    "Library/include/fst/test/fst_test.h",
+    "Library/include/fst/test/rand-fst.h",
+    "Library/include/fst/test/weight-tester.h",
+    "Library/include/fst/topsort.h",
+    "Library/include/fst/tuple-weight.h",
+    "Library/include/fst/union-find.h",
+    "Library/include/fst/union-weight.h",
+    "Library/include/fst/union.h",
+    "Library/include/fst/util.h",
+    "Library/include/fst/vector-fst.h",
+    "Library/include/fst/verify.h",
+    "Library/include/fst/visit.h",
+    "Library/include/fst/weight.h",
+    "Library/include/fst/windows_defs.inc",
+    "Library/lib/fst.lib",
+    "Library/lib/fstcompressscript.lib",
+    "Library/lib/fstfar.lib",
+    "Library/lib/fstfarscript.lib",
+    "Library/lib/fstlinearscript.lib",
+    "Library/lib/fstmpdtscript.lib",
+    "Library/lib/fstngram.lib",
+    "Library/lib/fstpdtscript.lib",
+    "Library/lib/fstscript.lib",
+    "Library/lib/fstspecial.lib"
+  ],
+  "fn": "openfst-1.8.3-hc790b64_3.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\yuhua\\.conda\\pkgs\\openfst-1.8.3-hc790b64_3",
+    "type": 1
+  },
+  "md5": "57a69a10bb6b21b5765f46d8d86a8dfd",
+  "name": "openfst",
+  "package_tarball_full_path": "C:\\Users\\yuhua\\.conda\\pkgs\\openfst-1.8.3-hc790b64_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/arc_lookahead-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "b35801fe0936b710fe8d9f4dcb33961a07d6ff168f5d8af2007384e43cecbfcf",
+        "sha256_in_prefix": "b35801fe0936b710fe8d9f4dcb33961a07d6ff168f5d8af2007384e43cecbfcf",
+        "size_in_bytes": 174592
+      },
+      {
+        "_path": "Library/bin/compact16_acceptor-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "905a0a50968de45546566926c3d590222ed624b7a4aafa08d344ae382c7e7eab",
+        "sha256_in_prefix": "905a0a50968de45546566926c3d590222ed624b7a4aafa08d344ae382c7e7eab",
+        "size_in_bytes": 221184
+      },
+      {
+        "_path": "Library/bin/compact16_string-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "f00432b894c5178f8aff5b0ac78aab297ae1120dea919ee8e4e5fefd9ce20943",
+        "sha256_in_prefix": "f00432b894c5178f8aff5b0ac78aab297ae1120dea919ee8e4e5fefd9ce20943",
+        "size_in_bytes": 215040
+      },
+      {
+        "_path": "Library/bin/compact16_unweighted-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "99a863cf58edf0ecdc9303cb6b16d3a1f649667bc1a895abe306d8bee76cae2c",
+        "sha256_in_prefix": "99a863cf58edf0ecdc9303cb6b16d3a1f649667bc1a895abe306d8bee76cae2c",
+        "size_in_bytes": 216064
+      },
+      {
+        "_path": "Library/bin/compact16_unweighted_acceptor-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "01557133bf9054af415755e7eabea5e625bc8c7f2a3b552a2e8ffbf155c21281",
+        "sha256_in_prefix": "01557133bf9054af415755e7eabea5e625bc8c7f2a3b552a2e8ffbf155c21281",
+        "size_in_bytes": 216064
+      },
+      {
+        "_path": "Library/bin/compact16_weighted_string-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "b5d7183d34c77acd5c10212e0a772cd1b654b0cf66576e3414f0b8c37775b128",
+        "sha256_in_prefix": "b5d7183d34c77acd5c10212e0a772cd1b654b0cf66576e3414f0b8c37775b128",
+        "size_in_bytes": 221184
+      },
+      {
+        "_path": "Library/bin/compact64_acceptor-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "878c86fab59974089f86b7e3c1dbb8eaf9a27d3dd1c13b18d6572da105be88af",
+        "sha256_in_prefix": "878c86fab59974089f86b7e3c1dbb8eaf9a27d3dd1c13b18d6572da105be88af",
+        "size_in_bytes": 221184
+      },
+      {
+        "_path": "Library/bin/compact64_string-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "a210700e1a2ba3f70ee2438a8e30eca4c52b74312cdcccb5d98ef05117bf4a38",
+        "sha256_in_prefix": "a210700e1a2ba3f70ee2438a8e30eca4c52b74312cdcccb5d98ef05117bf4a38",
+        "size_in_bytes": 215552
+      },
+      {
+        "_path": "Library/bin/compact64_unweighted-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "13b3ee1fd38a5dcbe74e54d8abb86a2691c4721a9789db1c3ee3dca110bfd2b4",
+        "sha256_in_prefix": "13b3ee1fd38a5dcbe74e54d8abb86a2691c4721a9789db1c3ee3dca110bfd2b4",
+        "size_in_bytes": 216576
+      },
+      {
+        "_path": "Library/bin/compact64_unweighted_acceptor-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "1db89526aa2f18393ef7c884ba5e54fc49d99b0c564acbdf50b514212b2983d4",
+        "sha256_in_prefix": "1db89526aa2f18393ef7c884ba5e54fc49d99b0c564acbdf50b514212b2983d4",
+        "size_in_bytes": 216064
+      },
+      {
+        "_path": "Library/bin/compact64_weighted_string-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "2ba16b1b55b90c7cb75d5869c744d97fa8bfd078091be9cca64d86c6701e99cc",
+        "sha256_in_prefix": "2ba16b1b55b90c7cb75d5869c744d97fa8bfd078091be9cca64d86c6701e99cc",
+        "size_in_bytes": 221184
+      },
+      {
+        "_path": "Library/bin/compact8_acceptor-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "4ddf0b3f188590673dad64c70509a55ac262c8a875fd8c889fe3b4d9788557d8",
+        "sha256_in_prefix": "4ddf0b3f188590673dad64c70509a55ac262c8a875fd8c889fe3b4d9788557d8",
+        "size_in_bytes": 220672
+      },
+      {
+        "_path": "Library/bin/compact8_string-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "22e923f84efc833a1ec1d8430a0ba9beb2a835f13df4a6724d65c4c797c7fb2e",
+        "sha256_in_prefix": "22e923f84efc833a1ec1d8430a0ba9beb2a835f13df4a6724d65c4c797c7fb2e",
+        "size_in_bytes": 215040
+      },
+      {
+        "_path": "Library/bin/compact8_unweighted-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "a08ca592d20d95cf04a85a7176644962265ce136cef15da82baab5276c1939f2",
+        "sha256_in_prefix": "a08ca592d20d95cf04a85a7176644962265ce136cef15da82baab5276c1939f2",
+        "size_in_bytes": 216064
+      },
+      {
+        "_path": "Library/bin/compact8_unweighted_acceptor-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "2ced169b9493eb894630ff80c8a6f95a5a780a14b65eccd35b67442b39c3147e",
+        "sha256_in_prefix": "2ced169b9493eb894630ff80c8a6f95a5a780a14b65eccd35b67442b39c3147e",
+        "size_in_bytes": 215552
+      },
+      {
+        "_path": "Library/bin/compact8_weighted_string-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "4b22a785f1fc90238d21b2fe16532ee2484366c4d37b01085c76e81951f05166",
+        "sha256_in_prefix": "4b22a785f1fc90238d21b2fe16532ee2484366c4d37b01085c76e81951f05166",
+        "size_in_bytes": 220672
+      },
+      {
+        "_path": "Library/bin/const16-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "8b457e49449a4a644cc95ec2b8a911bbd8461e4cde02cb44f1862d0719602c6c",
+        "sha256_in_prefix": "8b457e49449a4a644cc95ec2b8a911bbd8461e4cde02cb44f1862d0719602c6c",
+        "size_in_bytes": 124416
+      },
+      {
+        "_path": "Library/bin/const64-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "a519644306d43e256115fe2d477e7bbd514573c0529bba84ff98c4b0d7d99601",
+        "sha256_in_prefix": "a519644306d43e256115fe2d477e7bbd514573c0529bba84ff98c4b0d7d99601",
+        "size_in_bytes": 124416
+      },
+      {
+        "_path": "Library/bin/const8-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "c4d29708ff538413c9d70f25d85b372f5bfdb6b647722a6c91e6847378508863",
+        "sha256_in_prefix": "c4d29708ff538413c9d70f25d85b372f5bfdb6b647722a6c91e6847378508863",
+        "size_in_bytes": 124416
+      },
+      {
+        "_path": "Library/bin/farcompilestrings.exe",
+        "path_type": "hardlink",
+        "sha256": "25d5f8d5c0c6928cb0ac51b93570883549643012bc6555280754139e96833076",
+        "sha256_in_prefix": "25d5f8d5c0c6928cb0ac51b93570883549643012bc6555280754139e96833076",
+        "size_in_bytes": 55808
+      },
+      {
+        "_path": "Library/bin/farconvert.exe",
+        "path_type": "hardlink",
+        "sha256": "e18eb8dbcca9b308cc197e242508ff99a5e0813d2fe7f6f375a16c8fde32f4eb",
+        "sha256_in_prefix": "e18eb8dbcca9b308cc197e242508ff99a5e0813d2fe7f6f375a16c8fde32f4eb",
+        "size_in_bytes": 29184
+      },
+      {
+        "_path": "Library/bin/farcreate.exe",
+        "path_type": "hardlink",
+        "sha256": "f0821877bd2f5be30a7a249dfab19bf85206ba46a7cecc60e6c7fef4463679ea",
+        "sha256_in_prefix": "f0821877bd2f5be30a7a249dfab19bf85206ba46a7cecc60e6c7fef4463679ea",
+        "size_in_bytes": 51712
+      },
+      {
+        "_path": "Library/bin/farencode.exe",
+        "path_type": "hardlink",
+        "sha256": "09b669d06fcad846eaa8e9cb55fad318e011240c973b70b097f12e1c7e929369",
+        "sha256_in_prefix": "09b669d06fcad846eaa8e9cb55fad318e011240c973b70b097f12e1c7e929369",
+        "size_in_bytes": 33792
+      },
+      {
+        "_path": "Library/bin/farequal.exe",
+        "path_type": "hardlink",
+        "sha256": "d26524f2cf34b7f156feae38cd75f999a34f9b965eaf966bd213da506bf11700",
+        "sha256_in_prefix": "d26524f2cf34b7f156feae38cd75f999a34f9b965eaf966bd213da506bf11700",
+        "size_in_bytes": 30720
+      },
+      {
+        "_path": "Library/bin/farextract.exe",
+        "path_type": "hardlink",
+        "sha256": "b03e5d10025d3fd9fee06e14573b8c1c4ec21324edea1297556aa9164c8326cd",
+        "sha256_in_prefix": "b03e5d10025d3fd9fee06e14573b8c1c4ec21324edea1297556aa9164c8326cd",
+        "size_in_bytes": 33792
+      },
+      {
+        "_path": "Library/bin/farinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "72b83a83315be358a02e6f3d6a3cb42913e4bbe315b02ed9ab22ffceb1ba7598",
+        "sha256_in_prefix": "72b83a83315be358a02e6f3d6a3cb42913e4bbe315b02ed9ab22ffceb1ba7598",
+        "size_in_bytes": 28672
+      },
+      {
+        "_path": "Library/bin/farisomorphic.exe",
+        "path_type": "hardlink",
+        "sha256": "7b57a6d7352da8bfc5c410cccf6365bc96050243272b901f211960adfa2bdb7c",
+        "sha256_in_prefix": "7b57a6d7352da8bfc5c410cccf6365bc96050243272b901f211960adfa2bdb7c",
+        "size_in_bytes": 30720
+      },
+      {
+        "_path": "Library/bin/farprintstrings.exe",
+        "path_type": "hardlink",
+        "sha256": "81851858becfc12dbb1d82068cc8f19a1151fcb794e274737281f133e4439772",
+        "sha256_in_prefix": "81851858becfc12dbb1d82068cc8f19a1151fcb794e274737281f133e4439772",
+        "size_in_bytes": 39936
+      },
+      {
+        "_path": "Library/bin/fst.dll",
+        "path_type": "hardlink",
+        "sha256": "7edf6c2d99ac820f76a1f8c31762aece7b5bd4b5cd2d10a7da381e54a2479ee0",
+        "sha256_in_prefix": "7edf6c2d99ac820f76a1f8c31762aece7b5bd4b5cd2d10a7da381e54a2479ee0",
+        "size_in_bytes": 740352
+      },
+      {
+        "_path": "Library/bin/fstarcsort.exe",
+        "path_type": "hardlink",
+        "sha256": "d1b38364f45f8f63364b4bc1e194d93af969e67948b7679a691a3215f63aabf4",
+        "sha256_in_prefix": "d1b38364f45f8f63364b4bc1e194d93af969e67948b7679a691a3215f63aabf4",
+        "size_in_bytes": 25600
+      },
+      {
+        "_path": "Library/bin/fstclosure.exe",
+        "path_type": "hardlink",
+        "sha256": "f147abd77d6fe3bfcfc2ab7946977f766b8b5a52ba1a53a2a7f4499ce7d505fa",
+        "sha256_in_prefix": "f147abd77d6fe3bfcfc2ab7946977f766b8b5a52ba1a53a2a7f4499ce7d505fa",
+        "size_in_bytes": 26112
+      },
+      {
+        "_path": "Library/bin/fstcompact.dll",
+        "path_type": "hardlink",
+        "sha256": "978dbe8e14aca292cc01d38f257ecbbd3124dd97bb7c2340867b998ee256d477",
+        "sha256_in_prefix": "978dbe8e14aca292cc01d38f257ecbbd3124dd97bb7c2340867b998ee256d477",
+        "size_in_bytes": 1005056
+      },
+      {
+        "_path": "Library/bin/fstcompile.exe",
+        "path_type": "hardlink",
+        "sha256": "b7a2114334cbf4c6dd79e7b2efe94491558237932c823e6914cf4b2963f2eab1",
+        "sha256_in_prefix": "b7a2114334cbf4c6dd79e7b2efe94491558237932c823e6914cf4b2963f2eab1",
+        "size_in_bytes": 44544
+      },
+      {
+        "_path": "Library/bin/fstcompose.exe",
+        "path_type": "hardlink",
+        "sha256": "ae93a8b99e18b33323945c3122f8aae8a44780d7e125ad1e2e04709cfa16d0ad",
+        "sha256_in_prefix": "ae93a8b99e18b33323945c3122f8aae8a44780d7e125ad1e2e04709cfa16d0ad",
+        "size_in_bytes": 30208
+      },
+      {
+        "_path": "Library/bin/fstcompress.exe",
+        "path_type": "hardlink",
+        "sha256": "1c085d0af1bd64852db68837f82a00e7a519bf418a1ce1a4014a6390bc6df17b",
+        "sha256_in_prefix": "1c085d0af1bd64852db68837f82a00e7a519bf418a1ce1a4014a6390bc6df17b",
+        "size_in_bytes": 29696
+      },
+      {
+        "_path": "Library/bin/fstcompressscript.dll",
+        "path_type": "hardlink",
+        "sha256": "7bd4200556227d6b1ea658229e8c11ff8a0b6a2165bfaeaa80a108e0317903f1",
+        "sha256_in_prefix": "7bd4200556227d6b1ea658229e8c11ff8a0b6a2165bfaeaa80a108e0317903f1",
+        "size_in_bytes": 259072
+      },
+      {
+        "_path": "Library/bin/fstconcat.exe",
+        "path_type": "hardlink",
+        "sha256": "c834210a7a229facdb59b35ea6c75b01c1c6d28fd4da18c881f0bc057364da03",
+        "sha256_in_prefix": "c834210a7a229facdb59b35ea6c75b01c1c6d28fd4da18c881f0bc057364da03",
+        "size_in_bytes": 19456
+      },
+      {
+        "_path": "Library/bin/fstconnect.exe",
+        "path_type": "hardlink",
+        "sha256": "19737586db4536d4e75c0cfaad443c956ea42b9a83dfc3f21400cbb0ccbf1aec",
+        "sha256_in_prefix": "19737586db4536d4e75c0cfaad443c956ea42b9a83dfc3f21400cbb0ccbf1aec",
+        "size_in_bytes": 16384
+      },
+      {
+        "_path": "Library/bin/fstconst.dll",
+        "path_type": "hardlink",
+        "sha256": "50df20a690a8da2a5cdc519293434b23bc8e51eeb8caed3a7b7b80cfa663e268",
+        "sha256_in_prefix": "50df20a690a8da2a5cdc519293434b23bc8e51eeb8caed3a7b7b80cfa663e268",
+        "size_in_bytes": 180736
+      },
+      {
+        "_path": "Library/bin/fstconvert.exe",
+        "path_type": "hardlink",
+        "sha256": "5101d2de824c33fa999da6c464fdaf3f0af725d57a64a4754a98c9d2084fa9a0",
+        "sha256_in_prefix": "5101d2de824c33fa999da6c464fdaf3f0af725d57a64a4754a98c9d2084fa9a0",
+        "size_in_bytes": 23040
+      },
+      {
+        "_path": "Library/bin/fstdeterminize.exe",
+        "path_type": "hardlink",
+        "sha256": "73744cc8bd39f8abb9d084363f3369f9a510ea34e4aac6a8f4573d7b55da5d81",
+        "sha256_in_prefix": "73744cc8bd39f8abb9d084363f3369f9a510ea34e4aac6a8f4573d7b55da5d81",
+        "size_in_bytes": 35840
+      },
+      {
+        "_path": "Library/bin/fstdifference.exe",
+        "path_type": "hardlink",
+        "sha256": "cdb75bbf6bef1be39acc0984f0fad787560c02a6f234e5cff26d838601adccda",
+        "sha256_in_prefix": "cdb75bbf6bef1be39acc0984f0fad787560c02a6f234e5cff26d838601adccda",
+        "size_in_bytes": 29696
+      },
+      {
+        "_path": "Library/bin/fstdisambiguate.exe",
+        "path_type": "hardlink",
+        "sha256": "67795cf3c7bcbb6039d9e7e0a87f56e87225e7af84f09082f5659d7baa1fcaea",
+        "sha256_in_prefix": "67795cf3c7bcbb6039d9e7e0a87f56e87225e7af84f09082f5659d7baa1fcaea",
+        "size_in_bytes": 30208
+      },
+      {
+        "_path": "Library/bin/fstdraw.exe",
+        "path_type": "hardlink",
+        "sha256": "0baf5ebb494358897bc92ed0881135b20dc481842af45183ee53500ca2e3c96c",
+        "sha256_in_prefix": "0baf5ebb494358897bc92ed0881135b20dc481842af45183ee53500ca2e3c96c",
+        "size_in_bytes": 51712
+      },
+      {
+        "_path": "Library/bin/fstencode.exe",
+        "path_type": "hardlink",
+        "sha256": "4d806d5bf9d53f74e0da2ab85370a764cf4f9d8258321769384af56c5b77cbd7",
+        "sha256_in_prefix": "4d806d5bf9d53f74e0da2ab85370a764cf4f9d8258321769384af56c5b77cbd7",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/bin/fstepsnormalize.exe",
+        "path_type": "hardlink",
+        "sha256": "428533c98f7da2e92d32662769d3ffc07da53458fbaef86ccd137ede090612e8",
+        "sha256_in_prefix": "428533c98f7da2e92d32662769d3ffc07da53458fbaef86ccd137ede090612e8",
+        "size_in_bytes": 26112
+      },
+      {
+        "_path": "Library/bin/fstequal.exe",
+        "path_type": "hardlink",
+        "sha256": "b2f097f7dc538a73dab3a8411d59d6cfd526cbc02e1626160b7d1f324b46ed3b",
+        "sha256_in_prefix": "b2f097f7dc538a73dab3a8411d59d6cfd526cbc02e1626160b7d1f324b46ed3b",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/bin/fstequivalent.exe",
+        "path_type": "hardlink",
+        "sha256": "955694bb740bda1821bdbb21702db4992fbd45b039be5ea2ec47924a1040d47e",
+        "sha256_in_prefix": "955694bb740bda1821bdbb21702db4992fbd45b039be5ea2ec47924a1040d47e",
+        "size_in_bytes": 36864
+      },
+      {
+        "_path": "Library/bin/fstfar.dll",
+        "path_type": "hardlink",
+        "sha256": "c65914ae8e488064ca029d87162626514940b71695e0a1cb41d7e9589d68a0e2",
+        "sha256_in_prefix": "c65914ae8e488064ca029d87162626514940b71695e0a1cb41d7e9589d68a0e2",
+        "size_in_bytes": 26112
+      },
+      {
+        "_path": "Library/bin/fstfarscript.dll",
+        "path_type": "hardlink",
+        "sha256": "8d2ff58021df13e2db287e6f43cee36b4808dc4f4e8c0953f7d13ca1ca34e537",
+        "sha256_in_prefix": "8d2ff58021df13e2db287e6f43cee36b4808dc4f4e8c0953f7d13ca1ca34e537",
+        "size_in_bytes": 903680
+      },
+      {
+        "_path": "Library/bin/fstinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "048c8f61dabfe6609f7746cb59d3d93c89032e5527176eb69cef6c6da9f4ae01",
+        "sha256_in_prefix": "048c8f61dabfe6609f7746cb59d3d93c89032e5527176eb69cef6c6da9f4ae01",
+        "size_in_bytes": 43520
+      },
+      {
+        "_path": "Library/bin/fstintersect.exe",
+        "path_type": "hardlink",
+        "sha256": "f3b5c441bbc2eba81b9aca13fc4057313f8ebb59f692184da6bc9c881acdc57c",
+        "sha256_in_prefix": "f3b5c441bbc2eba81b9aca13fc4057313f8ebb59f692184da6bc9c881acdc57c",
+        "size_in_bytes": 29696
+      },
+      {
+        "_path": "Library/bin/fstinvert.exe",
+        "path_type": "hardlink",
+        "sha256": "2264db2b7a668653205f74ec582c62829f2175800859e357416b90b51c5a9169",
+        "sha256_in_prefix": "2264db2b7a668653205f74ec582c62829f2175800859e357416b90b51c5a9169",
+        "size_in_bytes": 15872
+      },
+      {
+        "_path": "Library/bin/fstisomorphic.exe",
+        "path_type": "hardlink",
+        "sha256": "e430ae4da07cbd9e6dcdf6bcaa65a8690a7cd58b1f1e6a064989c0e4fbdfd407",
+        "sha256_in_prefix": "e430ae4da07cbd9e6dcdf6bcaa65a8690a7cd58b1f1e6a064989c0e4fbdfd407",
+        "size_in_bytes": 24064
+      },
+      {
+        "_path": "Library/bin/fstlinear.exe",
+        "path_type": "hardlink",
+        "sha256": "7508d13c51958fa03de44e4e6029e9e4e276a6b936f26a74b7842acc6f769749",
+        "sha256_in_prefix": "7508d13c51958fa03de44e4e6029e9e4e276a6b936f26a74b7842acc6f769749",
+        "size_in_bytes": 26624
+      },
+      {
+        "_path": "Library/bin/fstlinearscript.dll",
+        "path_type": "hardlink",
+        "sha256": "2829121018ef627bef67d4a5b659f4415ed46f2fd275bcf4f4f3073f05ff3b87",
+        "sha256_in_prefix": "2829121018ef627bef67d4a5b659f4415ed46f2fd275bcf4f4f3073f05ff3b87",
+        "size_in_bytes": 365056
+      },
+      {
+        "_path": "Library/bin/fstloglinearapply.exe",
+        "path_type": "hardlink",
+        "sha256": "d94d034323c9f16b6a3435c2ada2127c608c36f2935bfaca375fa856fc1e5ab3",
+        "sha256_in_prefix": "d94d034323c9f16b6a3435c2ada2127c608c36f2935bfaca375fa856fc1e5ab3",
+        "size_in_bytes": 859648
+      },
+      {
+        "_path": "Library/bin/fstlookahead.dll",
+        "path_type": "hardlink",
+        "sha256": "04285cdcbe72ce31f844494d2f973d6d4e8aaca101e62e6789fa5136eac561e7",
+        "sha256_in_prefix": "04285cdcbe72ce31f844494d2f973d6d4e8aaca101e62e6789fa5136eac561e7",
+        "size_in_bytes": 396800
+      },
+      {
+        "_path": "Library/bin/fstmap.exe",
+        "path_type": "hardlink",
+        "sha256": "3ba30f6d4f83ff8c3535048dde3db4de3dd2c4de601a7d26083d743bf5f62b75",
+        "sha256_in_prefix": "3ba30f6d4f83ff8c3535048dde3db4de3dd2c4de601a7d26083d743bf5f62b75",
+        "size_in_bytes": 32256
+      },
+      {
+        "_path": "Library/bin/fstminimize.exe",
+        "path_type": "hardlink",
+        "sha256": "58008e08963c59bf119b985e79f250dbd5319e0165cfa3ba212236512f088a06",
+        "sha256_in_prefix": "58008e08963c59bf119b985e79f250dbd5319e0165cfa3ba212236512f088a06",
+        "size_in_bytes": 29696
+      },
+      {
+        "_path": "Library/bin/fstmpdtscript.dll",
+        "path_type": "hardlink",
+        "sha256": "509e61f5354587615b1e7316ecee5bd9862b60be1a79fe06ab0d688f90a14414",
+        "sha256_in_prefix": "509e61f5354587615b1e7316ecee5bd9862b60be1a79fe06ab0d688f90a14414",
+        "size_in_bytes": 338944
+      },
+      {
+        "_path": "Library/bin/fstngram.dll",
+        "path_type": "hardlink",
+        "sha256": "8b13a9e426f019f82069cf066d54b2beedf22e703971c12164de10497f9ade8e",
+        "sha256_in_prefix": "8b13a9e426f019f82069cf066d54b2beedf22e703971c12164de10497f9ade8e",
+        "size_in_bytes": 170496
+      },
+      {
+        "_path": "Library/bin/fstpdtscript.dll",
+        "path_type": "hardlink",
+        "sha256": "d0e5f2196224a5a7fa56830fc8c68608dfda608eacd46ca5a9c6dbda0de92677",
+        "sha256_in_prefix": "d0e5f2196224a5a7fa56830fc8c68608dfda608eacd46ca5a9c6dbda0de92677",
+        "size_in_bytes": 595968
+      },
+      {
+        "_path": "Library/bin/fstprint.exe",
+        "path_type": "hardlink",
+        "sha256": "fb7a3ef875d9b9649aee492eab25d48d33c253de83f491fd65912ba78d9d630d",
+        "sha256_in_prefix": "fb7a3ef875d9b9649aee492eab25d48d33c253de83f491fd65912ba78d9d630d",
+        "size_in_bytes": 45568
+      },
+      {
+        "_path": "Library/bin/fstproject.exe",
+        "path_type": "hardlink",
+        "sha256": "231ead5f3803ad49acf4544d8025a3c38a524f7528038f80adb448c440808ea3",
+        "sha256_in_prefix": "231ead5f3803ad49acf4544d8025a3c38a524f7528038f80adb448c440808ea3",
+        "size_in_bytes": 26112
+      },
+      {
+        "_path": "Library/bin/fstprune.exe",
+        "path_type": "hardlink",
+        "sha256": "08ae25c5be808aaeb7b179bfdbe960a3dd4bfc5ca6156501e7ad163e4ffca1da",
+        "sha256_in_prefix": "08ae25c5be808aaeb7b179bfdbe960a3dd4bfc5ca6156501e7ad163e4ffca1da",
+        "size_in_bytes": 29184
+      },
+      {
+        "_path": "Library/bin/fstpush.exe",
+        "path_type": "hardlink",
+        "sha256": "15294b95a01230d9ed73ca8323a8e38e56e96965a90b94d1a2b63c13d3baea7a",
+        "sha256_in_prefix": "15294b95a01230d9ed73ca8323a8e38e56e96965a90b94d1a2b63c13d3baea7a",
+        "size_in_bytes": 32768
+      },
+      {
+        "_path": "Library/bin/fstrandgen.exe",
+        "path_type": "hardlink",
+        "sha256": "ecc08b09adcfc6ae4e05f369127f480d5b3155f881599394e467b71375d8324a",
+        "sha256_in_prefix": "ecc08b09adcfc6ae4e05f369127f480d5b3155f881599394e467b71375d8324a",
+        "size_in_bytes": 34816
+      },
+      {
+        "_path": "Library/bin/fstrelabel.exe",
+        "path_type": "hardlink",
+        "sha256": "d401cce9faff34c8560014f97902ec949b10a29f3b5b385a689d8b243dd9a257",
+        "sha256_in_prefix": "d401cce9faff34c8560014f97902ec949b10a29f3b5b385a689d8b243dd9a257",
+        "size_in_bytes": 47104
+      },
+      {
+        "_path": "Library/bin/fstreplace.exe",
+        "path_type": "hardlink",
+        "sha256": "ad9b5ee575c3798b74896bec587139189da08a4102e735788b17c8d5461a278d",
+        "sha256_in_prefix": "ad9b5ee575c3798b74896bec587139189da08a4102e735788b17c8d5461a278d",
+        "size_in_bytes": 36352
+      },
+      {
+        "_path": "Library/bin/fstreverse.exe",
+        "path_type": "hardlink",
+        "sha256": "d8498d29a742285130175ad8218c5bcbcf5911cc606ea4945990f6592cc07ca1",
+        "sha256_in_prefix": "d8498d29a742285130175ad8218c5bcbcf5911cc606ea4945990f6592cc07ca1",
+        "size_in_bytes": 21504
+      },
+      {
+        "_path": "Library/bin/fstreweight.exe",
+        "path_type": "hardlink",
+        "sha256": "a1f57a754ddbe93e4c982fd3fdc6aa285758593466bf524b1233dc0ecad87e09",
+        "sha256_in_prefix": "a1f57a754ddbe93e4c982fd3fdc6aa285758593466bf524b1233dc0ecad87e09",
+        "size_in_bytes": 27648
+      },
+      {
+        "_path": "Library/bin/fstrmepsilon.exe",
+        "path_type": "hardlink",
+        "sha256": "e1ab51ae1c070c1d558b73fe1cdf4d3d75d0be7dec886e3d7271f30311f5a134",
+        "sha256_in_prefix": "e1ab51ae1c070c1d558b73fe1cdf4d3d75d0be7dec886e3d7271f30311f5a134",
+        "size_in_bytes": 34304
+      },
+      {
+        "_path": "Library/bin/fstscript.dll",
+        "path_type": "hardlink",
+        "sha256": "e185c164e7b66c6b9b0083358cf0cd126d7e20c8fe325d525d8e0d560bddd366",
+        "sha256_in_prefix": "e185c164e7b66c6b9b0083358cf0cd126d7e20c8fe325d525d8e0d560bddd366",
+        "size_in_bytes": 4171264
+      },
+      {
+        "_path": "Library/bin/fstshortestdistance.exe",
+        "path_type": "hardlink",
+        "sha256": "50eb131ad178b6ab07755ee8b78b709a36614d2a6c2d67a6c7b1814b37de08ce",
+        "sha256_in_prefix": "50eb131ad178b6ab07755ee8b78b709a36614d2a6c2d67a6c7b1814b37de08ce",
+        "size_in_bytes": 33280
+      },
+      {
+        "_path": "Library/bin/fstshortestpath.exe",
+        "path_type": "hardlink",
+        "sha256": "d301fd4ec96052f4ad456a22e3dca0db5eddfe58c9578e44f67fd776879b3421",
+        "sha256_in_prefix": "d301fd4ec96052f4ad456a22e3dca0db5eddfe58c9578e44f67fd776879b3421",
+        "size_in_bytes": 37376
+      },
+      {
+        "_path": "Library/bin/fstspecial.dll",
+        "path_type": "hardlink",
+        "sha256": "1178de331b7c10fbf557fc253bd3096696cbd240b2c30c36febda79eabbab2bb",
+        "sha256_in_prefix": "1178de331b7c10fbf557fc253bd3096696cbd240b2c30c36febda79eabbab2bb",
+        "size_in_bytes": 385024
+      },
+      {
+        "_path": "Library/bin/fstspecialconvert.exe",
+        "path_type": "hardlink",
+        "sha256": "1fd01f487f0dc19293d0bd48b2998f5d25d023274e6be7f63742433676ff2945",
+        "sha256_in_prefix": "1fd01f487f0dc19293d0bd48b2998f5d25d023274e6be7f63742433676ff2945",
+        "size_in_bytes": 23040
+      },
+      {
+        "_path": "Library/bin/fstsymbols.exe",
+        "path_type": "hardlink",
+        "sha256": "e41fccf38aa33f0cf58363f8fd5dca3ab708ee91bc3fa9ebe80693b6d005abdc",
+        "sha256_in_prefix": "e41fccf38aa33f0cf58363f8fd5dca3ab708ee91bc3fa9ebe80693b6d005abdc",
+        "size_in_bytes": 51200
+      },
+      {
+        "_path": "Library/bin/fstsynchronize.exe",
+        "path_type": "hardlink",
+        "sha256": "a7de78b2d870fa9043a0bb4ba3e158a4f9aa2d5fce5eee9e577be77986c8c377",
+        "sha256_in_prefix": "a7de78b2d870fa9043a0bb4ba3e158a4f9aa2d5fce5eee9e577be77986c8c377",
+        "size_in_bytes": 16896
+      },
+      {
+        "_path": "Library/bin/fsttopsort.exe",
+        "path_type": "hardlink",
+        "sha256": "3d7ec023f9bae0a40f28baaf2a2374c17dcbe0987ac3f6a52c60c6bbb1d9e9c8",
+        "sha256_in_prefix": "3d7ec023f9bae0a40f28baaf2a2374c17dcbe0987ac3f6a52c60c6bbb1d9e9c8",
+        "size_in_bytes": 18944
+      },
+      {
+        "_path": "Library/bin/fstunion.exe",
+        "path_type": "hardlink",
+        "sha256": "0f508707fb0ee25f884c554edec0fe7e6cb7b7863707ec3b2e5f687b3ff19aa1",
+        "sha256_in_prefix": "0f508707fb0ee25f884c554edec0fe7e6cb7b7863707ec3b2e5f687b3ff19aa1",
+        "size_in_bytes": 19456
+      },
+      {
+        "_path": "Library/bin/ilabel_lookahead-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "811cfd0904a797d4887e247ff81fd8af05d2d7f9a74aadc814da5efcf41cdae9",
+        "sha256_in_prefix": "811cfd0904a797d4887e247ff81fd8af05d2d7f9a74aadc814da5efcf41cdae9",
+        "size_in_bytes": 329728
+      },
+      {
+        "_path": "Library/bin/linear-classifier-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "464edfbbe3779d3611172172fc2c064124fa8c270aa691bfa2f6fb04c9bfae4d",
+        "sha256_in_prefix": "464edfbbe3779d3611172172fc2c064124fa8c270aa691bfa2f6fb04c9bfae4d",
+        "size_in_bytes": 183296
+      },
+      {
+        "_path": "Library/bin/linear-tagger-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "90b1bd671b72fa2697c7094f9663ae01368ce0ab96fa3ca1160135706847d46d",
+        "sha256_in_prefix": "90b1bd671b72fa2697c7094f9663ae01368ce0ab96fa3ca1160135706847d46d",
+        "size_in_bytes": 184832
+      },
+      {
+        "_path": "Library/bin/mpdtcompose.exe",
+        "path_type": "hardlink",
+        "sha256": "127afb2744f33efae112cfb3135438bb91968064e50fcbc2471506a4289c109b",
+        "sha256_in_prefix": "127afb2744f33efae112cfb3135438bb91968064e50fcbc2471506a4289c109b",
+        "size_in_bytes": 47104
+      },
+      {
+        "_path": "Library/bin/mpdtexpand.exe",
+        "path_type": "hardlink",
+        "sha256": "fa721a38459ef91ec734b18162e10017c63e3f5eb03f6d5a7350bf2029551062",
+        "sha256_in_prefix": "fa721a38459ef91ec734b18162e10017c63e3f5eb03f6d5a7350bf2029551062",
+        "size_in_bytes": 45056
+      },
+      {
+        "_path": "Library/bin/mpdtinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "d7fcd9ebdcfa8f5aa371af0a16d5f3875d1dd593350caf961a578a9f81cd8ce8",
+        "sha256_in_prefix": "d7fcd9ebdcfa8f5aa371af0a16d5f3875d1dd593350caf961a578a9f81cd8ce8",
+        "size_in_bytes": 40960
+      },
+      {
+        "_path": "Library/bin/mpdtreverse.exe",
+        "path_type": "hardlink",
+        "sha256": "dfa1a83a9d077b02c6f4c8a62096b1bf8389a9a5fd997558e5508b671023c694",
+        "sha256_in_prefix": "dfa1a83a9d077b02c6f4c8a62096b1bf8389a9a5fd997558e5508b671023c694",
+        "size_in_bytes": 45568
+      },
+      {
+        "_path": "Library/bin/olabel_lookahead-fst.dll",
+        "path_type": "hardlink",
+        "sha256": "5e512ddb729bec8e4a6e03e149e404a957482054391e0020d824c912a4d4e0e9",
+        "sha256_in_prefix": "5e512ddb729bec8e4a6e03e149e404a957482054391e0020d824c912a4d4e0e9",
+        "size_in_bytes": 329728
+      },
+      {
+        "_path": "Library/bin/pdtcompose.exe",
+        "path_type": "hardlink",
+        "sha256": "8f61baec8f0c5dd49287ea8e0af1fa1fa06423b261b3403011cefa29e0ca0acf",
+        "sha256_in_prefix": "8f61baec8f0c5dd49287ea8e0af1fa1fa06423b261b3403011cefa29e0ca0acf",
+        "size_in_bytes": 46080
+      },
+      {
+        "_path": "Library/bin/pdtexpand.exe",
+        "path_type": "hardlink",
+        "sha256": "d7c074e33c95889f49c6e00325e9c47fd14a55471424d0d5281ec7ecee18fbc2",
+        "sha256_in_prefix": "d7c074e33c95889f49c6e00325e9c47fd14a55471424d0d5281ec7ecee18fbc2",
+        "size_in_bytes": 46080
+      },
+      {
+        "_path": "Library/bin/pdtinfo.exe",
+        "path_type": "hardlink",
+        "sha256": "609ed8287bc8d3068e34158be82b0295245c504657ae39d49600dd472d0224fd",
+        "sha256_in_prefix": "609ed8287bc8d3068e34158be82b0295245c504657ae39d49600dd472d0224fd",
+        "size_in_bytes": 39936
+      },
+      {
+        "_path": "Library/bin/pdtreplace.exe",
+        "path_type": "hardlink",
+        "sha256": "2e7d4eb9c42b91392cd01817e87bddc3ac84ea506ce6ca9fc2e41eba166c60ae",
+        "sha256_in_prefix": "2e7d4eb9c42b91392cd01817e87bddc3ac84ea506ce6ca9fc2e41eba166c60ae",
+        "size_in_bytes": 47616
+      },
+      {
+        "_path": "Library/bin/pdtreverse.exe",
+        "path_type": "hardlink",
+        "sha256": "93d60414783ab2d7faa5a29b7afa236bc75d74ce3e14dfda8258d4f8255cc1b8",
+        "sha256_in_prefix": "93d60414783ab2d7faa5a29b7afa236bc75d74ce3e14dfda8258d4f8255cc1b8",
+        "size_in_bytes": 40448
+      },
+      {
+        "_path": "Library/bin/pdtshortestpath.exe",
+        "path_type": "hardlink",
+        "sha256": "b6a88ca4c5ac4b765ca4374e04c30c515bb7d9d5641cbea0556af8e957c5ebe0",
+        "sha256_in_prefix": "b6a88ca4c5ac4b765ca4374e04c30c515bb7d9d5641cbea0556af8e957c5ebe0",
+        "size_in_bytes": 45568
+      },
+      {
+        "_path": "Library/include/fst/accumulator.h",
+        "path_type": "hardlink",
+        "sha256": "e0c84e5267be0567d7fbea7afdfcb6ac75bbdc461cb0f80566c278ba252144e2",
+        "sha256_in_prefix": "e0c84e5267be0567d7fbea7afdfcb6ac75bbdc461cb0f80566c278ba252144e2",
+        "size_in_bytes": 30980
+      },
+      {
+        "_path": "Library/include/fst/add-on.h",
+        "path_type": "hardlink",
+        "sha256": "5703e0f9d61184aa1d8b1ad51d2eb40109a2b4d1ccee476b3553f72f1407995d",
+        "sha256_in_prefix": "5703e0f9d61184aa1d8b1ad51d2eb40109a2b4d1ccee476b3553f72f1407995d",
+        "size_in_bytes": 7941
+      },
+      {
+        "_path": "Library/include/fst/arc-arena.h",
+        "path_type": "hardlink",
+        "sha256": "2e57eb5d4ab5760fc250922b3800ba7580a4e1164ec8ae27f332e54b781d6c02",
+        "sha256_in_prefix": "2e57eb5d4ab5760fc250922b3800ba7580a4e1164ec8ae27f332e54b781d6c02",
+        "size_in_bytes": 7177
+      },
+      {
+        "_path": "Library/include/fst/arc-map.h",
+        "path_type": "hardlink",
+        "sha256": "a552d487ec1e777dad90b48b5a45d4b4ce98593e03e38a61bb7a6591ae5d2842",
+        "sha256_in_prefix": "a552d487ec1e777dad90b48b5a45d4b4ce98593e03e38a61bb7a6591ae5d2842",
+        "size_in_bytes": 41109
+      },
+      {
+        "_path": "Library/include/fst/arc.h",
+        "path_type": "hardlink",
+        "sha256": "c48c4350c02632bf23a267d310ac3a1374351299a266f2933c3ebb973d33fb82",
+        "sha256_in_prefix": "c48c4350c02632bf23a267d310ac3a1374351299a266f2933c3ebb973d33fb82",
+        "size_in_bytes": 7267
+      },
+      {
+        "_path": "Library/include/fst/arcfilter.h",
+        "path_type": "hardlink",
+        "sha256": "7ee2e69307af7a6e6e26f01383b3e49b376d479bd3430904a2aacedef2e2e267",
+        "sha256_in_prefix": "7ee2e69307af7a6e6e26f01383b3e49b376d479bd3430904a2aacedef2e2e267",
+        "size_in_bytes": 2907
+      },
+      {
+        "_path": "Library/include/fst/arcsort.h",
+        "path_type": "hardlink",
+        "sha256": "e39d8def8bbadb065e366cee0bdc96323da8414a1f7cc0425d63f636b31c0b0e",
+        "sha256_in_prefix": "e39d8def8bbadb065e366cee0bdc96323da8414a1f7cc0425d63f636b31c0b0e",
+        "size_in_bytes": 7516
+      },
+      {
+        "_path": "Library/include/fst/bi-table.h",
+        "path_type": "hardlink",
+        "sha256": "6ebd7aa7f6dc00867402968c640518c64deb00c0f9f055486d210ac908ae58da",
+        "sha256_in_prefix": "6ebd7aa7f6dc00867402968c640518c64deb00c0f9f055486d210ac908ae58da",
+        "size_in_bytes": 14475
+      },
+      {
+        "_path": "Library/include/fst/cache.h",
+        "path_type": "hardlink",
+        "sha256": "ab2166aedddc5c7e6036b2e1313852c254b759aeceed04b466ffa5d1612c2c4d",
+        "sha256_in_prefix": "ab2166aedddc5c7e6036b2e1313852c254b759aeceed04b466ffa5d1612c2c4d",
+        "size_in_bytes": 43157
+      },
+      {
+        "_path": "Library/include/fst/cc-visitors.h",
+        "path_type": "hardlink",
+        "sha256": "a075c13daf13425905560fbaa487adb230b84bfe7443c985beaff6aaf1cd8fec",
+        "sha256_in_prefix": "a075c13daf13425905560fbaa487adb230b84bfe7443c985beaff6aaf1cd8fec",
+        "size_in_bytes": 7852
+      },
+      {
+        "_path": "Library/include/fst/closure.h",
+        "path_type": "hardlink",
+        "sha256": "935e2e21bfa92eeb6c79bfeb5db23231c0f7076c8bc6225aec9d84692ccff681",
+        "sha256_in_prefix": "935e2e21bfa92eeb6c79bfeb5db23231c0f7076c8bc6225aec9d84692ccff681",
+        "size_in_bytes": 4989
+      },
+      {
+        "_path": "Library/include/fst/compact-fst.h",
+        "path_type": "hardlink",
+        "sha256": "e8a65e6a29c0ed6b6365ef4694e4f79d698510c3633f61ae06184d52dac656a9",
+        "sha256_in_prefix": "e8a65e6a29c0ed6b6365ef4694e4f79d698510c3633f61ae06184d52dac656a9",
+        "size_in_bytes": 58342
+      },
+      {
+        "_path": "Library/include/fst/compat.h",
+        "path_type": "hardlink",
+        "sha256": "aad1c3882aaefc4eb10615737e565d8610b233b0e63edbb1d182a3823476cca7",
+        "sha256_in_prefix": "aad1c3882aaefc4eb10615737e565d8610b233b0e63edbb1d182a3823476cca7",
+        "size_in_bytes": 9259
+      },
+      {
+        "_path": "Library/include/fst/complement.h",
+        "path_type": "hardlink",
+        "sha256": "b0add1d6ce81ec6b0ad79338524d7f3704b3cb31b77682b707e4b1251216cbe4",
+        "sha256_in_prefix": "b0add1d6ce81ec6b0ad79338524d7f3704b3cb31b77682b707e4b1251216cbe4",
+        "size_in_bytes": 8450
+      },
+      {
+        "_path": "Library/include/fst/compose-filter.h",
+        "path_type": "hardlink",
+        "sha256": "2ddfdc5629b192511263e9f6f0e9ef673bc85463a2e042ec2ff565d15869df65",
+        "sha256_in_prefix": "2ddfdc5629b192511263e9f6f0e9ef673bc85463a2e042ec2ff565d15869df65",
+        "size_in_bytes": 20549
+      },
+      {
+        "_path": "Library/include/fst/compose.h",
+        "path_type": "hardlink",
+        "sha256": "eaaf3f6fd40cd640ad54136e03d7bad5e568642fbf3d1e0d89d647e639d0b145",
+        "sha256_in_prefix": "eaaf3f6fd40cd640ad54136e03d7bad5e568642fbf3d1e0d89d647e639d0b145",
+        "size_in_bytes": 39937
+      },
+      {
+        "_path": "Library/include/fst/concat.h",
+        "path_type": "hardlink",
+        "sha256": "b27331521d10494c4f33d84e2b2bd71f92eb39eea2dd0d1b59c62250e5535dc8",
+        "sha256_in_prefix": "b27331521d10494c4f33d84e2b2bd71f92eb39eea2dd0d1b59c62250e5535dc8",
+        "size_in_bytes": 8524
+      },
+      {
+        "_path": "Library/include/fst/connect.h",
+        "path_type": "hardlink",
+        "sha256": "b5e2964e315edcc073a6a097943e790623d53a0d83aea4044fc75237bbd062fe",
+        "sha256_in_prefix": "b5e2964e315edcc073a6a097943e790623d53a0d83aea4044fc75237bbd062fe",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "Library/include/fst/const-fst.h",
+        "path_type": "hardlink",
+        "sha256": "f9339fe042e167998c8083e2b43c8207e0f5d329eaa3953b7826da056ab8028f",
+        "sha256_in_prefix": "f9339fe042e167998c8083e2b43c8207e0f5d329eaa3953b7826da056ab8028f",
+        "size_in_bytes": 15904
+      },
+      {
+        "_path": "Library/include/fst/determinize.h",
+        "path_type": "hardlink",
+        "sha256": "1fa97668eab8cafca5cf9555ee4c767594060b63754b1385a9e3040213914e50",
+        "sha256_in_prefix": "1fa97668eab8cafca5cf9555ee4c767594060b63754b1385a9e3040213914e50",
+        "size_in_bytes": 42015
+      },
+      {
+        "_path": "Library/include/fst/dfs-visit.h",
+        "path_type": "hardlink",
+        "sha256": "ef43b474b916eb617566866610609785c41d5932318b2872c2e7c5d37f37b1ef",
+        "sha256_in_prefix": "ef43b474b916eb617566866610609785c41d5932318b2872c2e7c5d37f37b1ef",
+        "size_in_bytes": 7444
+      },
+      {
+        "_path": "Library/include/fst/difference.h",
+        "path_type": "hardlink",
+        "sha256": "a95f17222b53cac99c70988d9f0665b97c20b75360b562bfa1c81bee45c6491b",
+        "sha256_in_prefix": "a95f17222b53cac99c70988d9f0665b97c20b75360b562bfa1c81bee45c6491b",
+        "size_in_bytes": 7854
+      },
+      {
+        "_path": "Library/include/fst/disambiguate.h",
+        "path_type": "hardlink",
+        "sha256": "b829abdb65dcb3af51e1c9c2fb4f98d0f1d0a1872f4019cf0bc07616de444164",
+        "sha256_in_prefix": "b829abdb65dcb3af51e1c9c2fb4f98d0f1d0a1872f4019cf0bc07616de444164",
+        "size_in_bytes": 21525
+      },
+      {
+        "_path": "Library/include/fst/edit-fst.h",
+        "path_type": "hardlink",
+        "sha256": "37de9e4cbd09b2b37c7579c58dbab3589ff63ec64ddced2c8da1320b1ce8963f",
+        "sha256_in_prefix": "37de9e4cbd09b2b37c7579c58dbab3589ff63ec64ddced2c8da1320b1ce8963f",
+        "size_in_bytes": 28042
+      },
+      {
+        "_path": "Library/include/fst/encode.h",
+        "path_type": "hardlink",
+        "sha256": "481b3f1dc6449411d6d395c4967f8136471c4803b5bc441ee228353f8c09988f",
+        "sha256_in_prefix": "481b3f1dc6449411d6d395c4967f8136471c4803b5bc441ee228353f8c09988f",
+        "size_in_bytes": 19948
+      },
+      {
+        "_path": "Library/include/fst/epsnormalize.h",
+        "path_type": "hardlink",
+        "sha256": "ca2a81521d6caf35a2602b02f8161dd3da533ce96e2d240faf7205f09a41826c",
+        "sha256_in_prefix": "ca2a81521d6caf35a2602b02f8161dd3da533ce96e2d240faf7205f09a41826c",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "Library/include/fst/equal.h",
+        "path_type": "hardlink",
+        "sha256": "b4b63731fae3d64d74dc79be7a76c5bbe783e6c5d398746e6777603ab87b6711",
+        "sha256_in_prefix": "b4b63731fae3d64d74dc79be7a76c5bbe783e6c5d398746e6777603ab87b6711",
+        "size_in_bytes": 6894
+      },
+      {
+        "_path": "Library/include/fst/equivalent.h",
+        "path_type": "hardlink",
+        "sha256": "ee26046cb8b26a87a33b08942856b3ba1d00ef5250d1cf8215a81ba8361bd832",
+        "sha256_in_prefix": "ee26046cb8b26a87a33b08942856b3ba1d00ef5250d1cf8215a81ba8361bd832",
+        "size_in_bytes": 9369
+      },
+      {
+        "_path": "Library/include/fst/error-weight.h",
+        "path_type": "hardlink",
+        "sha256": "d83573074eac3bc284b2c73f59453a3eb6d2d6e10f11c10e195482fada731a1f",
+        "sha256_in_prefix": "d83573074eac3bc284b2c73f59453a3eb6d2d6e10f11c10e195482fada731a1f",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "Library/include/fst/expanded-fst.h",
+        "path_type": "hardlink",
+        "sha256": "5e6ca9b1fc7c806cb0ae0b35cb22e09d3162cecde89c25356e5b80a08bc56bd0",
+        "sha256_in_prefix": "5e6ca9b1fc7c806cb0ae0b35cb22e09d3162cecde89c25356e5b80a08bc56bd0",
+        "size_in_bytes": 6701
+      },
+      {
+        "_path": "Library/include/fst/expander-cache.h",
+        "path_type": "hardlink",
+        "sha256": "9946ebc634119d2e62f61279b21c1c3f9fad44449c1aa23e4278c384eb77daf4",
+        "sha256_in_prefix": "9946ebc634119d2e62f61279b21c1c3f9fad44449c1aa23e4278c384eb77daf4",
+        "size_in_bytes": 6677
+      },
+      {
+        "_path": "Library/include/fst/expectation-weight.h",
+        "path_type": "hardlink",
+        "sha256": "df9cb321ec649ccbd36f4054bc785d2672e0fa867b5abda3cabd4cf9c4e8d06d",
+        "sha256_in_prefix": "df9cb321ec649ccbd36f4054bc785d2672e0fa867b5abda3cabd4cf9c4e8d06d",
+        "size_in_bytes": 7727
+      },
+      {
+        "_path": "Library/include/fst/exports/exports.h",
+        "path_type": "hardlink",
+        "sha256": "0525b4240d30c11da312df3813eb0ba1ed3770fceeb6231d5922b885c78bcc15",
+        "sha256_in_prefix": "0525b4240d30c11da312df3813eb0ba1ed3770fceeb6231d5922b885c78bcc15",
+        "size_in_bytes": 1012
+      },
+      {
+        "_path": "Library/include/fst/exports/fst_Export.h",
+        "path_type": "hardlink",
+        "sha256": "5b79eacfb9057b85475635811b1daa8551d158072cadca12756d6da34372cbb1",
+        "sha256_in_prefix": "5b79eacfb9057b85475635811b1daa8551d158072cadca12756d6da34372cbb1",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "Library/include/fst/exports/fstcompact_Export.h",
+        "path_type": "hardlink",
+        "sha256": "e0bff7338793f7235b19dbecb218e593ea4ed5acc248f7642c75b6b441659534",
+        "sha256_in_prefix": "e0bff7338793f7235b19dbecb218e593ea4ed5acc248f7642c75b6b441659534",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "Library/include/fst/exports/fstcompressscript_Export.h",
+        "path_type": "hardlink",
+        "sha256": "07f6b4a27ae5228596b05a476a8dfe877c44b16b95bebbe91e456cd99bae5a10",
+        "sha256_in_prefix": "07f6b4a27ae5228596b05a476a8dfe877c44b16b95bebbe91e456cd99bae5a10",
+        "size_in_bytes": 1192
+      },
+      {
+        "_path": "Library/include/fst/exports/fstconst_Export.h",
+        "path_type": "hardlink",
+        "sha256": "d90bd78156c095305126d1b19d576c74982a2fa22018910fefcbe40173fd256c",
+        "sha256_in_prefix": "d90bd78156c095305126d1b19d576c74982a2fa22018910fefcbe40173fd256c",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Library/include/fst/exports/fstfar_Export.h",
+        "path_type": "hardlink",
+        "sha256": "c5870b16aaf7ecb6ac3399883621c1a9aeaa89849745ea52db144fb06bccf14b",
+        "sha256_in_prefix": "c5870b16aaf7ecb6ac3399883621c1a9aeaa89849745ea52db144fb06bccf14b",
+        "size_in_bytes": 928
+      },
+      {
+        "_path": "Library/include/fst/exports/fstfarscript_Export.h",
+        "path_type": "hardlink",
+        "sha256": "8e16eeef81ecb372fa7c2ec406bd8015ec975b0e24086961745bc31a8f7b9090",
+        "sha256_in_prefix": "8e16eeef81ecb372fa7c2ec406bd8015ec975b0e24086961745bc31a8f7b9090",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "Library/include/fst/exports/fstlinearscript_Export.h",
+        "path_type": "hardlink",
+        "sha256": "932159ee8b54eadaa5cab168fe32fd2ce636726ec307e5af43e781492bb07a16",
+        "sha256_in_prefix": "932159ee8b54eadaa5cab168fe32fd2ce636726ec307e5af43e781492bb07a16",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "Library/include/fst/exports/fstmpdtscript_Export.h",
+        "path_type": "hardlink",
+        "sha256": "31719e6deae24f2d8124c8c47c4ff4e2a794befa8c6ba4ce5d225301401af657",
+        "sha256_in_prefix": "31719e6deae24f2d8124c8c47c4ff4e2a794befa8c6ba4ce5d225301401af657",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "Library/include/fst/exports/fstngram_Export.h",
+        "path_type": "hardlink",
+        "sha256": "da73c5464e7087f869e456d0948738e8c4363fc686809724ef4e712fe3ba5a03",
+        "sha256_in_prefix": "da73c5464e7087f869e456d0948738e8c4363fc686809724ef4e712fe3ba5a03",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "Library/include/fst/exports/fstpdtscript_Export.h",
+        "path_type": "hardlink",
+        "sha256": "f43f21d660da51a16653f359549046abc1d0875c362472e8214a0c8710bed1d4",
+        "sha256_in_prefix": "f43f21d660da51a16653f359549046abc1d0875c362472e8214a0c8710bed1d4",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "Library/include/fst/exports/fstscript_Export.h",
+        "path_type": "hardlink",
+        "sha256": "a21b78a0d833d1e5c597fe98cafa153daa43bc910e918f29cbf0cbba84304257",
+        "sha256_in_prefix": "a21b78a0d833d1e5c597fe98cafa153daa43bc910e918f29cbf0cbba84304257",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "Library/include/fst/exports/fstspecial_Export.h",
+        "path_type": "hardlink",
+        "sha256": "31211fa0774385a99b0649f92a1246b0473a71472158c9038e0031d89faf595e",
+        "sha256_in_prefix": "31211fa0774385a99b0649f92a1246b0473a71472158c9038e0031d89faf595e",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "Library/include/fst/extensions/compress/compress.h",
+        "path_type": "hardlink",
+        "sha256": "789459d7377eeb481c7a85ddae7f83e3b275dd0200c4367abca334c78122ff72",
+        "sha256_in_prefix": "789459d7377eeb481c7a85ddae7f83e3b275dd0200c4367abca334c78122ff72",
+        "size_in_bytes": 27345
+      },
+      {
+        "_path": "Library/include/fst/extensions/compress/compressscript.h",
+        "path_type": "hardlink",
+        "sha256": "e1c4f62a63baf01cd0b0314c40949620a52a85d466a0d1faf53ad9fa818ee8f6",
+        "sha256_in_prefix": "e1c4f62a63baf01cd0b0314c40949620a52a85d466a0d1faf53ad9fa818ee8f6",
+        "size_in_bytes": 2078
+      },
+      {
+        "_path": "Library/include/fst/extensions/compress/elias.h",
+        "path_type": "hardlink",
+        "sha256": "f2fc7f042a1148c62133595594dc72a0bf402e20579941f5ec306bedf53b829a",
+        "sha256_in_prefix": "f2fc7f042a1148c62133595594dc72a0bf402e20579941f5ec306bedf53b829a",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/compile-strings.h",
+        "path_type": "hardlink",
+        "sha256": "709686dbbd9df3dd2728346a9bcf2369b7dd36eaf0fe75ae038c4dda8e072cf4",
+        "sha256_in_prefix": "709686dbbd9df3dd2728346a9bcf2369b7dd36eaf0fe75ae038c4dda8e072cf4",
+        "size_in_bytes": 8783
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/convert.h",
+        "path_type": "hardlink",
+        "sha256": "d568676a553afde7ef7584aff2947b78a244315cd425264129123b8c1f67734c",
+        "sha256_in_prefix": "d568676a553afde7ef7584aff2947b78a244315cd425264129123b8c1f67734c",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/create.h",
+        "path_type": "hardlink",
+        "sha256": "6c52febe179c7c1f528215bc489cb77b9277c3a0aaf9868c04cff06c31f17cdb",
+        "sha256_in_prefix": "6c52febe179c7c1f528215bc489cb77b9277c3a0aaf9868c04cff06c31f17cdb",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/encode.h",
+        "path_type": "hardlink",
+        "sha256": "30b14115e46f9e07debb8076f8eea3519d48bbf1bab93b2d0e652e56f18815d6",
+        "sha256_in_prefix": "30b14115e46f9e07debb8076f8eea3519d48bbf1bab93b2d0e652e56f18815d6",
+        "size_in_bytes": 1782
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/equal.h",
+        "path_type": "hardlink",
+        "sha256": "7d7940a7947b7b1d210b5a07bec8d857d7f3c699779b16f877ce0fdd10e0d4be",
+        "sha256_in_prefix": "7d7940a7947b7b1d210b5a07bec8d857d7f3c699779b16f877ce0fdd10e0d4be",
+        "size_in_bytes": 1599
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/extract.h",
+        "path_type": "hardlink",
+        "sha256": "1b9079896bbd76bc61034a5d23c838bdb2cc78859a44ae8295417635666deb0a",
+        "sha256_in_prefix": "1b9079896bbd76bc61034a5d23c838bdb2cc78859a44ae8295417635666deb0a",
+        "size_in_bytes": 4273
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/far-class.h",
+        "path_type": "hardlink",
+        "sha256": "e92cd325e18154e570d9f55afc838a8c438453fede29a4c8d55d77de1e9890c4",
+        "sha256_in_prefix": "e92cd325e18154e570d9f55afc838a8c438453fede29a4c8d55d77de1e9890c4",
+        "size_in_bytes": 9079
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/far.h",
+        "path_type": "hardlink",
+        "sha256": "10e16c4d784f363f435bb30db96163c94051924ae5d51eed8d090d8495c87f7b",
+        "sha256_in_prefix": "10e16c4d784f363f435bb30db96163c94051924ae5d51eed8d090d8495c87f7b",
+        "size_in_bytes": 15515
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/farlib.h",
+        "path_type": "hardlink",
+        "sha256": "acdf71b797530c91bb2c7fcf212f3795e3eee91e81559b0208bbdcca149afc64",
+        "sha256_in_prefix": "acdf71b797530c91bb2c7fcf212f3795e3eee91e81559b0208bbdcca149afc64",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/farscript.h",
+        "path_type": "hardlink",
+        "sha256": "324471febb7f3af1c521fc74e7a100e8f93ac5a0058ff6bcc76a176770643484",
+        "sha256_in_prefix": "324471febb7f3af1c521fc74e7a100e8f93ac5a0058ff6bcc76a176770643484",
+        "size_in_bytes": 11392
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/getters.h",
+        "path_type": "hardlink",
+        "sha256": "5d0e1aa867855cf67976cc8c3293021619c2ca3d4760e1763cf4f264f86285d5",
+        "sha256_in_prefix": "5d0e1aa867855cf67976cc8c3293021619c2ca3d4760e1763cf4f264f86285d5",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/info.h",
+        "path_type": "hardlink",
+        "sha256": "ba842aef38640d2963e8bd30046ea1adb4d7186fbd80987ca102b4efdd863b3a",
+        "sha256_in_prefix": "ba842aef38640d2963e8bd30046ea1adb4d7186fbd80987ca102b4efdd863b3a",
+        "size_in_bytes": 5695
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/isomorphic.h",
+        "path_type": "hardlink",
+        "sha256": "7c0acec391ca81c460a34379408d8090aa8a787288a34276f258799fc4c986a6",
+        "sha256_in_prefix": "7c0acec391ca81c460a34379408d8090aa8a787288a34276f258799fc4c986a6",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/map-reduce.h",
+        "path_type": "hardlink",
+        "sha256": "5df679ecca2d11ff87bb0430f4a6b51355900563b39bd594e19f7e2fcb127807",
+        "sha256_in_prefix": "5df679ecca2d11ff87bb0430f4a6b51355900563b39bd594e19f7e2fcb127807",
+        "size_in_bytes": 4052
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/print-strings.h",
+        "path_type": "hardlink",
+        "sha256": "b3c74f9bac932624afdd189b6b26b7491f601b6a756d9b2549d9ae687c5a9bce",
+        "sha256_in_prefix": "b3c74f9bac932624afdd189b6b26b7491f601b6a756d9b2549d9ae687c5a9bce",
+        "size_in_bytes": 3904
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/script-impl.h",
+        "path_type": "hardlink",
+        "sha256": "05159a3a8a2ade45b07c428a2d4ca1402d1242f426eb5a2f6beaec7f2037cba3",
+        "sha256_in_prefix": "05159a3a8a2ade45b07c428a2d4ca1402d1242f426eb5a2f6beaec7f2037cba3",
+        "size_in_bytes": 1282
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/stlist.h",
+        "path_type": "hardlink",
+        "sha256": "8951cd0c63f31dcbfdeac6e11f7c04f030d1e8a26eba09e69de2e3dc66a2b0b1",
+        "sha256_in_prefix": "8951cd0c63f31dcbfdeac6e11f7c04f030d1e8a26eba09e69de2e3dc66a2b0b1",
+        "size_in_bytes": 9756
+      },
+      {
+        "_path": "Library/include/fst/extensions/far/sttable.h",
+        "path_type": "hardlink",
+        "sha256": "a28458d5ed2e458c717ead5b87b0cedc6a7ba311b5f45c952c3c344cf30e3891",
+        "sha256_in_prefix": "a28458d5ed2e458c717ead5b87b0cedc6a7ba311b5f45c952c3c344cf30e3891",
+        "size_in_bytes": 12235
+      },
+      {
+        "_path": "Library/include/fst/extensions/linear/linear-fst-data-builder.h",
+        "path_type": "hardlink",
+        "sha256": "d213aa5d0c4afdf7e3055508eae60da637d566d308c9c8c8eb4b5a3009200c25",
+        "sha256_in_prefix": "d213aa5d0c4afdf7e3055508eae60da637d566d308c9c8c8eb4b5a3009200c25",
+        "size_in_bytes": 41963
+      },
+      {
+        "_path": "Library/include/fst/extensions/linear/linear-fst-data.h",
+        "path_type": "hardlink",
+        "sha256": "d9f03259369b80f7e68b6b1b7ee8f63ebe6f391f43c1cddc584656a1fee27107",
+        "sha256_in_prefix": "d9f03259369b80f7e68b6b1b7ee8f63ebe6f391f43c1cddc584656a1fee27107",
+        "size_in_bytes": 18079
+      },
+      {
+        "_path": "Library/include/fst/extensions/linear/linear-fst.h",
+        "path_type": "hardlink",
+        "sha256": "72fd5bb6b66058e51c2ef9837aa5da9263ffe19d7b4d2462a458ea6441ca3ae5",
+        "sha256_in_prefix": "72fd5bb6b66058e51c2ef9837aa5da9263ffe19d7b4d2462a458ea6441ca3ae5",
+        "size_in_bytes": 41262
+      },
+      {
+        "_path": "Library/include/fst/extensions/linear/linearscript.h",
+        "path_type": "hardlink",
+        "sha256": "cf78ce8f5081ee2b4af345e352bddfdef1342c52656391edbe1f1f96264bbecd",
+        "sha256_in_prefix": "cf78ce8f5081ee2b4af345e352bddfdef1342c52656391edbe1f1f96264bbecd",
+        "size_in_bytes": 16291
+      },
+      {
+        "_path": "Library/include/fst/extensions/linear/loglinear-apply.h",
+        "path_type": "hardlink",
+        "sha256": "1bfa05f8e1df8ae8bd6c0c686a4d31d970ac847cc68b820ce0098a03fec3cbdd",
+        "sha256_in_prefix": "1bfa05f8e1df8ae8bd6c0c686a4d31d970ac847cc68b820ce0098a03fec3cbdd",
+        "size_in_bytes": 3350
+      },
+      {
+        "_path": "Library/include/fst/extensions/linear/trie.h",
+        "path_type": "hardlink",
+        "sha256": "9f7274efd7f3cc869660f769ecb782b07d4ec64b7cc7ca7c669f7c53040ff6f1",
+        "sha256_in_prefix": "9f7274efd7f3cc869660f769ecb782b07d4ec64b7cc7ca7c669f7c53040ff6f1",
+        "size_in_bytes": 13422
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/compose.h",
+        "path_type": "hardlink",
+        "sha256": "996ed410efefe2be547050fa8802631fca3ea9cc91eed3244312b373fade3c22",
+        "sha256_in_prefix": "996ed410efefe2be547050fa8802631fca3ea9cc91eed3244312b373fade3c22",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/expand.h",
+        "path_type": "hardlink",
+        "sha256": "2296d02d25f5346a42e5217a36080240b8657c2d4894380a52287d7b0e436622",
+        "sha256_in_prefix": "2296d02d25f5346a42e5217a36080240b8657c2d4894380a52287d7b0e436622",
+        "size_in_bytes": 12697
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/info.h",
+        "path_type": "hardlink",
+        "sha256": "214e312a9edf9cc59c5db25d8e7b8952b862981709be6fc9a85e26d3d5655c17",
+        "sha256_in_prefix": "214e312a9edf9cc59c5db25d8e7b8952b862981709be6fc9a85e26d3d5655c17",
+        "size_in_bytes": 6926
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/mpdt.h",
+        "path_type": "hardlink",
+        "sha256": "7fcc98f883aa7f0647703dc6d3c7ee59b7f78d7c9075efecef106132761d8c28",
+        "sha256_in_prefix": "7fcc98f883aa7f0647703dc6d3c7ee59b7f78d7c9075efecef106132761d8c28",
+        "size_in_bytes": 10807
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/mpdtlib.h",
+        "path_type": "hardlink",
+        "sha256": "62e4e81ad720921918b0f6263199d82883a5988a1202d6ec1b26ddcbf163a269",
+        "sha256_in_prefix": "62e4e81ad720921918b0f6263199d82883a5988a1202d6ec1b26ddcbf163a269",
+        "size_in_bytes": 1301
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/mpdtscript.h",
+        "path_type": "hardlink",
+        "sha256": "a9bc07b7f38e734a3938112ffda8e0e10c00ac55267250107de145f5d09e000c",
+        "sha256_in_prefix": "a9bc07b7f38e734a3938112ffda8e0e10c00ac55267250107de145f5d09e000c",
+        "size_in_bytes": 7047
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/read_write_utils.h",
+        "path_type": "hardlink",
+        "sha256": "529378694ee0e6defe44e4464588f226f3125e182a47966fd42f6354f01ac8b4",
+        "sha256_in_prefix": "529378694ee0e6defe44e4464588f226f3125e182a47966fd42f6354f01ac8b4",
+        "size_in_bytes": 3445
+      },
+      {
+        "_path": "Library/include/fst/extensions/mpdt/reverse.h",
+        "path_type": "hardlink",
+        "sha256": "8b3354f858951541a75f18e29e527c7e533f51233b53b08d42a241995a47cbd0",
+        "sha256_in_prefix": "8b3354f858951541a75f18e29e527c7e533f51233b53b08d42a241995a47cbd0",
+        "size_in_bytes": 2264
+      },
+      {
+        "_path": "Library/include/fst/extensions/ngram/bitmap-index.h",
+        "path_type": "hardlink",
+        "sha256": "f5bf761f4eadcb0ebed38836c6c986573e140bcc407d65805ccdcbdfeafc0c2b",
+        "sha256_in_prefix": "f5bf761f4eadcb0ebed38836c6c986573e140bcc407d65805ccdcbdfeafc0c2b",
+        "size_in_bytes": 14736
+      },
+      {
+        "_path": "Library/include/fst/extensions/ngram/ngram-fst.h",
+        "path_type": "hardlink",
+        "sha256": "e8c67b9068192b6190e3a97d765e8a4c285308f646483612236cad34d964adde",
+        "sha256_in_prefix": "e8c67b9068192b6190e3a97d765e8a4c285308f646483612236cad34d964adde",
+        "size_in_bytes": 35764
+      },
+      {
+        "_path": "Library/include/fst/extensions/ngram/nthbit.h",
+        "path_type": "hardlink",
+        "sha256": "377b2288de5e5833f1bbb52d7fe42ede1bf57fd831fcc265cf64b5632cf12a75",
+        "sha256_in_prefix": "377b2288de5e5833f1bbb52d7fe42ede1bf57fd831fcc265cf64b5632cf12a75",
+        "size_in_bytes": 4601
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/collection.h",
+        "path_type": "hardlink",
+        "sha256": "2b5e9cac7a17e6ae64e6e07f2e03e6e979e4fe67468b5a1ba8eb8e48b1e0da66",
+        "sha256_in_prefix": "2b5e9cac7a17e6ae64e6e07f2e03e6e979e4fe67468b5a1ba8eb8e48b1e0da66",
+        "size_in_bytes": 3496
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/compose.h",
+        "path_type": "hardlink",
+        "sha256": "61ed98aa1bed393859279f44ec5a2390ce885990b21d0d9954ffc7145bd20cec",
+        "sha256_in_prefix": "61ed98aa1bed393859279f44ec5a2390ce885990b21d0d9954ffc7145bd20cec",
+        "size_in_bytes": 17743
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/expand.h",
+        "path_type": "hardlink",
+        "sha256": "d500a4549c8d218dcb726cd21efc50148ca471df1d560a26cdaa529be5ed0207",
+        "sha256_in_prefix": "d500a4549c8d218dcb726cd21efc50148ca471df1d560a26cdaa529be5ed0207",
+        "size_in_bytes": 36104
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/getters.h",
+        "path_type": "hardlink",
+        "sha256": "21fb1b918856816f8db85505b7399f636e3e0448a5d71a9f37608e333cd10120",
+        "sha256_in_prefix": "21fb1b918856816f8db85505b7399f636e3e0448a5d71a9f37608e333cd10120",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/info.h",
+        "path_type": "hardlink",
+        "sha256": "e425fcac01426af90ae3363f68573ea7b47a85e54a542c673ad7c9cfd69ebf62",
+        "sha256_in_prefix": "e425fcac01426af90ae3363f68573ea7b47a85e54a542c673ad7c9cfd69ebf62",
+        "size_in_bytes": 5195
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/paren.h",
+        "path_type": "hardlink",
+        "sha256": "58ffd10e56a05956742d20da5905ddf1c119bcf16e747f9ac0f02203041b8ce0",
+        "sha256_in_prefix": "58ffd10e56a05956742d20da5905ddf1c119bcf16e747f9ac0f02203041b8ce0",
+        "size_in_bytes": 17089
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/pdt.h",
+        "path_type": "hardlink",
+        "sha256": "5192667fdf7d771b351b84a3a53ae6d0f132629365ea41bc934787d8ef932da6",
+        "sha256_in_prefix": "5192667fdf7d771b351b84a3a53ae6d0f132629365ea41bc934787d8ef932da6",
+        "size_in_bytes": 6118
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/pdtlib.h",
+        "path_type": "hardlink",
+        "sha256": "e07b60ebdab4d50f9dc9dade43d799e8e17808691f75c7bba7c49b916f8be9a8",
+        "sha256_in_prefix": "e07b60ebdab4d50f9dc9dade43d799e8e17808691f75c7bba7c49b916f8be9a8",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/pdtscript.h",
+        "path_type": "hardlink",
+        "sha256": "2bd674afe4afb739692b5703bdccadef6d81d09a43de2cc153d4d41462108770",
+        "sha256_in_prefix": "2bd674afe4afb739692b5703bdccadef6d81d09a43de2cc153d4d41462108770",
+        "size_in_bytes": 11147
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/replace.h",
+        "path_type": "hardlink",
+        "sha256": "f8d228317b92463861d5a03c47465877dca0f84059a5e2903e0ea83433298038",
+        "sha256_in_prefix": "f8d228317b92463861d5a03c47465877dca0f84059a5e2903e0ea83433298038",
+        "size_in_bytes": 33573
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/reverse.h",
+        "path_type": "hardlink",
+        "sha256": "953859c02209afc7fcb9291ec4b9ad3da944929dfb1f1bd2186ac6fabd104b15",
+        "sha256_in_prefix": "953859c02209afc7fcb9291ec4b9ad3da944929dfb1f1bd2186ac6fabd104b15",
+        "size_in_bytes": 1724
+      },
+      {
+        "_path": "Library/include/fst/extensions/pdt/shortest-path.h",
+        "path_type": "hardlink",
+        "sha256": "8b52d475e3d27910e60a4ce5007a2c9ad2266cab8c2ea188324ef6b5610390d0",
+        "sha256_in_prefix": "8b52d475e3d27910e60a4ce5007a2c9ad2266cab8c2ea188324ef6b5610390d0",
+        "size_in_bytes": 26406
+      },
+      {
+        "_path": "Library/include/fst/extensions/special/phi-fst.h",
+        "path_type": "hardlink",
+        "sha256": "e077a6d93d6ba8e5c37e8c18254d0c9ec291d392dc481c9ba18701d9d2c1b8ca",
+        "sha256_in_prefix": "e077a6d93d6ba8e5c37e8c18254d0c9ec291d392dc481c9ba18701d9d2c1b8ca",
+        "size_in_bytes": 6446
+      },
+      {
+        "_path": "Library/include/fst/extensions/special/rho-fst.h",
+        "path_type": "hardlink",
+        "sha256": "96c1d8fc0a4d8bb7f1968cbf45be82e012972270de6e4f70ea0f61d35a7f3d74",
+        "sha256_in_prefix": "96c1d8fc0a4d8bb7f1968cbf45be82e012972270de6e4f70ea0f61d35a7f3d74",
+        "size_in_bytes": 5977
+      },
+      {
+        "_path": "Library/include/fst/extensions/special/sigma-fst.h",
+        "path_type": "hardlink",
+        "sha256": "d1ebcbc826cb5884b919ad67969dbb4cbbe5778ba4e55ac060f61d2e4a732815",
+        "sha256_in_prefix": "d1ebcbc826cb5884b919ad67969dbb4cbbe5778ba4e55ac060f61d2e4a732815",
+        "size_in_bytes": 6031
+      },
+      {
+        "_path": "Library/include/fst/factor-weight.h",
+        "path_type": "hardlink",
+        "sha256": "35d93478ee0b111005e830080409de2a967715e2ab20a369309257c404611720",
+        "sha256_in_prefix": "35d93478ee0b111005e830080409de2a967715e2ab20a369309257c404611720",
+        "size_in_bytes": 17961
+      },
+      {
+        "_path": "Library/include/fst/filter-state.h",
+        "path_type": "hardlink",
+        "sha256": "84808766acfd3adf4f82c373492eea2dcaf4b541ee985c98457bb1de9f8e3093",
+        "sha256_in_prefix": "84808766acfd3adf4f82c373492eea2dcaf4b541ee985c98457bb1de9f8e3093",
+        "size_in_bytes": 5381
+      },
+      {
+        "_path": "Library/include/fst/flags.h",
+        "path_type": "hardlink",
+        "sha256": "4892601685a21899fb788b57e77172d7183ebc404f3ad0a3a207aa78ee05b550",
+        "sha256_in_prefix": "4892601685a21899fb788b57e77172d7183ebc404f3ad0a3a207aa78ee05b550",
+        "size_in_bytes": 9096
+      },
+      {
+        "_path": "Library/include/fst/float-weight.h",
+        "path_type": "hardlink",
+        "sha256": "b31c0c5e27825550ec416989b80e117090fe3ba2ab0fd25e3ac5283201350211",
+        "sha256_in_prefix": "b31c0c5e27825550ec416989b80e117090fe3ba2ab0fd25e3ac5283201350211",
+        "size_in_bytes": 39128
+      },
+      {
+        "_path": "Library/include/fst/fst-decl.h",
+        "path_type": "hardlink",
+        "sha256": "42c4abb6104bffdb6a2e772d52625f6ae2983c1fddd04349fadbb8f507442793",
+        "sha256_in_prefix": "42c4abb6104bffdb6a2e772d52625f6ae2983c1fddd04349fadbb8f507442793",
+        "size_in_bytes": 6440
+      },
+      {
+        "_path": "Library/include/fst/fst.h",
+        "path_type": "hardlink",
+        "sha256": "a7a03c49a25d02a8241013fe0d7f9e209f8c3622a69744db6fc03701094a7db9",
+        "sha256_in_prefix": "a7a03c49a25d02a8241013fe0d7f9e209f8c3622a69744db6fc03701094a7db9",
+        "size_in_bytes": 32676
+      },
+      {
+        "_path": "Library/include/fst/fstlib.h",
+        "path_type": "hardlink",
+        "sha256": "ac1600cea6929ca81cfd850a012be2ca6c38d20fccf04a6778e0ec2ed6430330",
+        "sha256_in_prefix": "ac1600cea6929ca81cfd850a012be2ca6c38d20fccf04a6778e0ec2ed6430330",
+        "size_in_bytes": 4382
+      },
+      {
+        "_path": "Library/include/fst/generic-register.h",
+        "path_type": "hardlink",
+        "sha256": "2a905e49a753107048f986feaa01077822506d4afe0feb779086d5cb5b0a1e9f",
+        "sha256_in_prefix": "2a905e49a753107048f986feaa01077822506d4afe0feb779086d5cb5b0a1e9f",
+        "size_in_bytes": 5585
+      },
+      {
+        "_path": "Library/include/fst/heap.h",
+        "path_type": "hardlink",
+        "sha256": "bf53f45abec10083113f451f871e5a96a5522bf01991c12aead461d2cec4bac2",
+        "sha256_in_prefix": "bf53f45abec10083113f451f871e5a96a5522bf01991c12aead461d2cec4bac2",
+        "size_in_bytes": 5187
+      },
+      {
+        "_path": "Library/include/fst/icu.h",
+        "path_type": "hardlink",
+        "sha256": "50c036c06de1726f045bfd3535b97f6da460ef3c788404efc4e3a6407d0c0ba7",
+        "sha256_in_prefix": "50c036c06de1726f045bfd3535b97f6da460ef3c788404efc4e3a6407d0c0ba7",
+        "size_in_bytes": 5249
+      },
+      {
+        "_path": "Library/include/fst/impl-to-fst.h",
+        "path_type": "hardlink",
+        "sha256": "10ba3ce6ce531f4404989d720889495c7d14fec14e60e35552b243ff1242ce25",
+        "sha256_in_prefix": "10ba3ce6ce531f4404989d720889495c7d14fec14e60e35552b243ff1242ce25",
+        "size_in_bytes": 4369
+      },
+      {
+        "_path": "Library/include/fst/intersect.h",
+        "path_type": "hardlink",
+        "sha256": "a2215e21944ee9a14ac77d206a9e66210c2fd8f794334c2cd76aeaa03de19125",
+        "sha256_in_prefix": "a2215e21944ee9a14ac77d206a9e66210c2fd8f794334c2cd76aeaa03de19125",
+        "size_in_bytes": 6614
+      },
+      {
+        "_path": "Library/include/fst/interval-set.h",
+        "path_type": "hardlink",
+        "sha256": "64e7f78b20140a0935f42e67a1cfca2291875692705082ace7617541af154218",
+        "sha256_in_prefix": "64e7f78b20140a0935f42e67a1cfca2291875692705082ace7617541af154218",
+        "size_in_bytes": 12998
+      },
+      {
+        "_path": "Library/include/fst/invert.h",
+        "path_type": "hardlink",
+        "sha256": "fd1263bea13bf2b6b9a936ab87aa4b668d04fc4e12afe5ca5cf026f11abd82b0",
+        "sha256_in_prefix": "fd1263bea13bf2b6b9a936ab87aa4b668d04fc4e12afe5ca5cf026f11abd82b0",
+        "size_in_bytes": 4680
+      },
+      {
+        "_path": "Library/include/fst/isomorphic.h",
+        "path_type": "hardlink",
+        "sha256": "054e9a97b6ec6534443672d184aa69a750f3241e9be61212f20581efcdf98468",
+        "sha256_in_prefix": "054e9a97b6ec6534443672d184aa69a750f3241e9be61212f20581efcdf98468",
+        "size_in_bytes": 9917
+      },
+      {
+        "_path": "Library/include/fst/label-reachable.h",
+        "path_type": "hardlink",
+        "sha256": "a8b168b73b7bdad29300edc9397092dcd1b0b3ed87fefd205eadd4d4977c8d63",
+        "sha256_in_prefix": "a8b168b73b7bdad29300edc9397092dcd1b0b3ed87fefd205eadd4d4977c8d63",
+        "size_in_bytes": 23347
+      },
+      {
+        "_path": "Library/include/fst/lexicographic-weight.h",
+        "path_type": "hardlink",
+        "sha256": "0d9b678db6c1577d15dff16085ac927408f6349cbcd305fc8a03197c9c7751bc",
+        "sha256_in_prefix": "0d9b678db6c1577d15dff16085ac927408f6349cbcd305fc8a03197c9c7751bc",
+        "size_in_bytes": 6379
+      },
+      {
+        "_path": "Library/include/fst/lock.h",
+        "path_type": "hardlink",
+        "sha256": "0142c5f98a984640882a2472f794a984343c23c2ab1e48e8c35b8f0c4c76bd98",
+        "sha256_in_prefix": "0142c5f98a984640882a2472f794a984343c23c2ab1e48e8c35b8f0c4c76bd98",
+        "size_in_bytes": 1995
+      },
+      {
+        "_path": "Library/include/fst/log.h",
+        "path_type": "hardlink",
+        "sha256": "187fdb00caab36cefad304225679c8b31578ffe6a175aaf9e6b792177bb0e99b",
+        "sha256_in_prefix": "187fdb00caab36cefad304225679c8b31578ffe6a175aaf9e6b792177bb0e99b",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "Library/include/fst/lookahead-filter.h",
+        "path_type": "hardlink",
+        "sha256": "e617f432da6f412a323bf80f8dd897b5ce6545cc9a788233ee27e03d8ec96c97",
+        "sha256_in_prefix": "e617f432da6f412a323bf80f8dd897b5ce6545cc9a788233ee27e03d8ec96c97",
+        "size_in_bytes": 24148
+      },
+      {
+        "_path": "Library/include/fst/lookahead-matcher.h",
+        "path_type": "hardlink",
+        "sha256": "1e8d24b94a12ccf9710bc07dcbd1b7bd4da057f8d2c363fa463fa2cd28f12a77",
+        "sha256_in_prefix": "1e8d24b94a12ccf9710bc07dcbd1b7bd4da057f8d2c363fa463fa2cd28f12a77",
+        "size_in_bytes": 30269
+      },
+      {
+        "_path": "Library/include/fst/mapped-file.h",
+        "path_type": "hardlink",
+        "sha256": "e2f9de19b79f641f5c863e82a1de5fc134315bff5153c05106a969ce9b93f403",
+        "sha256_in_prefix": "e2f9de19b79f641f5c863e82a1de5fc134315bff5153c05106a969ce9b93f403",
+        "size_in_bytes": 4234
+      },
+      {
+        "_path": "Library/include/fst/matcher-fst.h",
+        "path_type": "hardlink",
+        "sha256": "97263824aeff64e2a9e12d9cbde245c8a2fd6871945720655f34d47f4c89c0ce",
+        "sha256_in_prefix": "97263824aeff64e2a9e12d9cbde245c8a2fd6871945720655f34d47f4c89c0ce",
+        "size_in_bytes": 13108
+      },
+      {
+        "_path": "Library/include/fst/matcher.h",
+        "path_type": "hardlink",
+        "sha256": "8273fd76f0df4cd21e9dc5d8889fab26cd332f4bcb53d4a265d5d7183fb44799",
+        "sha256_in_prefix": "8273fd76f0df4cd21e9dc5d8889fab26cd332f4bcb53d4a265d5d7183fb44799",
+        "size_in_bytes": 52435
+      },
+      {
+        "_path": "Library/include/fst/memory.h",
+        "path_type": "hardlink",
+        "sha256": "7a64f0c0ba9e4a432249fa5a4019e5aff66f7a16cce67045c523a630c73dfb36",
+        "sha256_in_prefix": "7a64f0c0ba9e4a432249fa5a4019e5aff66f7a16cce67045c523a630c73dfb36",
+        "size_in_bytes": 11241
+      },
+      {
+        "_path": "Library/include/fst/minimize.h",
+        "path_type": "hardlink",
+        "sha256": "1da7871b527e0ab99350d6cc8b88ee45bbcafd0afd1150b18df4a3eb6c014119",
+        "sha256_in_prefix": "1da7871b527e0ab99350d6cc8b88ee45bbcafd0afd1150b18df4a3eb6c014119",
+        "size_in_bytes": 21644
+      },
+      {
+        "_path": "Library/include/fst/mutable-fst.h",
+        "path_type": "hardlink",
+        "sha256": "97780ba80cf6b2b1b80da55ec885cd3210ab9f51f7bf7d00cf0b3f4658721633",
+        "sha256_in_prefix": "97780ba80cf6b2b1b80da55ec885cd3210ab9f51f7bf7d00cf0b3f4658721633",
+        "size_in_bytes": 13086
+      },
+      {
+        "_path": "Library/include/fst/pair-weight.h",
+        "path_type": "hardlink",
+        "sha256": "1e8075ba079b6e2994757f5421008064cb2abf15af33974b1a58294a689ff9d3",
+        "sha256_in_prefix": "1e8075ba079b6e2994757f5421008064cb2abf15af33974b1a58294a689ff9d3",
+        "size_in_bytes": 4936
+      },
+      {
+        "_path": "Library/include/fst/partition.h",
+        "path_type": "hardlink",
+        "sha256": "2f96f72d707c69a63b988b2396711b8e9003b68e8dfcf31557cb811090ec85d9",
+        "sha256_in_prefix": "2f96f72d707c69a63b988b2396711b8e9003b68e8dfcf31557cb811090ec85d9",
+        "size_in_bytes": 13345
+      },
+      {
+        "_path": "Library/include/fst/power-weight-mappers.h",
+        "path_type": "hardlink",
+        "sha256": "888fc3cf99a0c0b962a04f0cbea1f07029a0fa7614d2f5d9c670e828a8c989c1",
+        "sha256_in_prefix": "888fc3cf99a0c0b962a04f0cbea1f07029a0fa7614d2f5d9c670e828a8c989c1",
+        "size_in_bytes": 3449
+      },
+      {
+        "_path": "Library/include/fst/power-weight.h",
+        "path_type": "hardlink",
+        "sha256": "f3d09a49ade0f44aee0ce036ce94a78546b4f143a330c461a3c7f0cce1eb446c",
+        "sha256_in_prefix": "f3d09a49ade0f44aee0ce036ce94a78546b4f143a330c461a3c7f0cce1eb446c",
+        "size_in_bytes": 5499
+      },
+      {
+        "_path": "Library/include/fst/product-weight.h",
+        "path_type": "hardlink",
+        "sha256": "2d7e7f6f9eba2edf5b199bdb1bb3370037cfcf9a25190afb6e780f330c1290f6",
+        "sha256_in_prefix": "2d7e7f6f9eba2edf5b199bdb1bb3370037cfcf9a25190afb6e780f330c1290f6",
+        "size_in_bytes": 4623
+      },
+      {
+        "_path": "Library/include/fst/project.h",
+        "path_type": "hardlink",
+        "sha256": "3632ad2cd2c95d9a4ba13238b68237014fd4ade6c08a1aab03c39a9a82d3a285",
+        "sha256_in_prefix": "3632ad2cd2c95d9a4ba13238b68237014fd4ade6c08a1aab03c39a9a82d3a285",
+        "size_in_bytes": 5624
+      },
+      {
+        "_path": "Library/include/fst/properties.h",
+        "path_type": "hardlink",
+        "sha256": "5d2ad8db7e191e3d9c888f42e89dea1d56d892f69c30c408580a5a5e80c4c472",
+        "sha256_in_prefix": "5d2ad8db7e191e3d9c888f42e89dea1d56d892f69c30c408580a5a5e80c4c472",
+        "size_in_bytes": 22341
+      },
+      {
+        "_path": "Library/include/fst/prune.h",
+        "path_type": "hardlink",
+        "sha256": "38af603ed9373def1f55e81ddef8f5367dc1dcace503ede45bbf6670ef70be90",
+        "sha256_in_prefix": "38af603ed9373def1f55e81ddef8f5367dc1dcace503ede45bbf6670ef70be90",
+        "size_in_bytes": 12973
+      },
+      {
+        "_path": "Library/include/fst/push.h",
+        "path_type": "hardlink",
+        "sha256": "206787a80656be9835fa4dd96379e4894d21c893a9edfa0e07c2c73f6590d9d6",
+        "sha256_in_prefix": "206787a80656be9835fa4dd96379e4894d21c893a9edfa0e07c2c73f6590d9d6",
+        "size_in_bytes": 6662
+      },
+      {
+        "_path": "Library/include/fst/queue.h",
+        "path_type": "hardlink",
+        "sha256": "3cd89ae39e97eec3c4c366fe612afdf4a88248d45d5ceabbe3577cf72fff58d7",
+        "sha256_in_prefix": "3cd89ae39e97eec3c4c366fe612afdf4a88248d45d5ceabbe3577cf72fff58d7",
+        "size_in_bytes": 32681
+      },
+      {
+        "_path": "Library/include/fst/randequivalent.h",
+        "path_type": "hardlink",
+        "sha256": "08d823d68658876963247bef706984e29c70e5e8584823850cfa54aeb5886ee8",
+        "sha256_in_prefix": "08d823d68658876963247bef706984e29c70e5e8584823850cfa54aeb5886ee8",
+        "size_in_bytes": 5076
+      },
+      {
+        "_path": "Library/include/fst/randgen.h",
+        "path_type": "hardlink",
+        "sha256": "f72f82718f8cf872cd489fb73de08b20d59de81f1ac8cf7c5c644d0d732a1614",
+        "sha256_in_prefix": "f72f82718f8cf872cd489fb73de08b20d59de81f1ac8cf7c5c644d0d732a1614",
+        "size_in_bytes": 26639
+      },
+      {
+        "_path": "Library/include/fst/rational.h",
+        "path_type": "hardlink",
+        "sha256": "7a7895a655d047fa354f056e167058e208b9ca0d6246fb2b156f28553fb819f7",
+        "sha256_in_prefix": "7a7895a655d047fa354f056e167058e208b9ca0d6246fb2b156f28553fb819f7",
+        "size_in_bytes": 10805
+      },
+      {
+        "_path": "Library/include/fst/register.h",
+        "path_type": "hardlink",
+        "sha256": "f08fee77be7389fe2d9da5c6f3956b9a96acd33ba7a2efecf4f223ccbb06daac",
+        "sha256_in_prefix": "f08fee77be7389fe2d9da5c6f3956b9a96acd33ba7a2efecf4f223ccbb06daac",
+        "size_in_bytes": 4534
+      },
+      {
+        "_path": "Library/include/fst/relabel.h",
+        "path_type": "hardlink",
+        "sha256": "e7b0ff667747aff84911ba12c523ebdf45c657728aa3e758c4e46c168c3d5193",
+        "sha256_in_prefix": "e7b0ff667747aff84911ba12c523ebdf45c657728aa3e758c4e46c168c3d5193",
+        "size_in_bytes": 16681
+      },
+      {
+        "_path": "Library/include/fst/replace-util.h",
+        "path_type": "hardlink",
+        "sha256": "907e08bc8e2aadc6291c01cab95b2e45f064dc40048164b4f71c79244f1f1e59",
+        "sha256_in_prefix": "907e08bc8e2aadc6291c01cab95b2e45f064dc40048164b4f71c79244f1f1e59",
+        "size_in_bytes": 23612
+      },
+      {
+        "_path": "Library/include/fst/replace.h",
+        "path_type": "hardlink",
+        "sha256": "a407957334bbae15c8056a8e118e77f3e0a838961eb8130bd63ade0b6c345cdd",
+        "sha256_in_prefix": "a407957334bbae15c8056a8e118e77f3e0a838961eb8130bd63ade0b6c345cdd",
+        "size_in_bytes": 58028
+      },
+      {
+        "_path": "Library/include/fst/reverse.h",
+        "path_type": "hardlink",
+        "sha256": "e2848c961521df68a2fea3fd05e1eb27f5cceabc34e56c27387faab23dd025cc",
+        "sha256_in_prefix": "e2848c961521df68a2fea3fd05e1eb27f5cceabc34e56c27387faab23dd025cc",
+        "size_in_bytes": 4973
+      },
+      {
+        "_path": "Library/include/fst/reweight.h",
+        "path_type": "hardlink",
+        "sha256": "2596c96fa071c90fd87eafb9dd6122d29baf70e754b59d2e0c70a51296a6532f",
+        "sha256_in_prefix": "2596c96fa071c90fd87eafb9dd6122d29baf70e754b59d2e0c70a51296a6532f",
+        "size_in_bytes": 5786
+      },
+      {
+        "_path": "Library/include/fst/rmepsilon.h",
+        "path_type": "hardlink",
+        "sha256": "91369d1401e9664ebf0da3bc7d53576c5e9b376132d4b688b3b1528f82dc3c37",
+        "sha256_in_prefix": "91369d1401e9664ebf0da3bc7d53576c5e9b376132d4b688b3b1528f82dc3c37",
+        "size_in_bytes": 19506
+      },
+      {
+        "_path": "Library/include/fst/rmfinalepsilon.h",
+        "path_type": "hardlink",
+        "sha256": "f5bd7cc5f5b68449758777ffa181fce3ba3bfa48c10b85c1c798374ad19fc5a8",
+        "sha256_in_prefix": "f5bd7cc5f5b68449758777ffa181fce3ba3bfa48c10b85c1c798374ad19fc5a8",
+        "size_in_bytes": 3228
+      },
+      {
+        "_path": "Library/include/fst/script/arc-class.h",
+        "path_type": "hardlink",
+        "sha256": "fe215dc7dfe081aa19b5fd7f8de9f29bfec103eb5ec4fc166927ae83e3078254",
+        "sha256_in_prefix": "fe215dc7dfe081aa19b5fd7f8de9f29bfec103eb5ec4fc166927ae83e3078254",
+        "size_in_bytes": 1704
+      },
+      {
+        "_path": "Library/include/fst/script/arcfilter-impl.h",
+        "path_type": "hardlink",
+        "sha256": "4056f1f92b2ff4d31b297764c7264f83348aa940b72c5862bee6b0cc08001140",
+        "sha256_in_prefix": "4056f1f92b2ff4d31b297764c7264f83348aa940b72c5862bee6b0cc08001140",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "Library/include/fst/script/arciterator-class.h",
+        "path_type": "hardlink",
+        "sha256": "8b5617218d56081da8537c76fad5083b30a7ad333d61cad650cf0af0ed024caf",
+        "sha256_in_prefix": "8b5617218d56081da8537c76fad5083b30a7ad333d61cad650cf0af0ed024caf",
+        "size_in_bytes": 6760
+      },
+      {
+        "_path": "Library/include/fst/script/arcsort.h",
+        "path_type": "hardlink",
+        "sha256": "a44d1236a9cdbc4c4da4948879f7d22aca17d3c83a372a6726b3107c9dc23b1f",
+        "sha256_in_prefix": "a44d1236a9cdbc4c4da4948879f7d22aca17d3c83a372a6726b3107c9dc23b1f",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "Library/include/fst/script/arg-packs.h",
+        "path_type": "hardlink",
+        "sha256": "fb955702e27e53fcf68b945549b8a413742cc3f2f1bf9499b766606e79799929",
+        "sha256_in_prefix": "fb955702e27e53fcf68b945549b8a413742cc3f2f1bf9499b766606e79799929",
+        "size_in_bytes": 1637
+      },
+      {
+        "_path": "Library/include/fst/script/closure.h",
+        "path_type": "hardlink",
+        "sha256": "c0f976f66ff6c3d1f78ce661d00d8fe65d2c39d583c7be2009c4cdab7adaae72",
+        "sha256_in_prefix": "c0f976f66ff6c3d1f78ce661d00d8fe65d2c39d583c7be2009c4cdab7adaae72",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "Library/include/fst/script/compile-impl.h",
+        "path_type": "hardlink",
+        "sha256": "791910cf48ae07f86b00b91d25b33d2ae003fdc64bdca4dd4137d71f6336ad0d",
+        "sha256_in_prefix": "791910cf48ae07f86b00b91d25b33d2ae003fdc64bdca4dd4137d71f6336ad0d",
+        "size_in_bytes": 8031
+      },
+      {
+        "_path": "Library/include/fst/script/compile.h",
+        "path_type": "hardlink",
+        "sha256": "e6ab4391bc6d4c673f363ac73feb6d7b03f620f1c2807b4dfe517673da8fd37c",
+        "sha256_in_prefix": "e6ab4391bc6d4c673f363ac73feb6d7b03f620f1c2807b4dfe517673da8fd37c",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "Library/include/fst/script/compose.h",
+        "path_type": "hardlink",
+        "sha256": "1e632fd6f064fab1ac1fce7a0aa36214a5ceb753d7528c6eeb6b48835f8f246b",
+        "sha256_in_prefix": "1e632fd6f064fab1ac1fce7a0aa36214a5ceb753d7528c6eeb6b48835f8f246b",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "Library/include/fst/script/concat.h",
+        "path_type": "hardlink",
+        "sha256": "d69e303ee0b0c44237a7e2397fdc7cc45a0df8389367d6e724a67a1127ffebc2",
+        "sha256_in_prefix": "d69e303ee0b0c44237a7e2397fdc7cc45a0df8389367d6e724a67a1127ffebc2",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "Library/include/fst/script/connect.h",
+        "path_type": "hardlink",
+        "sha256": "290deb1db068099719cf9f2a594f2262c9e114a93677856630be1b5f73c4fdc8",
+        "sha256_in_prefix": "290deb1db068099719cf9f2a594f2262c9e114a93677856630be1b5f73c4fdc8",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "Library/include/fst/script/convert.h",
+        "path_type": "hardlink",
+        "sha256": "727310acf77fb1858ade26e35e27f46f414672a16e457e385be42aa7cee6d1d7",
+        "sha256_in_prefix": "727310acf77fb1858ade26e35e27f46f414672a16e457e385be42aa7cee6d1d7",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "Library/include/fst/script/decode.h",
+        "path_type": "hardlink",
+        "sha256": "c9f5b2b4f7774a66781c20097757bee6e33b3cfbaa238353c83a318b7c983bf7",
+        "sha256_in_prefix": "c9f5b2b4f7774a66781c20097757bee6e33b3cfbaa238353c83a318b7c983bf7",
+        "size_in_bytes": 1468
+      },
+      {
+        "_path": "Library/include/fst/script/determinize.h",
+        "path_type": "hardlink",
+        "sha256": "909aee98c7b88d1c683768fb28ff8a50eda79a91293a97f8de8e1e65d84bce3a",
+        "sha256_in_prefix": "909aee98c7b88d1c683768fb28ff8a50eda79a91293a97f8de8e1e65d84bce3a",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "Library/include/fst/script/difference.h",
+        "path_type": "hardlink",
+        "sha256": "6b5c8973b89355e8ac2e54cb9f6a9dfa5efcf47469284254b47e5685242f3042",
+        "sha256_in_prefix": "6b5c8973b89355e8ac2e54cb9f6a9dfa5efcf47469284254b47e5685242f3042",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "Library/include/fst/script/disambiguate.h",
+        "path_type": "hardlink",
+        "sha256": "b74b950bc184689ede1ef57aa035dffdb1af8ad6c3fb606f81ce13fb5d0c292d",
+        "sha256_in_prefix": "b74b950bc184689ede1ef57aa035dffdb1af8ad6c3fb606f81ce13fb5d0c292d",
+        "size_in_bytes": 2554
+      },
+      {
+        "_path": "Library/include/fst/script/draw-impl.h",
+        "path_type": "hardlink",
+        "sha256": "4e8810430b9a0db74620e8982b59c86b24e7ab0e3c59049af213a86ba2a91e1e",
+        "sha256_in_prefix": "4e8810430b9a0db74620e8982b59c86b24e7ab0e3c59049af213a86ba2a91e1e",
+        "size_in_bytes": 6566
+      },
+      {
+        "_path": "Library/include/fst/script/draw.h",
+        "path_type": "hardlink",
+        "sha256": "a0fa41de9ac3c3a2e906466d6789c208d72815da2c08996eec8b2e3f4edd5251",
+        "sha256_in_prefix": "a0fa41de9ac3c3a2e906466d6789c208d72815da2c08996eec8b2e3f4edd5251",
+        "size_in_bytes": 2716
+      },
+      {
+        "_path": "Library/include/fst/script/encode.h",
+        "path_type": "hardlink",
+        "sha256": "3db5e02b2b151c3d2fd20269d88a4a505c3b198eb5afd21e060832eb0e1082dc",
+        "sha256_in_prefix": "3db5e02b2b151c3d2fd20269d88a4a505c3b198eb5afd21e060832eb0e1082dc",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "Library/include/fst/script/encodemapper-class.h",
+        "path_type": "hardlink",
+        "sha256": "3821a7ff325475862050ace4b345406b2f70d0b87e72847e4eabe80c9ebbd6dc",
+        "sha256_in_prefix": "3821a7ff325475862050ace4b345406b2f70d0b87e72847e4eabe80c9ebbd6dc",
+        "size_in_bytes": 9554
+      },
+      {
+        "_path": "Library/include/fst/script/epsnormalize.h",
+        "path_type": "hardlink",
+        "sha256": "b0edee460f44f0bc8d1553f3560c8c0f5e4fcfe11348266dc77ded7f50bb725f",
+        "sha256_in_prefix": "b0edee460f44f0bc8d1553f3560c8c0f5e4fcfe11348266dc77ded7f50bb725f",
+        "size_in_bytes": 1547
+      },
+      {
+        "_path": "Library/include/fst/script/equal.h",
+        "path_type": "hardlink",
+        "sha256": "e6cdf645d19e6721bf56e94b60f1ed25e8129f9479ff93c0fdab6be77fa581b8",
+        "sha256_in_prefix": "e6cdf645d19e6721bf56e94b60f1ed25e8129f9479ff93c0fdab6be77fa581b8",
+        "size_in_bytes": 1546
+      },
+      {
+        "_path": "Library/include/fst/script/equivalent.h",
+        "path_type": "hardlink",
+        "sha256": "a0a5ebbd6d730488edbf21d593ecf5466674f01093198c5bbccac32f5f999f29",
+        "sha256_in_prefix": "a0a5ebbd6d730488edbf21d593ecf5466674f01093198c5bbccac32f5f999f29",
+        "size_in_bytes": 1683
+      },
+      {
+        "_path": "Library/include/fst/script/fst-class.h",
+        "path_type": "hardlink",
+        "sha256": "68393774b959403e45b901ac01c6275003c8edb8113a172c1fcd35548ced7036",
+        "sha256_in_prefix": "68393774b959403e45b901ac01c6275003c8edb8113a172c1fcd35548ced7036",
+        "size_in_bytes": 23151
+      },
+      {
+        "_path": "Library/include/fst/script/fstscript.h",
+        "path_type": "hardlink",
+        "sha256": "59b06451d073f7cf28b31bf76e7dcc4a27803c40c122369d2a0a4afa084399c1",
+        "sha256_in_prefix": "59b06451d073f7cf28b31bf76e7dcc4a27803c40c122369d2a0a4afa084399c1",
+        "size_in_bytes": 6954
+      },
+      {
+        "_path": "Library/include/fst/script/getters.h",
+        "path_type": "hardlink",
+        "sha256": "a6e5c71339980a9d6fb30a306e17979ca097421df1569d54c67fc2f1088e3696",
+        "sha256_in_prefix": "a6e5c71339980a9d6fb30a306e17979ca097421df1569d54c67fc2f1088e3696",
+        "size_in_bytes": 3877
+      },
+      {
+        "_path": "Library/include/fst/script/info-impl.h",
+        "path_type": "hardlink",
+        "sha256": "1c411688d875c2d60737185f92b81d35dd12615b2c4eb35971f5a6331e60a803",
+        "sha256_in_prefix": "1c411688d875c2d60737185f92b81d35dd12615b2c4eb35971f5a6331e60a803",
+        "size_in_bytes": 9842
+      },
+      {
+        "_path": "Library/include/fst/script/info.h",
+        "path_type": "hardlink",
+        "sha256": "dea19061f54d2cb34fc8fc5e78480f4aa96b1589f53de3a0a5abacf4bf27cb10",
+        "sha256_in_prefix": "dea19061f54d2cb34fc8fc5e78480f4aa96b1589f53de3a0a5abacf4bf27cb10",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "Library/include/fst/script/intersect.h",
+        "path_type": "hardlink",
+        "sha256": "e09b09e65bcc058c29642e9de6a7530ab3e208e2ca5631e602dd2548c6c1d826",
+        "sha256_in_prefix": "e09b09e65bcc058c29642e9de6a7530ab3e208e2ca5631e602dd2548c6c1d826",
+        "size_in_bytes": 1767
+      },
+      {
+        "_path": "Library/include/fst/script/invert.h",
+        "path_type": "hardlink",
+        "sha256": "c129ecbf591b673ab0a24b152c780d392c14a4de2e48be082b0bdd8785a9a1ce",
+        "sha256_in_prefix": "c129ecbf591b673ab0a24b152c780d392c14a4de2e48be082b0bdd8785a9a1ce",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "Library/include/fst/script/isomorphic.h",
+        "path_type": "hardlink",
+        "sha256": "ef9a6000245f2c74ea440b74f71fc5442db5035c76f3eaf04e1a775a7b22777a",
+        "sha256_in_prefix": "ef9a6000245f2c74ea440b74f71fc5442db5035c76f3eaf04e1a775a7b22777a",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "Library/include/fst/script/map.h",
+        "path_type": "hardlink",
+        "sha256": "0f748e939d1b0a0bc44821ecba59415b22b502932e5e929343f21bf545c621cc",
+        "sha256_in_prefix": "0f748e939d1b0a0bc44821ecba59415b22b502932e5e929343f21bf545c621cc",
+        "size_in_bytes": 5551
+      },
+      {
+        "_path": "Library/include/fst/script/minimize.h",
+        "path_type": "hardlink",
+        "sha256": "85d02e182658e85cc55c6a857c6fec73b7d46fcd1f7d5eb14d90b72f49b25d1b",
+        "sha256_in_prefix": "85d02e182658e85cc55c6a857c6fec73b7d46fcd1f7d5eb14d90b72f49b25d1b",
+        "size_in_bytes": 1626
+      },
+      {
+        "_path": "Library/include/fst/script/print-impl.h",
+        "path_type": "hardlink",
+        "sha256": "2f53b25c00d18249a24b076c788846831c34370c965e46ed8ade25d73b9bb579",
+        "sha256_in_prefix": "2f53b25c00d18249a24b076c788846831c34370c965e46ed8ade25d73b9bb579",
+        "size_in_bytes": 4924
+      },
+      {
+        "_path": "Library/include/fst/script/print.h",
+        "path_type": "hardlink",
+        "sha256": "1fbe918c1c545da57477e9074cffb77c3599d05e6e42f5a381203c68b5cccbf1",
+        "sha256_in_prefix": "1fbe918c1c545da57477e9074cffb77c3599d05e6e42f5a381203c68b5cccbf1",
+        "size_in_bytes": 3206
+      },
+      {
+        "_path": "Library/include/fst/script/project.h",
+        "path_type": "hardlink",
+        "sha256": "c45c3ce9fd7c9984afa5900b0d5d036fa7e28e22510690fa4391f0e60e1128c0",
+        "sha256_in_prefix": "c45c3ce9fd7c9984afa5900b0d5d036fa7e28e22510690fa4391f0e60e1128c0",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "Library/include/fst/script/prune.h",
+        "path_type": "hardlink",
+        "sha256": "37a204790b68c6eac653e4562c62a2c3932378b1c7a48e2d80db2ff65a36aad6",
+        "sha256_in_prefix": "37a204790b68c6eac653e4562c62a2c3932378b1c7a48e2d80db2ff65a36aad6",
+        "size_in_bytes": 2833
+      },
+      {
+        "_path": "Library/include/fst/script/push.h",
+        "path_type": "hardlink",
+        "sha256": "2b179dba11ca27f538ee86c92e6cce8ed15e7f41db822fdb762f1d1fcd3b8ed2",
+        "sha256_in_prefix": "2b179dba11ca27f538ee86c92e6cce8ed15e7f41db822fdb762f1d1fcd3b8ed2",
+        "size_in_bytes": 2402
+      },
+      {
+        "_path": "Library/include/fst/script/randequivalent.h",
+        "path_type": "hardlink",
+        "sha256": "5a62827ecbd74ac342ad816c9dff676e0bef83bc91d33ae7d7cf4dc8384af6cd",
+        "sha256_in_prefix": "5a62827ecbd74ac342ad816c9dff676e0bef83bc91d33ae7d7cf4dc8384af6cd",
+        "size_in_bytes": 3172
+      },
+      {
+        "_path": "Library/include/fst/script/randgen.h",
+        "path_type": "hardlink",
+        "sha256": "938242912de75b68515724a5a57e648e6a42768ded96739856c3cd6d4117299f",
+        "sha256_in_prefix": "938242912de75b68515724a5a57e648e6a42768ded96739856c3cd6d4117299f",
+        "size_in_bytes": 2752
+      },
+      {
+        "_path": "Library/include/fst/script/relabel.h",
+        "path_type": "hardlink",
+        "sha256": "eabac71e720ba7163e464f35295f0f2109624ae1165cf0a41f0c667396c87293",
+        "sha256_in_prefix": "eabac71e720ba7163e464f35295f0f2109624ae1165cf0a41f0c667396c87293",
+        "size_in_bytes": 3111
+      },
+      {
+        "_path": "Library/include/fst/script/replace.h",
+        "path_type": "hardlink",
+        "sha256": "d71449838b3b4e2a0c0997fa7beb6d96f59426e34b6d276c069f14356bd1a252",
+        "sha256_in_prefix": "d71449838b3b4e2a0c0997fa7beb6d96f59426e34b6d276c069f14356bd1a252",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "Library/include/fst/script/reverse.h",
+        "path_type": "hardlink",
+        "sha256": "db41d429a002832cfa9c6e1c1d6383475f8c7b7f1641f1af020720dc3fc89baa",
+        "sha256_in_prefix": "db41d429a002832cfa9c6e1c1d6383475f8c7b7f1641f1af020720dc3fc89baa",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "Library/include/fst/script/reweight.h",
+        "path_type": "hardlink",
+        "sha256": "9c16ef80c98a7900004e4467be0ff47012064686420ad571f9a57639a59b58d6",
+        "sha256_in_prefix": "9c16ef80c98a7900004e4467be0ff47012064686420ad571f9a57639a59b58d6",
+        "size_in_bytes": 1760
+      },
+      {
+        "_path": "Library/include/fst/script/rmepsilon.h",
+        "path_type": "hardlink",
+        "sha256": "dc1a3b6aa0b7669f03799987dac617591fc68b654ef795b2df04d66dd574fcba",
+        "sha256_in_prefix": "dc1a3b6aa0b7669f03799987dac617591fc68b654ef795b2df04d66dd574fcba",
+        "size_in_bytes": 4379
+      },
+      {
+        "_path": "Library/include/fst/script/script-impl.h",
+        "path_type": "hardlink",
+        "sha256": "908485c59b0d612593a463f5fa1c7ee130c7bfb4d37b33f4f0b2fc57ba7e98a6",
+        "sha256_in_prefix": "908485c59b0d612593a463f5fa1c7ee130c7bfb4d37b33f4f0b2fc57ba7e98a6",
+        "size_in_bytes": 8945
+      },
+      {
+        "_path": "Library/include/fst/script/shortest-distance.h",
+        "path_type": "hardlink",
+        "sha256": "5003c7df5cb754b11962b1734fe969a4af9d20aae864c5c039341ed31b4c3597",
+        "sha256_in_prefix": "5003c7df5cb754b11962b1734fe969a4af9d20aae864c5c039341ed31b4c3597",
+        "size_in_bytes": 8783
+      },
+      {
+        "_path": "Library/include/fst/script/shortest-path.h",
+        "path_type": "hardlink",
+        "sha256": "1ca833299ecd96f2967d0923e644d359bab8caa4051a34150c29be8a002f197c",
+        "sha256_in_prefix": "1ca833299ecd96f2967d0923e644d359bab8caa4051a34150c29be8a002f197c",
+        "size_in_bytes": 5219
+      },
+      {
+        "_path": "Library/include/fst/script/stateiterator-class.h",
+        "path_type": "hardlink",
+        "sha256": "c531fff135a9fd7d09aeb13a30f4edf7380a9d7888a11837deadfd58e9fc3f85",
+        "sha256_in_prefix": "c531fff135a9fd7d09aeb13a30f4edf7380a9d7888a11837deadfd58e9fc3f85",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "Library/include/fst/script/synchronize.h",
+        "path_type": "hardlink",
+        "sha256": "666a1b49055b907a11b8440d88e1160ccc9ce1474596749f1f6c9152b884f265",
+        "sha256_in_prefix": "666a1b49055b907a11b8440d88e1160ccc9ce1474596749f1f6c9152b884f265",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "Library/include/fst/script/text-io.h",
+        "path_type": "hardlink",
+        "sha256": "6da798f5035fa9dd89dc8b1511efd91873f4a0a767a4b39b650edfad2c1b750e",
+        "sha256_in_prefix": "6da798f5035fa9dd89dc8b1511efd91873f4a0a767a4b39b650edfad2c1b750e",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "Library/include/fst/script/topsort.h",
+        "path_type": "hardlink",
+        "sha256": "190dc5a12b34e4723cf19c7a9ba9a0ea238d3e8777ef2933e354615f445e224d",
+        "sha256_in_prefix": "190dc5a12b34e4723cf19c7a9ba9a0ea238d3e8777ef2933e354615f445e224d",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "Library/include/fst/script/union.h",
+        "path_type": "hardlink",
+        "sha256": "8fcabfae83c031d2530adbe8ca32b9fe0afe4366715962a255270b5c5c036eaf",
+        "sha256_in_prefix": "8fcabfae83c031d2530adbe8ca32b9fe0afe4366715962a255270b5c5c036eaf",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "Library/include/fst/script/verify.h",
+        "path_type": "hardlink",
+        "sha256": "40ce71d6ea1f965185dd82f7bafc1b7554bccb3157a18897a4036829a968b6bc",
+        "sha256_in_prefix": "40ce71d6ea1f965185dd82f7bafc1b7554bccb3157a18897a4036829a968b6bc",
+        "size_in_bytes": 1274
+      },
+      {
+        "_path": "Library/include/fst/script/weight-class.h",
+        "path_type": "hardlink",
+        "sha256": "334133062ba8868f25d0a44aec66ad3e150a22edbc9b8da7f8c3a34cc686249e",
+        "sha256_in_prefix": "334133062ba8868f25d0a44aec66ad3e150a22edbc9b8da7f8c3a34cc686249e",
+        "size_in_bytes": 8390
+      },
+      {
+        "_path": "Library/include/fst/set-weight.h",
+        "path_type": "hardlink",
+        "sha256": "0a85fd896d9d2152987a8e47bba7f34d9bae45a1964617d7a54066d5bc3bbeee",
+        "sha256_in_prefix": "0a85fd896d9d2152987a8e47bba7f34d9bae45a1964617d7a54066d5bc3bbeee",
+        "size_in_bytes": 19426
+      },
+      {
+        "_path": "Library/include/fst/shortest-distance.h",
+        "path_type": "hardlink",
+        "sha256": "992faca83f501ccc2c833f03b3e6cbf4d4a1547a0d795124c363cce14512a69c",
+        "sha256_in_prefix": "992faca83f501ccc2c833f03b3e6cbf4d4a1547a0d795124c363cce14512a69c",
+        "size_in_bytes": 14060
+      },
+      {
+        "_path": "Library/include/fst/shortest-path.h",
+        "path_type": "hardlink",
+        "sha256": "ea313e3f572f7e3f6799991f92dcc05fb91aa72712558568e4285dd8064ff413",
+        "sha256_in_prefix": "ea313e3f572f7e3f6799991f92dcc05fb91aa72712558568e4285dd8064ff413",
+        "size_in_bytes": 22287
+      },
+      {
+        "_path": "Library/include/fst/signed-log-weight.h",
+        "path_type": "hardlink",
+        "sha256": "726a83a2e8f08291d20a79d50959b65233a127abbf2f3d23b3827d6e409a4f7c",
+        "sha256_in_prefix": "726a83a2e8f08291d20a79d50959b65233a127abbf2f3d23b3827d6e409a4f7c",
+        "size_in_bytes": 19632
+      },
+      {
+        "_path": "Library/include/fst/sparse-power-weight.h",
+        "path_type": "hardlink",
+        "sha256": "d5dd277f57c1a28af54e467499ec33c53fd790d537c31a6c071c4a6bb031f56b",
+        "sha256_in_prefix": "d5dd277f57c1a28af54e467499ec33c53fd790d537c31a6c071c4a6bb031f56b",
+        "size_in_bytes": 7593
+      },
+      {
+        "_path": "Library/include/fst/sparse-tuple-weight.h",
+        "path_type": "hardlink",
+        "sha256": "5acaa9b7e77a1f2de6bc6e7bf6e888ada442317faedf7dc753e34f1aabb272f5",
+        "sha256_in_prefix": "5acaa9b7e77a1f2de6bc6e7bf6e888ada442317faedf7dc753e34f1aabb272f5",
+        "size_in_bytes": 13326
+      },
+      {
+        "_path": "Library/include/fst/state-map.h",
+        "path_type": "hardlink",
+        "sha256": "d6ab714be6e4845d9e274eda85388ff99aeafcd95f22a0af0072a51af841ee7e",
+        "sha256_in_prefix": "d6ab714be6e4845d9e274eda85388ff99aeafcd95f22a0af0072a51af841ee7e",
+        "size_in_bytes": 19341
+      },
+      {
+        "_path": "Library/include/fst/state-reachable.h",
+        "path_type": "hardlink",
+        "sha256": "c9ce1094ea33d1329e9c55837c922d7447cfafdb7e5408344b2e35f980f3f231",
+        "sha256_in_prefix": "c9ce1094ea33d1329e9c55837c922d7447cfafdb7e5408344b2e35f980f3f231",
+        "size_in_bytes": 7857
+      },
+      {
+        "_path": "Library/include/fst/state-table.h",
+        "path_type": "hardlink",
+        "sha256": "69dc4d0b470625542a40acef7a53012988ab295401b880b1a64a9099807247c2",
+        "sha256_in_prefix": "69dc4d0b470625542a40acef7a53012988ab295401b880b1a64a9099807247c2",
+        "size_in_bytes": 17581
+      },
+      {
+        "_path": "Library/include/fst/statesort.h",
+        "path_type": "hardlink",
+        "sha256": "f7e11fe9ae719ab0d32ab7edcc2bdce261a8bf09b7d031cbe0758a9f93a24615",
+        "sha256_in_prefix": "f7e11fe9ae719ab0d32ab7edcc2bdce261a8bf09b7d031cbe0758a9f93a24615",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "Library/include/fst/string-weight.h",
+        "path_type": "hardlink",
+        "sha256": "5d13e55915323b57050ebf168bd2884e65ca5fc2c166f6a7f140af0c2a3b96f3",
+        "sha256_in_prefix": "5d13e55915323b57050ebf168bd2884e65ca5fc2c166f6a7f140af0c2a3b96f3",
+        "size_in_bytes": 26990
+      },
+      {
+        "_path": "Library/include/fst/string.h",
+        "path_type": "hardlink",
+        "sha256": "2dcc55888bc63750c6e04dd08fd402ab96ab79701cdb53d6a72c5503d6d2c8e2",
+        "sha256_in_prefix": "2dcc55888bc63750c6e04dd08fd402ab96ab79701cdb53d6a72c5503d6d2c8e2",
+        "size_in_bytes": 13841
+      },
+      {
+        "_path": "Library/include/fst/symbol-table-ops.h",
+        "path_type": "hardlink",
+        "sha256": "1944371d75aaf0da6001c560f7c69fe68185f9f1b23413826e51b3f55514e32e",
+        "sha256_in_prefix": "1944371d75aaf0da6001c560f7c69fe68185f9f1b23413826e51b3f55514e32e",
+        "size_in_bytes": 3742
+      },
+      {
+        "_path": "Library/include/fst/symbol-table.h",
+        "path_type": "hardlink",
+        "sha256": "3469ec359228a4d3333b2ca25a05dd1ba413bbe1f3fd67288113fc240375ff4f",
+        "sha256_in_prefix": "3469ec359228a4d3333b2ca25a05dd1ba413bbe1f3fd67288113fc240375ff4f",
+        "size_in_bytes": 19394
+      },
+      {
+        "_path": "Library/include/fst/synchronize.h",
+        "path_type": "hardlink",
+        "sha256": "fade1d759528b23b53feb6f232cfe4633dc424ec771cddf49216e1f80c482ecc",
+        "sha256_in_prefix": "fade1d759528b23b53feb6f232cfe4633dc424ec771cddf49216e1f80c482ecc",
+        "size_in_bytes": 14054
+      },
+      {
+        "_path": "Library/include/fst/test-properties.h",
+        "path_type": "hardlink",
+        "sha256": "568500d5c11125b94ea906ecd0cb745c54d2ed1758f1a06fadd3064b4cae56ae",
+        "sha256_in_prefix": "568500d5c11125b94ea906ecd0cb745c54d2ed1758f1a06fadd3064b4cae56ae",
+        "size_in_bytes": 9180
+      },
+      {
+        "_path": "Library/include/fst/test/algo_test.h",
+        "path_type": "hardlink",
+        "sha256": "56e09c733b2d9e1a90a3145d6ba0da155d2545c074812b2210a12ba371b15a8d",
+        "sha256_in_prefix": "56e09c733b2d9e1a90a3145d6ba0da155d2545c074812b2210a12ba371b15a8d",
+        "size_in_bytes": 43564
+      },
+      {
+        "_path": "Library/include/fst/test/compactors.h",
+        "path_type": "hardlink",
+        "sha256": "db3662c439f3eb8d4fbe30ec8fbcbeceedd0257c54862e90d3b80223e08b2e04",
+        "sha256_in_prefix": "db3662c439f3eb8d4fbe30ec8fbcbeceedd0257c54862e90d3b80223e08b2e04",
+        "size_in_bytes": 5315
+      },
+      {
+        "_path": "Library/include/fst/test/fst_test.h",
+        "path_type": "hardlink",
+        "sha256": "da74a4df4ceb0e5b31fc6ef63e921c7142ad34413e436fef447bf153ef09e606",
+        "sha256_in_prefix": "da74a4df4ceb0e5b31fc6ef63e921c7142ad34413e436fef447bf153ef09e606",
+        "size_in_bytes": 10389
+      },
+      {
+        "_path": "Library/include/fst/test/rand-fst.h",
+        "path_type": "hardlink",
+        "sha256": "2391185fac4373fde4f5b24863cbaf029d2ac9670bf37880866f548f78f5ca8d",
+        "sha256_in_prefix": "2391185fac4373fde4f5b24863cbaf029d2ac9670bf37880866f548f78f5ca8d",
+        "size_in_bytes": 3559
+      },
+      {
+        "_path": "Library/include/fst/test/weight-tester.h",
+        "path_type": "hardlink",
+        "sha256": "dc2d3e213cac4ed21f2a63c6362c67376646583cc8656c1e54b9b64506a5035f",
+        "sha256_in_prefix": "dc2d3e213cac4ed21f2a63c6362c67376646583cc8656c1e54b9b64506a5035f",
+        "size_in_bytes": 7434
+      },
+      {
+        "_path": "Library/include/fst/topsort.h",
+        "path_type": "hardlink",
+        "sha256": "725eb78f9ca0ad3cb8376c34551616ff000d0a106dd17baa395fc9bfec7e757b",
+        "sha256_in_prefix": "725eb78f9ca0ad3cb8376c34551616ff000d0a106dd17baa395fc9bfec7e757b",
+        "size_in_bytes": 3141
+      },
+      {
+        "_path": "Library/include/fst/tuple-weight.h",
+        "path_type": "hardlink",
+        "sha256": "99a37638f4be6312ac097ffcd890322cf9f58d205a53720506a79d2ef080893d",
+        "sha256_in_prefix": "99a37638f4be6312ac097ffcd890322cf9f58d205a53720506a79d2ef080893d",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "Library/include/fst/union-find.h",
+        "path_type": "hardlink",
+        "sha256": "68733185b574cd84f1f3a9d0dd11dc5b03f085a4f12602d444a168290c9a8502",
+        "sha256_in_prefix": "68733185b574cd84f1f3a9d0dd11dc5b03f085a4f12602d444a168290c9a8502",
+        "size_in_bytes": 3237
+      },
+      {
+        "_path": "Library/include/fst/union-weight.h",
+        "path_type": "hardlink",
+        "sha256": "568475d6867dea072bc4a50bb458bc6c3e5c62f2ba2a4477e3120050d862c6bd",
+        "sha256_in_prefix": "568475d6867dea072bc4a50bb458bc6c3e5c62f2ba2a4477e3120050d862c6bd",
+        "size_in_bytes": 15437
+      },
+      {
+        "_path": "Library/include/fst/union.h",
+        "path_type": "hardlink",
+        "sha256": "7f1cd3be43bc5ff448c6bbe2405581f3171b3f7d8bbe9894d0cbd343745f365d",
+        "sha256_in_prefix": "7f1cd3be43bc5ff448c6bbe2405581f3171b3f7d8bbe9894d0cbd343745f365d",
+        "size_in_bytes": 6276
+      },
+      {
+        "_path": "Library/include/fst/util.h",
+        "path_type": "hardlink",
+        "sha256": "b40fa447109949a8f0391ef8d2d391babf508dad7060af971ecce37382cab057",
+        "sha256_in_prefix": "b40fa447109949a8f0391ef8d2d391babf508dad7060af971ecce37382cab057",
+        "size_in_bytes": 15724
+      },
+      {
+        "_path": "Library/include/fst/vector-fst.h",
+        "path_type": "hardlink",
+        "sha256": "37b063d7bfa821400bcb3a0f2cf254a43edaa949800ef68af9a3bc6fa70fd211",
+        "sha256_in_prefix": "37b063d7bfa821400bcb3a0f2cf254a43edaa949800ef68af9a3bc6fa70fd211",
+        "size_in_bytes": 25606
+      },
+      {
+        "_path": "Library/include/fst/verify.h",
+        "path_type": "hardlink",
+        "sha256": "71157402c8f61ff4f6a89456d01e6983410796ddf801960645cc0bcf03551a9e",
+        "sha256_in_prefix": "71157402c8f61ff4f6a89456d01e6983410796ddf801960645cc0bcf03551a9e",
+        "size_in_bytes": 4263
+      },
+      {
+        "_path": "Library/include/fst/visit.h",
+        "path_type": "hardlink",
+        "sha256": "c8b1b878ebe37a8994184cfbf72f20df07305464d6778f42d92043fba4817041",
+        "sha256_in_prefix": "c8b1b878ebe37a8994184cfbf72f20df07305464d6778f42d92043fba4817041",
+        "size_in_bytes": 9986
+      },
+      {
+        "_path": "Library/include/fst/weight.h",
+        "path_type": "hardlink",
+        "sha256": "e429865636b02cb3cfd022bc0d06489dbc90e32a764c51b6f308a5943b838f3d",
+        "sha256_in_prefix": "e429865636b02cb3cfd022bc0d06489dbc90e32a764c51b6f308a5943b838f3d",
+        "size_in_bytes": 13713
+      },
+      {
+        "_path": "Library/include/fst/windows_defs.inc",
+        "path_type": "hardlink",
+        "sha256": "49cd49d7643b6a92c592b0ae4de01365f126e77ea45188fd9d0a6e8ba90495f3",
+        "sha256_in_prefix": "49cd49d7643b6a92c592b0ae4de01365f126e77ea45188fd9d0a6e8ba90495f3",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "Library/lib/fst.lib",
+        "path_type": "hardlink",
+        "sha256": "489ed9bd5ddcadf3db62590ac2ea5d3d3c6b94732d541863cae1e8f7ea34b741",
+        "sha256_in_prefix": "489ed9bd5ddcadf3db62590ac2ea5d3d3c6b94732d541863cae1e8f7ea34b741",
+        "size_in_bytes": 88854
+      },
+      {
+        "_path": "Library/lib/fstcompressscript.lib",
+        "path_type": "hardlink",
+        "sha256": "8d389abdc7d93f60f4501cae169eafa6f280be7f296b802969a9130c7b5811be",
+        "sha256_in_prefix": "8d389abdc7d93f60f4501cae169eafa6f280be7f296b802969a9130c7b5811be",
+        "size_in_bytes": 3134
+      },
+      {
+        "_path": "Library/lib/fstfar.lib",
+        "path_type": "hardlink",
+        "sha256": "f1173ebc44bb026eaf99b1f112788e5d3fb33c6d52ee4b9e1c36f49a22050b8a",
+        "sha256_in_prefix": "f1173ebc44bb026eaf99b1f112788e5d3fb33c6d52ee4b9e1c36f49a22050b8a",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "Library/lib/fstfarscript.lib",
+        "path_type": "hardlink",
+        "sha256": "1d56f4c39daa71da92e7062240a6b680612892b55ed63b183656d57bf8ad67ed",
+        "sha256_in_prefix": "1d56f4c39daa71da92e7062240a6b680612892b55ed63b183656d57bf8ad67ed",
+        "size_in_bytes": 36920
+      },
+      {
+        "_path": "Library/lib/fstlinearscript.lib",
+        "path_type": "hardlink",
+        "sha256": "bb3e7d00a3d8e0fb2c2ead314d920185e4b624ce081f6cf57b5a3d6900839305",
+        "sha256_in_prefix": "bb3e7d00a3d8e0fb2c2ead314d920185e4b624ce081f6cf57b5a3d6900839305",
+        "size_in_bytes": 6562
+      },
+      {
+        "_path": "Library/lib/fstmpdtscript.lib",
+        "path_type": "hardlink",
+        "sha256": "850bab3e0e3093eeaf6b7cde3a83767b916695f15bcf435a325fefad55f089a8",
+        "sha256_in_prefix": "850bab3e0e3093eeaf6b7cde3a83767b916695f15bcf435a325fefad55f089a8",
+        "size_in_bytes": 5830
+      },
+      {
+        "_path": "Library/lib/fstngram.lib",
+        "path_type": "hardlink",
+        "sha256": "6341215955b9a5b1270a694515cdd635ddf5a1b044e171fa2c2b981c3eee11a1",
+        "sha256_in_prefix": "6341215955b9a5b1270a694515cdd635ddf5a1b044e171fa2c2b981c3eee11a1",
+        "size_in_bytes": 12064
+      },
+      {
+        "_path": "Library/lib/fstpdtscript.lib",
+        "path_type": "hardlink",
+        "sha256": "c7942d66a4f4ee39322245c8b6fc922febdd3b0c31db9a570f7e903b211f0ec7",
+        "sha256_in_prefix": "c7942d66a4f4ee39322245c8b6fc922febdd3b0c31db9a570f7e903b211f0ec7",
+        "size_in_bytes": 12122
+      },
+      {
+        "_path": "Library/lib/fstscript.lib",
+        "path_type": "hardlink",
+        "sha256": "af31f3f0a6d1042948936ade471b68b8ca97746961e2045b6ce6a37824e7dec6",
+        "sha256_in_prefix": "af31f3f0a6d1042948936ade471b68b8ca97746961e2045b6ce6a37824e7dec6",
+        "size_in_bytes": 138242
+      },
+      {
+        "_path": "Library/lib/fstspecial.lib",
+        "path_type": "hardlink",
+        "sha256": "98f05da1afd73599e38febc7942c33e3d637e8f436c82ad450b775b3d3776cf7",
+        "sha256_in_prefix": "98f05da1afd73599e38febc7942c33e3d637e8f436c82ad450b775b3d3776cf7",
+        "size_in_bytes": 3712
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4f230dd9bc72165226bb14815880b12784fbba2ceab56a9698496eace19e7b01",
+  "size": 2761540,
+  "subdir": "win-64",
+  "timestamp": 1728909965000,
+  "url": "https://conda.anaconda.org/conda-forge/win-64/openfst-1.8.3-hc790b64_3.conda",
+  "version": "1.8.3"
+}

@@ -34,6 +34,9 @@ class TTSConfig(HandlerBaseConfigModel, BaseModel):
     spk_id: str = Field(default=None)
     sample_rate: int = Field(default=24000)
     process_num: int = Field(default=1)
+    speed: float = Field(default=1, description="语速，1.0为正常语速，<1.0为慢速，>1.0为快速")  # 新增语速参数
+
+
 
 
 @dataclass

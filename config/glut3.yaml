@@ -1,0 +1,51 @@
+default:  # 默认配置节点
+  logger:  # 日志配置
+    log_level: "INFO"  # 设置日志级别为INFO
+  service:  # 服务配置
+    host: "127.0.0.1"  # 服务监听地址，本地回环地址
+    port: 8282  # 服务监听端口号
+    cert_file: "ssl_certs/localhost.crt"  # SSL证书文件路径
+    cert_key: "ssl_certs/localhost.key"  # SSL私钥文件路径
+  chat_engine:  # 聊天引擎配置
+    model_root: "models"  # 模型根目录路径
+    handler_search_path:  # 处理器搜索路径列表
+      - "src/handlers"  # 处理器模块搜索路径
+    handler_configs:  # 处理器配置字典
+      RtcClient:  # RTC客户端处理器
+        module: client/rtc_client/client_handler_rtc  # 处理器模块路径
+      SileroVad:  # Silero语音活动检测处理器
+        module: vad/silerovad/vad_handler_silero  # 处理器模块路径
+        speaking_threshold: 0.5  # 说话检测阈值
+        start_delay: 2048  # 开始延迟（采样点数）
+        end_delay: 5000  # 结束延迟（毫秒）
+        buffer_look_back: 5000  # 缓冲区回看时间（毫秒）
+        speech_padding: 512  # 语音填充（采样点数）
+      SenseVoice:  # SenseVoice语音识别处理器
+        enabled: True  # 启用该处理器
+        module: asr/sensevoice/asr_handler_sensevoice  # 处理器模块路径
+        model_name: "iic/SenseVoiceSmall"  # 使用的模型名称
+      Edge_TTS:  # Edge TTS语音合成处理器
+        enabled: True  # 启用该处理器
+        module: tts/edgetts/tts_handler_edgetts  # 处理器模块路径
+        voice: "zh-CN-XiaoxiaoNeural"  # 使用的语音模型
+      LLM_Bailian:  # 百炼大语言模型处理器
+        enabled: True  # 启用该处理器
+        module: llm/openai_compatible/llm_handler_openai_compatible  # 处理器模块路径
+        model_name: "glm-4-flash-250414"  # 使用的模型名称
+        enable_video_input: False  # 是否启用视频输入支持
+        # model_name: "gemini-2.0-flash"  # 备选模型名称（已注释）
+        system_prompt: "请你扮演一个 AI 助手，用简短的两三句对话来回答用户的问题，并在对话内容中加入合适的标点符号，不需要讨论标点符号相关的内容"  # 系统提示词
+        api_url: "https://open.bigmodel.cn/api/paas/v4"  # API接口地址
+        # api_url: 'http://127.0.0.1:11434/v1'  # Ollama本地API地址（已注释）
+        # api_url: 'https://generativelanguage.googleapis.com/v1beta/openai/'  # Google API地址（已注释）
+        api_key: "82e834019b194305940ef41b2f558cf9.Ps83ScnCqULMESoh"  # API密钥
+      AvatarMusetalk:  # MuseTalk虚拟形象处理器
+        module: avatar/musetalk/avatar_handler_musetalk  # 处理器模块路径
+        fps: 15  # 视频帧率
+        batch_size: 4  # 批处理帧数
+        avatar_video_path: "src/handlers/avatar/musetalk/MuseTalk/data/video/yongen.mp4"  # 初始化视频路径
+        avatar_model_dir: "models/musetalk/avatar_model"  # 默认虚拟形象模型目录
+        force_create_avatar: false  # 是否强制重新生成数字人数据
+        debug: false  # 是否启用调试模式
+        # debug_save_handler_audio: true  # 是否保存音频帧（已注释）
+        # debug_replay_speech_id: "speech-d9o18xrugl6-1"  # 用于重放的语音ID（已注释）

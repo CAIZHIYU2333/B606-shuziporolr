@@ -1,0 +1,10 @@
+prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+libdir=C:/Users/yuhua/.conda/envs/.glut/Library/lib
+includedir=${prefix}/include
+
+Name: glut
+Description: A freely licensed and improved alternative to the GLUT library
+Version: 3.4.0
+Libs: -L${libdir} -lglut
+Libs.private: -lopengl32 -lwinmm -lgdi32
+Cflags: -I${includedir} 

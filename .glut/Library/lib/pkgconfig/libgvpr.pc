@@ -1,0 +1,11 @@
+prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+exec_prefix=C:/Users/yuhua/.conda/envs/.glut/Library
+libdir=C:/Users/yuhua/.conda/envs/.glut/Library/lib
+includedir=C:/Users/yuhua/.conda/envs/.glut/Library/include/graphviz
+
+Name: libgvpr
+Description: The GVPR library
+Version: 7.1.0
+Libs: -L${libdir} -lgvpr -lcgraph -lcdt
+Cflags: -I${includedir}
+

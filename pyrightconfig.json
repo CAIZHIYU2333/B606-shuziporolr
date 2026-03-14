@@ -1,0 +1,17 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "**/src/handlers/avatar/liteavatar"
+    ],
+    "ignore": [
+        "**/src/handlers/avatar/liteavatar/**"
+    ],
+    "reportMissingImports": "warning",
+    "reportMissingTypeStubs": false,
+    "pythonVersion": "3.9",
+    "pythonPlatform": "Windows"
+}

@@ -1,0 +1,100 @@
+default:  # 默认配置节点，包含所有系统配置
+  logger:  # 日志配置部分
+    log_level: "INFO"  # 设置日志级别为INFO，记录信息级别的日志信息
+  service:  # 服务配置部分
+    host: "127.0.0.1"  # 服务监听地址，设置为本地回环地址，只允许本地访问
+    port: 8282  # 服务监听端口号，用于HTTP/HTTPS连接
+    cert_file: "ssl_certs/localhost.crt"  # SSL证书文件路径，用于HTTPS加密连接
+    cert_key: "ssl_certs/localhost.key"  # SSL私钥文件路径，与证书文件配对使用
+  chat_engine:  # 聊天引擎配置部分
+    model_root: "models"  # 模型文件根目录，存放各种AI模型文件
+    handler_search_path:  # 处理器搜索路径列表
+      - "src/handlers"  # 处理器模块的搜索目录
+    handler_configs:  # 各种处理器的具体配置
+
+      # LiteAvatar:  # 轻量级虚拟形象处理器
+      #   module: avatar/liteavatar/avatar_handler_liteavatar  # 处理器模块路径
+      #   avatar_name: 20250408/sample_data  # 虚拟形象数据路径
+      #   fps: 25  # 帧率设置
+      #   debug: false  # 是否启用调试模式
+      #   enable_fast_mode: false  # 是否启用快速模式
+      #   use_gpu: true  # 是否使用GPU加速
+
+
+      LamClient:  # LAM客户端处理器配置
+        module: client/h5_rendering_client/client_handler_lam  # 处理器模块路径
+        asset_path: "lam_samples/barbara.zip"
+        # asset_path: "lam_samples/vfhq_case1.zip"  # LAM模型资源文件路径
+        concurrent_limit: 5  # 并发处理限制，最多同时处理5个请求
+
+
+      SileroVad:  # 语音活动检测处理器配置
+        module: vad/silerovad/vad_handler_silero  # VAD处理器模块路径
+        speaking_threshold: 0.5  # 说话检测阈值，超过0.5认为是说话状态
+        start_delay: 2048  # 开始延迟，等待2048个音频样本后开始检测
+        end_delay: 5000  # 结束延迟，静音5000个样本后认为说话结束
+        buffer_look_back: 5000  # 缓冲区回看长度，用于上下文分析
+        speech_padding: 512  # 语音填充长度，在语音前后添加静音
+      SenseVoice:  # 语音识别处理器配置
+        enabled: True  # 启用该处理器
+        module: asr/sensevoice/asr_handler_sensevoice  # ASR处理器模块路径
+        model_name: "iic/SenseVoiceSmall"  # 使用的语音识别模型名称
+
+
+
+      CosyVoice:
+        enabled: True
+        module: tts/bailian_tts/tts_handler_cosyvoice_bailian
+        voice: "longjing"
+        model_name: "cosyvoice-v1"
+        api_key: "sk-88dd7955b608436b852996e446023a69" # default=os.getenv("DASHSCOPE_API_KEY")
+
+
+        
+      LLM_Bailian:
+        enabled: True
+        module: llm/openai_compatible/llm_handler_openai_compatible
+        model_name: "qwen-plus"
+        enable_video_input: True # ensure your llm support video input
+        # model_name: "gemini-2.0-flash"
+        system_prompt: "你是全校AI通识课老师，请你用真诚细致的语言回答他们的问题，你的每一次回答要尽可能的多，最少要10句话并在对话内容中加入合适的标点符号，不需要讨论标点符号相关的内容"
+        api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+        # api_url: 'http://127.0.0.1:11434/v1' # ollama
+        # api_url: 'https://generativelanguage.googleapis.com/v1beta/openai/'
+        api_key: "sk-88dd7955b608436b852996e446023a69" # default=os.getenv("DASHSCOPE_API_KEY")
+
+
+
+      # Edge_TTS:  # 文本转语音处理器配置
+      #   enabled: True  # 启用该处理器
+      #   module: tts/edgetts/tts_handler_edgetts  # TTS处理器模块路径
+      #   voice: "zh-CN-YunyangNeural"  # 使用的语音合成声音，中文云扬神经网络声音
+
+
+
+
+      # LLM_Bailian:  # 大语言模型处理器配置
+      #   enabled: True  # 启用该处理器
+      #   module: llm/openai_compatible/llm_handler_openai_compatible  # LLM处理器模块路径
+      #   model_name: "glm-4-flash-250414"  # 使用的大语言模型名称，智谱GLM-4模型
+      #   enable_video_input: False  # 禁用视频输入功能，确保LLM支持视频输入时才开启
+      #   # model_name: "gemini-2.0-flash"  # 备选模型，谷歌Gemini模型
+      #   system_prompt: "你是全校AI通识课老师王二，请你用真诚细致的语言回答他们的问题，你的每一次回答要尽可能的多，最少要10句话并在对话内容中加入合适的标点符号，不需要讨论标点符号相关的内容"  # 系统提示词，定义AI助手的角色和行为
+      #   api_url: "https://open.bigmodel.cn/api/paas/v4"  # 智谱AI API接口地址
+      #   # api_url: 'http://127.0.0.1:11434/v1'  # 备选API，本地Ollama服务
+      #   # api_url: 'https://generativelanguage.googleapis.com/v1beta/openai/'  # 备选API，谷歌AI服务
+      #   api_key: "9620f0e8b1ba4fde95c329318350454c.l3bdQUruvkScxCMb"  # API访问密钥，用于身份验证
+      #   # default=os.getenv("DASHSCOPE_API_KEY")  # 默认从环境变量获取密钥
+
+
+      # LiteAvatar:  # 轻量级虚拟形象处理器
+      #   module: avatar/liteavatar/avatar_handler_liteavatar  # 处理器模块路径
+      #   avatar_name: 20250408/sample_data  # 虚拟形象数据路径
+      #   fps: 25  # 帧率设置
+      #   debug: false  # 是否启用调试模式
+      #   enable_fast_mode: false  # 是否启用快速模式
+      #   use_gpu: true  # 是否使用GPU加速
+
+
+      LAM_Driver:  # LAM驱动处理器配置
+        module: avatar/lam/avatar_handler_lam_audio2expression  # 虚拟形象处理器模块路径
