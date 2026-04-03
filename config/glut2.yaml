@@ -2,13 +2,13 @@ default:
   chat_engine:
     handler_configs:
       CosyVoice:
-        api_key: sk-88dd7955b608436b852996e446023a69
+        api_key: skxxxxxxxxxxxxxxxxx
         enabled: true
         model_name: cosyvoice-v1
         module: tts/bailian_tts/tts_handler_cosyvoice_bailian
         voice: longjing
       LLM_Bailian:
-        api_key: sk-88dd7955b608436b852996e446023a69
+        api_key: sk-xxxxxxxxxxxxxxxxxxxxxxx
         api_url: https://dashscope.aliyuncs.com/compatible-mode/v1
         enable_video_input: true
         enabled: true
