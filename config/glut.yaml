@@ -47,7 +47,7 @@ default:  # 默认配置节点，包含所有系统配置
         module: tts/bailian_tts/tts_handler_cosyvoice_bailian
         voice: "longjing"
         model_name: "cosyvoice-v1"
-        api_key: "sk-88dd7955b608436b852996e446023a69" # default=os.getenv("DASHSCOPE_API_KEY")
+        api_key: "sk-88dd7955b608436bXXXXXXXXXXXXXXXXXXXX" # default=os.getenv("DASHSCOPE_API_KEY")
 
 
         
@@ -61,7 +61,7 @@ default:  # 默认配置节点，包含所有系统配置
         api_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
         # api_url: 'http://127.0.0.1:11434/v1' # ollama
         # api_url: 'https://generativelanguage.googleapis.com/v1beta/openai/'
-        api_key: "sk-88dd7955b608436b852996e446023a69" # default=os.getenv("DASHSCOPE_API_KEY")
+        api_key: "sk-88dd7955b608436bXXXXXXXXXXXXXXXXX" # default=os.getenv("DASHSCOPE_API_KEY")
 
 
 
@@ -83,7 +83,7 @@ default:  # 默认配置节点，包含所有系统配置
       #   api_url: "https://open.bigmodel.cn/api/paas/v4"  # 智谱AI API接口地址
       #   # api_url: 'http://127.0.0.1:11434/v1'  # 备选API，本地Ollama服务
       #   # api_url: 'https://generativelanguage.googleapis.com/v1beta/openai/'  # 备选API，谷歌AI服务
-      #   api_key: "9620f0e8b1ba4fde95c329318350454c.l3bdQUruvkScxCMb"  # API访问密钥，用于身份验证
+      #   api_key: "9620f0e8b1ba4fdexxxxxxxxxxxx4c.l3bdQUruvkScxCMb"  # API访问密钥，用于身份验证
       #   # default=os.getenv("DASHSCOPE_API_KEY")  # 默认从环境变量获取密钥
 
 
